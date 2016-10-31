@@ -4,12 +4,20 @@
         "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\exploded-aar\\ChatDemoUI3.0\\redpacketlibrary\\unspecified\\res\\anim\\rp_right_in.xml"
     },
     {
+        "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\anim\\push_up_in.xml",
+        "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\res\\anim\\push_up_in.xml"
+    },
+    {
         "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\anim\\rp_bottom_in.xml",
         "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\exploded-aar\\ChatDemoUI3.0\\redpacketlibrary\\unspecified\\res\\anim\\rp_bottom_in.xml"
     },
     {
         "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\anim\\push_top_out.xml",
         "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\exploded-aar\\ChatDemoUI3.0\\EaseUI\\unspecified\\res\\anim\\push_top_out.xml"
+    },
+    {
+        "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\anim\\push_left_in.xml",
+        "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\res\\anim\\push_left_in.xml"
     },
     {
         "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
@@ -45,7 +53,7 @@
     },
     {
         "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\anim\\head_out.xml",
-        "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\exploded-aar\\ChatDemoUI3.0\\EaseUI\\unspecified\\res\\anim\\head_out.xml"
+        "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\res\\anim\\head_out.xml"
     },
     {
         "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\anim\\rp_scale_in.xml",
@@ -54,6 +62,10 @@
     {
         "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\anim\\rp_right_out.xml",
         "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\exploded-aar\\ChatDemoUI3.0\\redpacketlibrary\\unspecified\\res\\anim\\rp_right_out.xml"
+    },
+    {
+        "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\anim\\push_right_out.xml",
+        "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\res\\anim\\push_right_out.xml"
     },
     {
         "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
@@ -65,7 +77,7 @@
     },
     {
         "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\anim\\push_bottom_out.xml",
-        "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\exploded-aar\\ChatDemoUI3.0\\EaseUI\\unspecified\\res\\anim\\push_bottom_out.xml"
+        "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\res\\anim\\push_bottom_out.xml"
     },
     {
         "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\anim\\rp_fade_in.xml",
@@ -100,8 +112,12 @@
         "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\exploded-aar\\ChatDemoUI3.0\\EaseUI\\unspecified\\res\\anim\\slide_out_to_left.xml"
     },
     {
+        "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\anim\\push_up_out.xml",
+        "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\res\\anim\\push_up_out.xml"
+    },
+    {
         "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\anim\\head_in.xml",
-        "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\exploded-aar\\ChatDemoUI3.0\\EaseUI\\unspecified\\res\\anim\\head_in.xml"
+        "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\res\\anim\\head_in.xml"
     },
     {
         "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
@@ -113,7 +129,7 @@
     },
     {
         "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\anim\\push_bottom_in.xml",
-        "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\exploded-aar\\ChatDemoUI3.0\\EaseUI\\unspecified\\res\\anim\\push_bottom_in.xml"
+        "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\res\\anim\\push_bottom_in.xml"
     },
     {
         "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\anim\\slide_in_from_left.xml",
@@ -130,6 +146,10 @@
     {
         "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\anim\\rp_progress_loading.xml",
         "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\exploded-aar\\ChatDemoUI3.0\\redpacketlibrary\\unspecified\\res\\anim\\rp_progress_loading.xml"
+    },
+    {
+        "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\anim\\push_left_out.xml",
+        "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\res\\anim\\push_left_out.xml"
     },
     {
         "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
@@ -158,5 +178,9 @@
     {
         "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\anim\\slide_out_to_right.xml",
         "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\exploded-aar\\ChatDemoUI3.0\\EaseUI\\unspecified\\res\\anim\\slide_out_to_right.xml"
+    },
+    {
+        "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\anim\\push_right_in.xml",
+        "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\res\\anim\\push_right_in.xml"
     }
 ]

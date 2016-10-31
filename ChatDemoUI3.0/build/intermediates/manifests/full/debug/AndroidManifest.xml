@@ -43,8 +43,7 @@
         android:protectionLevel="signature" />
 
     <uses-permission android:name="com.hyphenate.chatuidemo.permission.MIPUSH_RECEIVE" />
-
-    <android:uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:name="com.hyphenate.chatuidemo.DemoApplication"
@@ -465,6 +464,8 @@
         <meta-data
             android:name="com.baidu.lbsapi.API_KEY"
             android:value="3ecea51f560650b1ed8a4b99808f52e8" />
+
+        <activity android:name="com.hyphenate.chatuidemo.ui.WelcomeActivity" />
     </application>
 
 </manifest>

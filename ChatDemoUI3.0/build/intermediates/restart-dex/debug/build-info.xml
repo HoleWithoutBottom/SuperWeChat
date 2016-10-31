@@ -4,27 +4,35 @@
     api-level="23"
     density="420dpi"
     format="7"
-    timestamp="23978773679257"
+    timestamp="42737691284416"
     token="735872390508765038" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="406" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="87" />
     <task
         name="verifier"
-        duration="0" />
+        duration="2" />
 
-    <build timestamp="22741581304439" >
+    <artifact
+        location="D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
+        type="DEX" />
+
+    <build timestamp="42554550943653" >
         <artifact
             location="D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\build\outputs\apk\ChatDemoUI3.0-debug.apk"
             type="MAIN" />
     </build>
-    <build timestamp="23978773679257" />
+    <build timestamp="42737691284416" >
+        <artifact
+            location="D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
+            type="DEX" />
+    </build>
 
 </instant-run>

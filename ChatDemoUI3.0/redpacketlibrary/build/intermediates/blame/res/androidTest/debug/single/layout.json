@@ -28,12 +28,12 @@
         "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\redpacketlibrary\\build\\intermediates\\bundles\\debug\\res\\layout\\rp_activity_red_packet.xml"
     },
     {
-        "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\redpacketlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\ease_activity_show_file.xml",
-        "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\redpacketlibrary\\build\\intermediates\\exploded-aar\\ChatDemoUI3.0\\EaseUI\\unspecified\\res\\layout\\ease_activity_show_file.xml"
-    },
-    {
         "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\redpacketlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\ease_chat_menu_item.xml",
         "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\redpacketlibrary\\build\\intermediates\\exploded-aar\\ChatDemoUI3.0\\EaseUI\\unspecified\\res\\layout\\ease_chat_menu_item.xml"
+    },
+    {
+        "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\redpacketlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\ease_activity_show_file.xml",
+        "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\redpacketlibrary\\build\\intermediates\\exploded-aar\\ChatDemoUI3.0\\EaseUI\\unspecified\\res\\layout\\ease_activity_show_file.xml"
     },
     {
         "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\redpacketlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\ease_row_contact.xml",

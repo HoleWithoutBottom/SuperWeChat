@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_deep">
+    <ImageView
+        android:id="@+id/iv_welcome_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icon_logo"
+        android:layout_centerInParent="true"/>
+    <Button
+        android:layout_marginTop="30dp"
+        android:id="@+id/btn_welcome_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/iv_welcome_logo"
+        android:text="@string/login"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:background="@drawable/btn_bg_green"/>
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/btn_welcome_signUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btn_welcome_login"
+        android:text="@string/Sign"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:background="@drawable/btn_bg_whilte"/>
+</RelativeLayout>

@@ -1,0 +1,2 @@
+CHANGED,D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\hyphenate\chatuidemo\ui\WelcomeActivity$override.class
+CHANGED,D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\android\tools\fd\runtime\AppPatchesLoaderImpl.class

@@ -12,12 +12,12 @@
         "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\redpacketlibrary\\build\\intermediates\\exploded-aar\\ChatDemoUI3.0\\EaseUI\\unspecified\\res\\layout\\ease_conversation_item.xml"
     },
     {
-        "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\redpacketlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\rp_received_record_list_item.xml",
-        "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\redpacketlibrary\\res\\layout\\rp_received_record_list_item.xml"
-    },
-    {
         "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\redpacketlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\rp_message.xml",
         "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\redpacketlibrary\\res\\layout\\rp_message.xml"
+    },
+    {
+        "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\redpacketlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\rp_received_record_list_item.xml",
+        "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\redpacketlibrary\\res\\layout\\rp_received_record_list_item.xml"
     },
     {
         "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\redpacketlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\rp_fragment_group_packet_detail.xml",

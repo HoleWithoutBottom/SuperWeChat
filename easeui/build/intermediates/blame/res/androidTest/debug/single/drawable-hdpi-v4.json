@@ -228,12 +228,12 @@
         "source": "D:\\AndroidWorkSpace\\SuperWeChat\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_18.png"
     },
     {
-        "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_location_msg.9.png",
-        "source": "D:\\AndroidWorkSpace\\SuperWeChat\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_location_msg.9.png"
-    },
-    {
         "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_mm_title_back.png",
         "source": "D:\\AndroidWorkSpace\\SuperWeChat\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_mm_title_back.png"
+    },
+    {
+        "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_location_msg.9.png",
+        "source": "D:\\AndroidWorkSpace\\SuperWeChat\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_location_msg.9.png"
     },
     {
         "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ee_35.png",

@@ -32,7 +32,11 @@
     <color name="background_white">@color/money_white</color>
     <color name="best_luck_yellow">#fabf40</color>
     <color name="bg_light_grey">#f9f9f9</color>
+    <color name="black">#000000</color>
+    <color name="black2">#232325</color>
+    <color name="black3">#ffeeeeee</color>
     <color name="black_deep">#FF000000</color>
+    <color name="blue">#347ce9</color>
     <color name="bottom_bar_normal_bg">#2D2F31</color>
     <color name="bottom_text_color_normal">#ffffff</color>
     <color name="bright_foreground_disabled_material_dark">#80ffffff</color>
@@ -63,12 +67,16 @@
     <color name="button_material_dark">#ff5a595b</color>
     <color name="button_material_light">#ffd6d7d7</color>
     <color name="check_blue">#167ffc</color>
-    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="circle">#aa738ffe</color>
+    <color name="colorAccent">@color/green</color>
+    <color name="colorPrimary">@color/black2</color>
+    <color name="colorPrimaryDark">@color/black2</color>
     <color name="common_bg">#fcfcfc</color>
     <color name="common_bottom_bar_normal_bg">#2d2f31</color>
     <color name="common_bottom_bar_selected_bg">#161718</color>
     <color name="common_botton_bar_blue">#2ea7e0</color>
     <color name="common_top_bar_blue">#4ebcd3</color>
+    <color name="dialog_bg">#f5f5f5</color>
     <color name="dim_foreground_disabled_material_dark">#80bebebe</color>
     <color name="dim_foreground_disabled_material_light">#80323232</color>
     <color name="dim_foreground_material_dark">#ffbebebe</color>
@@ -80,8 +88,10 @@
     <color name="error_item_color">#F6EBE6</color>
     <color name="foreground_material_dark">@android:color/white</color>
     <color name="foreground_material_light">@android:color/black</color>
+    <color name="gray">#9A9A9A</color>
     <color name="gray_normal">#666667</color>
     <color name="gray_pressed">#b5b5b6</color>
+    <color name="green">#4CAF50</color>
     <color name="grid_state_focused">#80000000</color>
     <color name="grid_state_pressed">#1Affffff</color>
     <color name="half_transparent">#e0000000</color>
@@ -93,6 +103,7 @@
     <color name="holo_green_light">#ff99cc00</color>
     <color name="holo_orange_light">#ffffbb33</color>
     <color name="holo_red_light">#ffff4444</color>
+    <color name="line_color">#dbdbdb</color>
     <color name="list_itease_primary_color">#000</color>
     <color name="list_itease_secondary_color">#888888</color>
     <color name="list_item_primary_color">#000</color>
@@ -114,6 +125,7 @@
     <color name="money_white">#ffffff</color>
     <color name="msg_red">#a11710</color>
     <color name="orange">#FFA500</color>
+    <color name="possible_result_points">#c0ffff00</color>
     <color name="primary_dark_material_dark">@android:color/black</color>
     <color name="primary_dark_material_light">@color/material_grey_600</color>
     <color name="primary_material_dark">@color/material_grey_900</color>
@@ -122,32 +134,52 @@
     <color name="primary_text_default_material_light">#de000000</color>
     <color name="primary_text_disabled_material_dark">#4Dffffff</color>
     <color name="primary_text_disabled_material_light">#39000000</color>
+    <color name="rect">#aae84e40</color>
+    <color name="red">#FC2828</color>
+    <color name="result_view">#b0000000</color>
     <color name="ripple_material_dark">#33ffffff</color>
     <color name="ripple_material_light">#1f000000</color>
     <color name="secondary_text_default_material_dark">#b3ffffff</color>
     <color name="secondary_text_default_material_light">#8a000000</color>
     <color name="secondary_text_disabled_material_dark">#36ffffff</color>
     <color name="secondary_text_disabled_material_light">#24000000</color>
+    <color name="shadow">#25808080</color>
     <color name="switch_thumb_disabled_material_dark">#ff616161</color>
     <color name="switch_thumb_disabled_material_light">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_dark">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_light">#fff1f1f1</color>
+    <color name="tab_bottom_bg_color">#fc1e2327</color>
+    <color name="tab_def_normal_color">#A0B9CD</color>
+    <color name="tab_def_selected_color">#ffff7800</color>
+    <color name="tab_top_title_normal_color">#ffffffff</color>
+    <color name="tab_top_title_selected_color">#ffff7800</color>
     <color name="text_all_black">#000000</color>
     <color name="text_black">#3e3e3e</color>
     <color name="text_blue">#35b7f3</color>
+    <color name="text_color_hint">#DDDDDD</color>
     <color name="text_dark_grey">#bcbcbc</color>
     <color name="text_grey">#6e6e6e</color>
+    <color name="text_hint">#353535</color>
     <color name="text_light_black">#666666</color>
     <color name="text_light_grey">#9e9e9e</color>
     <color name="text_red_color">#F44336</color>
     <color name="text_transparent_black">#90000000</color>
     <color name="text_unselected">@color/divider_color</color>
+    <color name="text_wenti">#7d96cc</color>
     <color name="text_yellow">#FEE94E</color>
     <color name="title_color">#D3D97A</color>
     <color name="title_transparent_color">#90D3D97A</color>
     <color name="top_bar_normal_bg">#00acff</color>
     <color name="top_red_color">#D24F44</color>
+    <color name="transparent">#00000000</color>
+    <color name="triangle">#FBBC05</color>
+    <color name="view_bg">#00000000</color>
+    <color name="viewfinder_frame">#3AC814</color>
+    <color name="viewfinder_laser">#E9E9E9</color>
+    <color name="viewfinder_mask">#60000000</color>
     <color name="voip_interface_text_color">#bababa</color>
+    <color name="white">#ffffff</color>
+    <color name="windows_color">#F5F5F5</color>
     <declare-styleable name="ActionBar"><attr name="navigationMode"><enum name="normal" value="0"/><enum name="listMode" value="1"/><enum name="tabMode" value="2"/></attr><attr name="displayOptions"><flag name="none" value="0"/><flag name="useLogo" value="0x1"/><flag name="showHome" value="0x2"/><flag name="homeAsUp" value="0x4"/><flag name="showTitle" value="0x8"/><flag name="showCustom" value="0x10"/><flag name="disableHome" value="0x20"/></attr><attr name="title"/><attr format="string" name="subtitle"/><attr format="reference" name="titleTextStyle"/><attr format="reference" name="subtitleTextStyle"/><attr format="reference" name="icon"/><attr format="reference" name="logo"/><attr format="reference" name="divider"/><attr format="reference" name="background"/><attr format="reference|color" name="backgroundStacked"/><attr format="reference|color" name="backgroundSplit"/><attr format="reference" name="customNavigationLayout"/><attr name="height"/><attr format="reference" name="homeLayout"/><attr format="reference" name="progressBarStyle"/><attr format="reference" name="indeterminateProgressStyle"/><attr format="dimension" name="progressBarPadding"/><attr name="homeAsUpIndicator"/><attr format="dimension" name="itemPadding"/><attr format="boolean" name="hideOnContentScroll"/><attr format="dimension" name="contentInsetStart"/><attr format="dimension" name="contentInsetEnd"/><attr format="dimension" name="contentInsetLeft"/><attr format="dimension" name="contentInsetRight"/><attr format="dimension" name="elevation"/><attr format="reference" name="popupTheme"/></declare-styleable>
     <declare-styleable name="ActionBarLayout"><attr name="android:layout_gravity"/></declare-styleable>
     <declare-styleable name="ActionMenuItemView"><attr name="android:minWidth"/></declare-styleable>
@@ -173,6 +205,7 @@
     <declare-styleable name="LinearLayoutCompat"><attr name="android:orientation"/><attr name="android:gravity"/><attr name="android:baselineAligned"/><attr name="android:baselineAlignedChildIndex"/><attr name="android:weightSum"/><attr format="boolean" name="measureWithLargestChild"/><attr name="divider"/><attr name="showDividers"><flag name="none" value="0"/><flag name="beginning" value="1"/><flag name="middle" value="2"/><flag name="end" value="4"/></attr><attr format="dimension" name="dividerPadding"/></declare-styleable>
     <declare-styleable name="LinearLayoutCompat_Layout"><attr name="android:layout_width"/><attr name="android:layout_height"/><attr name="android:layout_weight"/><attr name="android:layout_gravity"/></declare-styleable>
     <declare-styleable name="ListPopupWindow"><attr name="android:dropDownVerticalOffset"/><attr name="android:dropDownHorizontalOffset"/></declare-styleable>
+    <declare-styleable name="LoadingView"><attr format="string" name="loadingText"/><attr format="reference" name="loadingTextAppearance"/></declare-styleable>
     <declare-styleable name="MenuGroup"><attr name="android:id"/><attr name="android:menuCategory"/><attr name="android:orderInCategory"/><attr name="android:checkableBehavior"/><attr name="android:visible"/><attr name="android:enabled"/></declare-styleable>
     <declare-styleable name="MenuItem"><attr name="android:id"/><attr name="android:menuCategory"/><attr name="android:orderInCategory"/><attr name="android:title"/><attr name="android:titleCondensed"/><attr name="android:icon"/><attr name="android:alphabeticShortcut"/><attr name="android:numericShortcut"/><attr name="android:checkable"/><attr name="android:checked"/><attr name="android:visible"/><attr name="android:enabled"/><attr name="android:onClick"/><attr name="showAsAction"><flag name="never" value="0"/><flag name="ifRoom" value="1"/><flag name="always" value="2"/><flag name="withText" value="4"/><flag name="collapseActionView" value="8"/></attr><attr format="reference" name="actionLayout"/><attr format="string" name="actionViewClass"/><attr format="string" name="actionProviderClass"/></declare-styleable>
     <declare-styleable name="MenuView"><attr name="android:itemTextAppearance"/><attr name="android:horizontalDivider"/><attr name="android:verticalDivider"/><attr name="android:headerBackground"/><attr name="android:itemBackground"/><attr name="android:windowAnimationStyle"/><attr name="android:itemIconDisabledAlpha"/><attr format="boolean" name="preserveIconSpacing"/></declare-styleable>
@@ -182,6 +215,7 @@
     <declare-styleable name="RPRoundCard"><attr format="reference" name="RPCardBgImg"/><attr format="reference|color" name="RPCardBgColor"/><attr format="dimension" name="RPCardRadius"/><attr format="integer" name="RPCardBgType"/></declare-styleable>
     <declare-styleable name="SearchView"><attr format="reference" name="layout"/><attr format="boolean" name="iconifiedByDefault"/><attr name="android:maxWidth"/><attr format="string" name="queryHint"/><attr format="string" name="defaultQueryHint"/><attr name="android:imeOptions"/><attr name="android:inputType"/><attr format="reference" name="closeIcon"/><attr format="reference" name="goIcon"/><attr format="reference" name="searchIcon"/><attr format="reference" name="searchHintIcon"/><attr format="reference" name="voiceIcon"/><attr format="reference" name="commitIcon"/><attr format="reference" name="suggestionRowLayout"/><attr format="reference" name="queryBackground"/><attr format="reference" name="submitBackground"/><attr name="android:focusable"/></declare-styleable>
     <declare-styleable name="Spinner"><attr name="android:prompt"/><attr name="popupTheme"/><attr name="android:popupBackground"/><attr name="android:dropDownWidth"/><attr name="android:entries"/></declare-styleable>
+    <declare-styleable name="SwipeFlingAdapterView"><attr format="dimension" name="y_offset_step"/><attr format="float" name="rotation_degrees"/><attr format="integer" name="min_adapter_stack"/><attr format="integer" name="max_visible"/></declare-styleable>
     <declare-styleable name="SwitchCompat"><attr name="android:thumb"/><attr format="reference" name="track"/><attr name="android:textOn"/><attr name="android:textOff"/><attr format="dimension" name="thumbTextPadding"/><attr format="reference" name="switchTextAppearance"/><attr format="dimension" name="switchMinWidth"/><attr format="dimension" name="switchPadding"/><attr format="boolean" name="splitTrack"/><attr format="boolean" name="showText"/></declare-styleable>
     <declare-styleable name="TextAppearance"><attr name="android:textSize"/><attr name="android:textColor"/><attr name="android:textStyle"/><attr name="android:typeface"/><attr name="textAllCaps"/><attr name="android:shadowColor"/><attr name="android:shadowDy"/><attr name="android:shadowDx"/><attr name="android:shadowRadius"/></declare-styleable>
     <declare-styleable name="Toolbar"><attr format="reference" name="titleTextAppearance"/><attr format="reference" name="subtitleTextAppearance"/><attr name="title"/><attr name="subtitle"/><attr name="android:gravity"/><attr format="dimension" name="titleMargins"/><attr format="dimension" name="titleMarginStart"/><attr format="dimension" name="titleMarginEnd"/><attr format="dimension" name="titleMarginTop"/><attr format="dimension" name="titleMarginBottom"/><attr name="contentInsetStart"/><attr name="contentInsetEnd"/><attr name="contentInsetLeft"/><attr name="contentInsetRight"/><attr format="dimension" name="maxButtonHeight"/><attr format="reference" name="collapseIcon"/><attr format="string" name="collapseContentDescription"/><attr name="popupTheme"/><attr format="reference" name="navigationIcon"/><attr format="string" name="navigationContentDescription"/><attr name="android:minHeight"/><attr name="logo"/><attr format="string" name="logoDescription"/><attr format="color" name="titleTextColor"/><attr format="color" name="subtitleTextColor"/></declare-styleable>
@@ -190,6 +224,7 @@
     <declare-styleable name="ViewStubCompat"><attr name="android:layout"/><attr name="android:inflatedId"/><attr name="android:id"/></declare-styleable>
     <declare-styleable name="app"><attr format="string" name="RPmytitle"/><attr format="reference" name="RPleftImage"/><attr format="reference" name="RPrightImage"/><attr format="string" name="RPrightText"/><attr format="reference|color" name="RPrightTextColor"/><attr format="dimension" name="RPrightTextSize"/><attr format="string" name="RPsubTitleText"/><attr format="reference|color" name="RPsubTitleTextColor"/><attr format="dimension" name="RPsubTitleTextSize"/><attr format="reference|color" name="RPtitleTextColor"/><attr format="dimension" name="RPtitleTextSize"/><attr format="reference|color" name="RPtitleBackground"/></declare-styleable>
     <declare-styleable name="gridPasswordView"><attr format="color|reference" name="gpvTextColor"/><attr format="dimension" name="gpvTextSize"/><attr format="color" name="gpvLineColor"/><attr format="color" name="gpvGridColor"/><attr format="dimension" name="gpvLineWidth"/><attr format="integer" name="gpvPasswordLength"/><attr format="string" name="gpvPasswordTransformation"/><attr format="enum" name="gpvPasswordType"><enum name="numberPassword" value="0"/><enum name="textPassword" value="1"/><enum name="textVisiblePassword" value="2"/><enum name="textWebPassword" value="3"/></attr></declare-styleable>
+    <declare-styleable name="tab_button"><attr format="reference|string" name="tabtext"/><attr format="reference|dimension" name="txtSize"/><attr format="reference" name="drawableTop"/><attr format="string" name="drawableTopAttr"/><attr format="reference" name="drawableBottom"/></declare-styleable>
     <dimen name="abc_action_bar_content_inset_material">16dp</dimen>
     <dimen name="abc_action_bar_default_height_material">56dp</dimen>
     <dimen name="abc_action_bar_default_padding_end_material">0dp</dimen>
@@ -259,6 +294,7 @@
     <dimen name="abc_text_size_title_material_toolbar">20dp</dimen>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="btn_fab_size">56dp</dimen>
     <dimen name="call_button_padding_left">25dp</dimen>
     <dimen name="call_button_padding_right">25dp</dimen>
     <dimen name="call_button_padding_vertical">10dp</dimen>
@@ -351,16 +387,36 @@
     <dimen name="size9px">3dp</dimen>
     <dimen name="size_avatar">48dp</dimen>
     <drawable name="notification_template_icon_bg">#3333B5E5</drawable>
+    <item name="action_bar" type="id">false</item>
     <item name="action_bar_activity_content" type="id"/>
     <item name="action_bar_spinner" type="id"/>
     <item name="action_menu_divider" type="id"/>
     <item name="action_menu_presenter" type="id"/>
+    <item name="actionbar_title" type="id">false</item>
+    <item name="auto_focus" type="id"/>
+    <item name="decode" type="id"/>
+    <item name="decode_failed" type="id"/>
+    <item name="decode_succeeded" type="id"/>
+    <item name="encode_failed" type="id"/>
+    <item name="encode_succeeded" type="id"/>
+    <item name="expandable" type="id"/>
+    <item name="expandable_toggle_button" type="id"/>
+    <item name="gridview" type="id"/>
     <item name="home" type="id"/>
     <item name="item_touch_helper_previous_elevation" type="id"/>
+    <item name="launch_product_query" type="id"/>
     <item name="progress_circular" type="id"/>
     <item name="progress_horizontal" type="id"/>
+    <item name="quit" type="id"/>
+    <item name="restart_preview" type="id"/>
+    <item name="return_scan_result" type="id"/>
+    <item name="scrollview" type="id"/>
+    <item name="search_book_contents_failed" type="id"/>
+    <item name="search_book_contents_succeeded" type="id"/>
+    <item name="selected_view" type="id"/>
     <item name="split_action_bar" type="id"/>
     <item name="up" type="id"/>
+    <item name="webview" type="id"/>
     <integer name="abc_config_activityDefaultDur">220</integer>
     <integer name="abc_config_activityShortDur">150</integer>
     <integer name="abc_max_action_buttons">2</integer>
@@ -452,6 +508,7 @@
     <string name="Send_the_following_pictures">Send the following pictures?</string>
     <string name="Send_voice_need_sdcard_support">Send voice need sdcard support</string>
     <string name="Shielding_of_the_message">Block message</string>
+    <string name="Sign">Sign up</string>
     <string name="Sync_Groups_From_Server">Sync groups with server</string>
     <string name="The_delete_button_is_clicked">The delete button is clicked</string>
     <string name="The_file_is_not_greater_than_10_m">The file is not greater than 10 m</string>
@@ -512,17 +569,25 @@
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <string name="accept_join_group">accept join group:</string>
+    <string name="action_settings">Settings</string>
     <string name="adaptive_video_encode">Adaptive video encode</string>
     <string name="add_bankcard">添加银行卡付款</string>
     <string name="add_friend">Add friends</string>
     <string name="add_public_chat_room">Add public chatroom</string>
     <string name="add_public_group_chat">Add public group</string>
+    <string name="addcontact_adding">正在添加...</string>
+    <string name="addcontact_be_friented">已添加</string>
+    <string name="addcontact_search">正在查找联系人...</string>
+    <string name="addcontact_send_msg">发送</string>
+    <string name="addcontact_send_msg_prefix">我是</string>
+    <string name="addcontact_send_msg_title">你需要发送验证申请,等对方通过</string>
+    <string name="addcontact_title">添加联系人</string>
     <string name="address_book">Address book</string>
     <string name="agree">Agree</string>
     <string name="ali_pay">支付宝支付</string>
     <string name="all_members">All members</string>
     <string name="answer">Answer</string>
-    <string name="app_name">Hyphenate Demo</string>
+    <string name="app_name">微信</string>
     <string name="app_slogon">IM as a service</string>
     <string name="are_empty_group_of_news">Clearing messages</string>
     <string name="at_your_in_group">%s @ you in group chat</string>
@@ -608,10 +673,17 @@
     <string name="confirmpassword">Confirm password</string>
     <string name="connect_conflict">The same account was loggedin in other device</string>
     <string name="connect_failuer_toast">Please check the network or try again later</string>
+    <string name="contacts">通讯录</string>
     <string name="copy">Copy</string>
     <string name="copy_message">Copy message</string>
     <string name="count_unit">个</string>
+    <string name="countries_and_areas">国家和地区</string>
     <string name="debit_card">借记卡</string>
+    <string name="def_data_loading">加载中…</string>
+    <string name="def_empty_button_retry">重试</string>
+    <string name="def_empty_data_text">空空如也，神马都没有</string>
+    <string name="def_more">上拉加载更多…</string>
+    <string name="def_net_error_text">网络不给力</string>
     <string name="default_money_greeting">恭喜发财，大吉大利！</string>
     <string name="delete">Delete</string>
     <string name="delete_contact">Delete contact</string>
@@ -628,6 +700,14 @@
     <string name="dialog_title_tips">提示</string>
     <string name="did_not_answer">did not answer</string>
     <string name="direct_call">Direct</string>
+    <string name="discover">发现</string>
+    <string name="discover_txt_game">游戏</string>
+    <string name="discover_txt_nearby">附近的人</string>
+    <string name="discover_txt_pengyouquan">朋友圈</string>
+    <string name="discover_txt_piaoliuping">漂流瓶</string>
+    <string name="discover_txt_saoyisao">扫一扫</string>
+    <string name="discover_txt_shop">购物</string>
+    <string name="discover_txt_yaoyiyao">摇一摇</string>
     <string name="dismiss_group">Dismiss group</string>
     <string name="dissolution_group_hint">The group will be dismissed after exiting</string>
     <string name="dl_cancel">Cancel</string>
@@ -681,6 +761,7 @@
     <string name="group_change_normal">改为普通红包</string>
     <string name="group_change_random">改为拼手气红包</string>
     <string name="group_chat">Group chat</string>
+    <string name="group_chats">群聊</string>
     <string name="group_choose_few_person">本群共%1$s人，已选定1人可领</string>
     <string name="group_choose_few_person2">已选定1人可领</string>
     <string name="group_id">Group ID</string>
@@ -734,6 +815,7 @@
     <string name="jd_pay_title">京东支付</string>
     <string name="join_need_owner_approval">Join need group owner approval</string>
     <string name="join_public_group">Join public group</string>
+    <string name="key_back_msg">再次按返回键退出</string>
     <string name="limit_hint_title">支付超限</string>
     <string name="list_is_for">Retrieving the groups and contacts</string>
     <string name="load_more_end">没有更多了</string>
@@ -743,9 +825,28 @@
     <string name="location_prefix">[my location]</string>
     <string name="location_recv">[%1$s location]</string>
     <string name="login">Login</string>
+    <string name="login_btn_action">登录</string>
+    <string name="login_btn_register">注册</string>
+    <string name="login_btn_sendcode">发送验证码</string>
     <string name="login_failure_failed">Logon failure: failed to retrieve contacts or groups</string>
+    <string name="login_hint_code">输入验证码</string>
+    <string name="login_tip_loginerror">登录失败</string>
+    <string name="login_tip_tel_error">请输入正确的手机号！</string>
+    <string name="login_txt_86">+86</string>
+    <string name="login_txt_china">中国</string>
+    <string name="login_txt_code">验证码</string>
+    <string name="login_txt_inputpwd">填写密码</string>
+    <string name="login_txt_nickname">你的昵称</string>
+    <string name="login_txt_qustion">登录遇到问题？</string>
+    <string name="login_txt_username">你的用户名</string>
+    <string name="login_txt_yourphone">你的手机号码</string>
     <string name="logout">Logout</string>
     <string name="logout_hint">Logout will never clear the chat history, this account can be used on next login</string>
+    <string name="me">我</string>
+    <string name="menu_addfriend">添加朋友</string>
+    <string name="menu_groupchat">发起群聊</string>
+    <string name="menu_money">微信钱包</string>
+    <string name="menu_qrcode">扫一扫</string>
     <string name="messages_are_empty">Messages has been cleared</string>
     <string name="money_amount">金额</string>
     <string name="money_detail_money_unit">%1$s元</string>
@@ -801,6 +902,7 @@
     <string name="nickname_description">Once this nickname is set, it will be used in push notification (by default this is user ID ) when the receiver is using the iOS device.</string>
     <string name="no_call_data">No call data</string>
     <string name="no_more_messages">no more messages</string>
+    <string name="no_msg">暂时没有新消息</string>
     <string name="no_network_connected">未连接到网络，请稍后重试</string>
     <string name="no_verify">未验证</string>
     <string name="not_add_myself">"Can't add yourself"</string>
@@ -809,6 +911,7 @@
     <string name="not_download">Did not download:</string>
     <string name="notify">New message notification</string>
     <string name="now_refresh_list">Loading data</string>
+    <string name="official_accounts">公众号</string>
     <string name="ok">OK</string>
     <string name="operation_tpy_agreement">我愿意免费投保太平洋保险《个人账户资金损失保险》</string>
     <string name="operation_user_agreement">该操作代表我同意《%1$s用户服务协议》</string>
@@ -822,6 +925,15 @@
     <string name="picture">[Picture]</string>
     <string name="please_check">key validation error!Please on AndroidManifest.xml file check the key set</string>
     <string name="please_set_the_current">"Please set the current user's nickname \ n to ios offline push not userid but Nick, see comments"</string>
+    <string name="profile_txt_album">相册</string>
+    <string name="profile_txt_card">卡包</string>
+    <string name="profile_txt_collect">收藏</string>
+    <string name="profile_txt_money">钱包</string>
+    <string name="profile_txt_mycode">我的二维码</string>
+    <string name="profile_txt_setting">设置</string>
+    <string name="profile_txt_smail">表情</string>
+    <string name="profile_txt_userid">微信号：dada2012625</string>
+    <string name="profile_txt_username">Allen Juns</string>
     <string name="prompt">Prompt</string>
     <string name="push_nick">nickname for Notification</string>
     <string name="real_name">真实姓名</string>
@@ -832,6 +944,7 @@
     <string name="recharge_money_not_zero">充值金额不能为零</string>
     <string name="recharge_success">"充值成功"</string>
     <string name="recoding_fail">The recording failure, please try again！</string>
+    <string name="recommended_friends">新的朋友</string>
     <string name="record_finish_toast">Recording finish, file saved in %s</string>
     <string name="recording_video">Record video</string>
     <string name="red_money">红包</string>
@@ -874,7 +987,13 @@
     <string name="set_pay_password">设置支付密码</string>
     <string name="set_pay_pwd_for_safe">为了账户安全，请设置支付密码</string>
     <string name="setting">Settings</string>
+    <string name="setting_btn_exit">退出登录</string>
     <string name="setting_nickname">Set nickname</string>
+    <string name="setting_txt_about">关于微信</string>
+    <string name="setting_txt_msgtip">新消息通知</string>
+    <string name="setting_txt_tongyong">通用</string>
+    <string name="setting_txt_usersafe">账号安全</string>
+    <string name="setting_txt_yinsi">隐私</string>
     <string name="shake">Vibrate</string>
     <string name="single_day_pay_quota">单日支付限额</string>
     <string name="single_limit">单笔限额%1$s</string>
@@ -977,6 +1096,23 @@
     <string name="user_card">Business card</string>
     <string name="user_name">User name</string>
     <string name="user_removed_from_group">You are removed from the group</string>
+    <string name="userinfo_btn_add_contact">添加到通讯录</string>
+    <string name="userinfo_btn_send_msg">发消息</string>
+    <string name="userinfo_btn_send_video">视频聊天</string>
+    <string name="userinfo_txt_address">我的地址</string>
+    <string name="userinfo_txt_area">地区</string>
+    <string name="userinfo_txt_avatar">头像</string>
+    <string name="userinfo_txt_name">微信号</string>
+    <string name="userinfo_txt_nick">昵称</string>
+    <string name="userinfo_txt_noinput">未填写</string>
+    <string name="userinfo_txt_nosettings">未设置</string>
+    <string name="userinfo_txt_note_mark">设置备注和标签</string>
+    <string name="userinfo_txt_profile">详细资料</string>
+    <string name="userinfo_txt_qrcode">二维码名片</string>
+    <string name="userinfo_txt_sex">性别</string>
+    <string name="userinfo_txt_sign">个性签名</string>
+    <string name="userinfo_txt_title">个人信息</string>
+    <string name="userinfo_txt_wechat_no">微信号:</string>
     <string name="verify_fail">认证失败</string>
     <string name="verify_going">审核中</string>
     <string name="verify_identity">验证身份</string>
@@ -985,6 +1121,9 @@
     <string name="voice">Sounds</string>
     <string name="voice_call">[Voice call]</string>
     <string name="voice_prefix">[Voice]</string>
+    <string name="wallet_txt_cards">3张</string>
+    <string name="wallet_txt_lingqian">零钱</string>
+    <string name="wallet_txt_yinhangka">银行卡</string>
     <string name="were_mentioned">You were montioned</string>
     <string name="withdraw_amount">提现金额</string>
     <string name="withdraw_bankcard">到账银行卡</string>
@@ -1049,7 +1188,25 @@
     </style>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>
     <style name="Animation.AppCompat.DropDownUp" parent="Base.Animation.AppCompat.DropDownUp"/>
-    <style name="AppTheme" parent="android:Theme.Light"/>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/windows_color</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@style/AnimFade2</item>
+    </style>
+    <style name="AppTheme.TransparentActivity">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+    <style name="AppTheme.TransparentActivity.FullScreen">
+        <item name="android:windowFullscreen">true</item>
+    </style>
     <style name="AvatarIconStyle">
         <item name="android:layout_width">@dimen/size165px</item>
         <item name="android:layout_height">@dimen/size165px</item>
@@ -2182,6 +2339,36 @@
         <item name="android:layout_height">@dimen/size84px</item>
         <item name="android:indeterminate">false</item>
     </style>
+    <style name="MMFontTitleInList">
+        <item name="android:textSize">16.0dip</item>
+        <item name="android:textColor">#ff595c61</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="MMListCatalog">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ff595c61</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@color/windows_color</item>
+        <item name="android:paddingLeft">10.0dip</item>
+        <item name="android:paddingTop">5.0dip</item>
+        <item name="android:paddingBottom">5.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="MMListItem">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:paddingLeft">8.0dip</item>
+        <item name="android:paddingRight">4.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
     <style name="MyAlertDialog" parent="android:Theme.Dialog">
         <item name="android:windowBackground">@android:color/transparent</item>
         <item name="android:windowIsTranslucent">true</item>
@@ -2615,6 +2802,15 @@
     <style name="ThemeOverlay.AppCompat.Dark" parent="Base.ThemeOverlay.AppCompat.Dark"/>
     <style name="ThemeOverlay.AppCompat.Dark.ActionBar" parent="Base.ThemeOverlay.AppCompat.Dark.ActionBar"/>
     <style name="ThemeOverlay.AppCompat.Light" parent="Base.ThemeOverlay.AppCompat.Light"/>
+    <style name="TxtTitle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:paddingLeft">6.0dip</item>
+        <item name="android:paddingRight">6.0dip</item>
+        <item name="android:focusable">false</item>
+    </style>
     <style name="UserNameStyle">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
@@ -2733,6 +2929,14 @@
         <item name="android:includeFontPadding">false</item>
         <item name="android:background">@drawable/ease_edit_text_bg</item>
     </style>
+    <style name="btn_titleStyle">
+        <item name="android:layout_width">70dp</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:background">@drawable/btn_bg_green</item>
+        <item name="android:layout_marginRight">10dp</item>
+    </style>
     <style name="chat_content_date_style">
         <item name="android:minHeight">50dp</item>
         <item name="android:gravity">center</item>
@@ -2756,6 +2960,17 @@
         <item name="android:textSize">15sp</item>
         <item name="android:gravity">center</item>
     </style>
+    <style name="custom_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.6</item>
+    </style>
     <style name="devide_line_eee">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">1.5dp</item>
@@ -2768,5 +2983,61 @@
     <style name="horizontal_slide" parent="android:Theme.NoTitleBar">
         <item name="android:windowAnimationStyle">@style/AnimFade2</item>
     </style>
+    <style name="list_txt_Style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:paddingLeft">16.0dip</item>
+        <item name="android:paddingRight">16.0dip</item>
+        <item name="android:focusable">false</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@drawable/setting_item_selector</item>
+        <item name="android:drawablePadding">10dp</item>
+        <item name="android:drawableRight">@drawable/right</item>
+    </style>
+    <style name="list_txt_Style_without_nopadding">
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:paddingLeft">16.0dip</item>
+        <item name="android:paddingRight">16.0dip</item>
+        <item name="android:focusable">false</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    <style name="list_txt_Style_without_nopadding_right">
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/text_color_hint</item>
+        <item name="android:paddingLeft">16.0dip</item>
+        <item name="android:paddingRight">16.0dip</item>
+        <item name="android:focusable">false</item>
+        <item name="android:gravity">right|center_vertical</item>
+    </style>
+    <style name="list_txt_Style_without_right">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:paddingLeft">16.0dip</item>
+        <item name="android:paddingRight">16.0dip</item>
+        <item name="android:focusable">false</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@drawable/setting_item_selector</item>
+        <item name="android:drawablePadding">10dp</item>
+    </style>
     <style name="nornal_style" parent="android:Theme.NoTitleBar"/>
+    <style name="txt_ContextStyle1">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="txt_titleStyle1">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
 </resources>

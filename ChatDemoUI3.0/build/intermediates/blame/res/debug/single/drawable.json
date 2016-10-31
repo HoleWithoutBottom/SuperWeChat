@@ -8,12 +8,12 @@
         "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\res\\drawable\\em_checkbox_bg_gray_selector.xml"
     },
     {
-        "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\drawable\\rp_btn_normal_shape.xml",
-        "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\exploded-aar\\ChatDemoUI3.0\\redpacketlibrary\\unspecified\\res\\drawable\\rp_btn_normal_shape.xml"
-    },
-    {
         "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\drawable\\rp_sidebar_background.xml",
         "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\exploded-aar\\ChatDemoUI3.0\\redpacketlibrary\\unspecified\\res\\drawable\\rp_sidebar_background.xml"
+    },
+    {
+        "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\drawable\\rp_btn_normal_shape.xml",
+        "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\exploded-aar\\ChatDemoUI3.0\\redpacketlibrary\\unspecified\\res\\drawable\\rp_btn_normal_shape.xml"
     },
     {
         "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\drawable\\em_main_bottom_item_bg.xml",
@@ -36,12 +36,16 @@
         "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\exploded-aar\\ChatDemoUI3.0\\EaseUI\\unspecified\\res\\drawable\\ease_mm_listitem_grey.xml"
     },
     {
+        "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
         "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\drawable\\em_tab_chat_bg.xml",
         "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\res\\drawable\\em_tab_chat_bg.xml"
     },
     {
-        "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
-        "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_list_selector_holo_light.xml"
+        "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\drawable\\setting_item_selector.xml",
+        "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\res\\drawable\\setting_item_selector.xml"
     },
     {
         "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_btn_blue_pressed_shape.xml",
@@ -72,12 +76,12 @@
         "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\res\\drawable\\umeng_update_button_ok_bg_selector.xml"
     },
     {
-        "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\drawable\\em_btn_green_normal_shape.xml",
-        "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\res\\drawable\\em_btn_green_normal_shape.xml"
-    },
-    {
         "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\drawable\\rp_btn_white_selector.xml",
         "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\exploded-aar\\ChatDemoUI3.0\\redpacketlibrary\\unspecified\\res\\drawable\\rp_btn_white_selector.xml"
+    },
+    {
+        "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\drawable\\em_btn_green_normal_shape.xml",
+        "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\res\\drawable\\em_btn_green_normal_shape.xml"
     },
     {
         "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_update_button_cancel_bg_normal.xml",
@@ -114,6 +118,14 @@
     {
         "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
         "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_bg_whilte.xml",
+        "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\res\\drawable\\btn_bg_whilte.xml"
+    },
+    {
+        "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\drawable\\edittext_login.xml",
+        "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\res\\drawable\\edittext_login.xml"
     },
     {
         "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_recording_text_hint_bg.xml",
@@ -180,6 +192,10 @@
         "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\res\\drawable\\em_checkbox_bg_selector.xml"
     },
     {
+        "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_weixin.xml",
+        "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\res\\drawable\\tab_weixin.xml"
+    },
+    {
         "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\drawable\\em_button_myprofile_selector.xml",
         "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\res\\drawable\\em_button_myprofile_selector.xml"
     },
@@ -188,8 +204,16 @@
         "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_btn_check_material.xml"
     },
     {
+        "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\drawable\\progressbar_drawable.xml",
+        "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\res\\drawable\\progressbar_drawable.xml"
+    },
+    {
         "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\drawable\\em_button_register_bg.xml",
         "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\res\\drawable\\em_button_register_bg.xml"
+    },
+    {
+        "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_contact_list.xml",
+        "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\res\\drawable\\tab_contact_list.xml"
     },
     {
         "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_sidebar_background_pressed.xml",
@@ -270,6 +294,10 @@
     {
         "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\drawable\\em_btn_green_pressed_shape.xml",
         "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\res\\drawable\\em_btn_green_pressed_shape.xml"
+    },
+    {
+        "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_profile.xml",
+        "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\res\\drawable\\tab_profile.xml"
     },
     {
         "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\drawable\\rp_btn_pressed_shape.xml",
@@ -388,12 +416,20 @@
         "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\exploded-aar\\ChatDemoUI3.0\\EaseUI\\unspecified\\res\\drawable\\ease_recording_hint_bg.xml"
     },
     {
+        "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\drawable\\fab_background.xml",
+        "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\res\\drawable\\fab_background.xml"
+    },
+    {
         "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_chatting_setmode_voice_btn.xml",
         "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\exploded-aar\\ChatDemoUI3.0\\EaseUI\\unspecified\\res\\drawable\\ease_chatting_setmode_voice_btn.xml"
     },
     {
         "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\drawable\\em_button_selector_shape.xml",
         "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\res\\drawable\\em_button_selector_shape.xml"
+    },
+    {
+        "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_bg_gray.xml",
+        "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\res\\drawable\\btn_bg_gray.xml"
     },
     {
         "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_search_clear.xml",
@@ -418,6 +454,10 @@
     {
         "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\drawable\\rp_shape_corner.xml",
         "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\exploded-aar\\ChatDemoUI3.0\\redpacketlibrary\\unspecified\\res\\drawable\\rp_shape_corner.xml"
+    },
+    {
+        "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_find.xml",
+        "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\res\\drawable\\tab_find.xml"
     },
     {
         "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\drawable\\rp_btn_open_pressed_shape.xml",
@@ -446,6 +486,10 @@
     {
         "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_chatfrom_bg.xml",
         "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\exploded-aar\\ChatDemoUI3.0\\EaseUI\\unspecified\\res\\drawable\\ease_chatfrom_bg.xml"
+    },
+    {
+        "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_bg_green.xml",
+        "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\res\\drawable\\btn_bg_green.xml"
     },
     {
         "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\drawable\\rp_btn_open_normal_shape_unsolid.xml",
@@ -508,8 +552,20 @@
         "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\res\\drawable\\em_btn_style_alert_dialog_special.xml"
     },
     {
+        "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\drawable\\tip_round_red_bg_shape.xml",
+        "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\res\\drawable\\tip_round_red_bg_shape.xml"
+    },
+    {
+        "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_enable_green.xml",
+        "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\res\\drawable\\btn_enable_green.xml"
+    },
+    {
         "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\drawable\\rp_btn_grey_pressed_shape.xml",
         "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\exploded-aar\\ChatDemoUI3.0\\redpacketlibrary\\unspecified\\res\\drawable\\rp_btn_grey_pressed_shape.xml"
+    },
+    {
+        "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\drawable\\titlepop_item_selector.xml",
+        "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\res\\drawable\\titlepop_item_selector.xml"
     },
     {
         "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\drawable\\em_btn_gray_selector.xml",

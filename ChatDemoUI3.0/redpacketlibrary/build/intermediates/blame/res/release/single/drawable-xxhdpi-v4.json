@@ -60,12 +60,12 @@
         "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\redpacketlibrary\\res\\drawable-xxhdpi\\rp_my_bankcard.png"
     },
     {
-        "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\redpacketlibrary\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\rp_picture_flash_strong.png",
-        "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\redpacketlibrary\\res\\drawable-xxhdpi\\rp_picture_flash_strong.png"
-    },
-    {
         "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\redpacketlibrary\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\rp_load_dark_1.png",
         "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\redpacketlibrary\\res\\drawable-xxhdpi\\rp_load_dark_1.png"
+    },
+    {
+        "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\redpacketlibrary\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\rp_picture_flash_strong.png",
+        "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\redpacketlibrary\\res\\drawable-xxhdpi\\rp_picture_flash_strong.png"
     },
     {
         "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\redpacketlibrary\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\rp_question_black.png",

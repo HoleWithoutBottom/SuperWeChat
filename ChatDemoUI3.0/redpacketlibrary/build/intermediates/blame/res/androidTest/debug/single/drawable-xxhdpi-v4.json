@@ -8,12 +8,12 @@
         "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\redpacketlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\rp_load_dark_1.png"
     },
     {
-        "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\redpacketlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\rp_back_arrow_black.png",
-        "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\redpacketlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\rp_back_arrow_black.png"
-    },
-    {
         "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\redpacketlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\rp_question_yellow.png",
         "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\redpacketlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\rp_question_yellow.png"
+    },
+    {
+        "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\redpacketlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\rp_back_arrow_black.png",
+        "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\redpacketlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\rp_back_arrow_black.png"
     },
     {
         "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\redpacketlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\em_red_packet_chatto_bg_focused.9.png",

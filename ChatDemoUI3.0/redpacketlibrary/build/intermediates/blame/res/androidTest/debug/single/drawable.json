@@ -112,16 +112,16 @@
         "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\redpacketlibrary\\build\\intermediates\\exploded-aar\\ChatDemoUI3.0\\EaseUI\\unspecified\\res\\drawable\\ease_btn_cancel_pressed_shape.xml"
     },
     {
-        "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\redpacketlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rp_btn_open_pressed_shape_unsolid.xml",
-        "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\redpacketlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable\\rp_btn_open_pressed_shape_unsolid.xml"
-    },
-    {
         "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\redpacketlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rp_btn_grey_pressed_shape.xml",
         "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\redpacketlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable\\rp_btn_grey_pressed_shape.xml"
     },
     {
         "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\redpacketlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rp_btn_retry_normal_shape.xml",
         "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\redpacketlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable\\rp_btn_retry_normal_shape.xml"
+    },
+    {
+        "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\redpacketlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rp_btn_open_pressed_shape_unsolid.xml",
+        "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\redpacketlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable\\rp_btn_open_pressed_shape_unsolid.xml"
     },
     {
         "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\redpacketlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rp_btn_white_pressed_shape.xml",
