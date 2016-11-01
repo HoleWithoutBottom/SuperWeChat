@@ -1,12 +1,3 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" >
+<items version="2" />
 
-    <item
-        jar="D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="f6d7e6830ef70633c3c4518d4d47aa045dfd8c4b">
-        <dex dex="D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_1970e18666b12c355c303b5930ec721264969d79\classes.dex" />
-    </item>
-
-</items>

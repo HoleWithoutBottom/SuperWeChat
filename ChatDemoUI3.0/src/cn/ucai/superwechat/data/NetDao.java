@@ -26,8 +26,15 @@ public class NetDao {
                 .post()
                 .execute(listener);
     }
+    public static void unRegister(Context context, String name, OkHttpUtils.OnCompleteListener<Result> listener) {
+        OkHttpUtils<Result> utils = new OkHttpUtils<>(context);
+        utils.setRequestUrl(I.REQUEST_REGISTER)
+                .addParam(I.User.USER_NAME, name)
+                .targetClass(Result.class)
+                .execute(listener);
+    }
 
-    public static void doLogin(Context context, String name, String password, OkHttpUtils.OnCompleteListener<String> listener) {
+    public static void login(Context context, String name, String password, OkHttpUtils.OnCompleteListener<String> listener) {
         OkHttpUtils<String> utils = new OkHttpUtils<>(context);
         utils.setRequestUrl(I.REQUEST_LOGIN)
                 .addParam(I.User.USER_NAME, name)

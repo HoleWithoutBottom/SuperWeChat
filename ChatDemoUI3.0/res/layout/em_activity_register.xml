@@ -10,7 +10,7 @@
         android:orientation="horizontal"
         android:background="@color/black_deep">
         <ImageView
-            android:id="@+id/iv_login_back"
+            android:id="@+id/iv_register_back"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/icon_back"
@@ -81,7 +81,6 @@
                 android:layout_toLeftOf="@id/iv_nick"
                 android:background="@null"
                 android:hint="@string/nickname"
-                android:inputType="textPassword"
                 android:paddingLeft="10dip"
                 android:singleLine="true"
                 android:textSize="18sp" />
@@ -158,13 +157,13 @@
             android:orientation="horizontal" >
 
             <Button
+                android:id="@+id/btn_register"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="8dp"
                 android:layout_marginRight="8dp"
                 android:layout_marginTop="10dp"
                 android:background="@drawable/btn_bg_green"
-                android:onClick="register"
                 android:paddingBottom="7dp"
                 android:paddingTop="7dp"
                 android:text="@string/login_btn_register"
