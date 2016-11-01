@@ -63,7 +63,7 @@ public class PreferenceManager {
 	/**
 	 * get instance of PreferenceManager
 	 *
-	 * @param cxt
+	 * @param
 	 * @return
 	 */
 	public synchronized static PreferenceManager getInstance() {

@@ -30,6 +30,7 @@ MERGED from [com.android.support:animated-vector-drawable:23.3.0] D:\AndroidWork
 MERGED from [com.android.support:support-vector-drawable:23.3.0] D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.3.0\AndroidManifest.xml:5:5-43
 MERGED from [com.android.support:support-v4:23.3.0] D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:support-v4:23.3.0] D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\AndroidManifest.xml:20:5-43
+MERGED from [com.jakewharton:butterknife:8.4.0] D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\build\intermediates\exploded-aar\com.jakewharton\butterknife\8.4.0\AndroidManifest.xml:5:5-43
 	tools:overrideLibrary
 		ADDED from D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\AndroidManifest.xml:11:9-56
 	android:targetSdkVersion
@@ -166,7 +167,7 @@ MERGED from [com.android.support:support-v4:23.3.0] D:\AndroidWorkSpace\SuperWeC
 	android:theme
 		ADDED from D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\AndroidManifest.xml:54:9-40
 	android:name
-		ADDED from D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\AndroidManifest.xml:51:9-59
+		ADDED from D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\AndroidManifest.xml:51:9-47
 activity#cn.ucai.superwechat.ui.MainActivity
 ADDED from D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\AndroidManifest.xml:56:9-61:55
 	android:screenOrientation
