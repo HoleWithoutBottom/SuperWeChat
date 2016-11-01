@@ -83,7 +83,7 @@
                 android:text="@string/login_txt_password"
                 android:textColor="@color/black"
                 android:textSize="20sp"
-                android:layout_marginRight="18dp"
+                android:layout_marginRight="20dp"
                 />
 
             <EditText
@@ -110,6 +110,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/lineLayout_login"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/rl_password"
@@ -117,8 +118,6 @@
             android:layout_marginRight="30dp"
             android:layout_marginTop="30dp"
             android:orientation="horizontal" >
-
-
 
             <Button
                 android:layout_width="0dp"
@@ -135,15 +134,17 @@
                 android:textColor="@android:color/white"
                 android:textSize="18sp" />
         </LinearLayout>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="20dp"
+            android:text="@string/login_btn_register"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:background="@drawable/btn_bg_gray"
+            android:onClick="onRegister"
+            android:layout_below="@id/lineLayout_login"/>
     </RelativeLayout>
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_margin="10dp"
-        android:text="@string/login_btn_register"
-        android:textColor="@color/black"
-        android:textSize="20sp"
-        android:background="@drawable/btn_bg_gray"
-        android:onClick="onRegister"/>
+
 </LinearLayout>

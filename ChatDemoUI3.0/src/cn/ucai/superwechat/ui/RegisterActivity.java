@@ -15,8 +15,10 @@ package cn.ucai.superwechat.ui;
 
 import com.hyphenate.EMError;
 import com.hyphenate.chat.EMClient;
-import cn.ucai.superwechat.DemoHelper;
+import cn.ucai.superwechat.SuperWeChatHelper;
 import cn.ucai.superwechat.R;
+import cn.ucai.superwechat.utils.MFGT;
+
 import com.hyphenate.exceptions.HyphenateException;
 
 import android.app.ProgressDialog;
@@ -34,7 +36,7 @@ public class RegisterActivity extends BaseActivity {
 	private EditText userNameEditText;
 	private EditText passwordEditText;
 	private EditText confirmPwdEditText;
-
+	private EditText nickNameEditText;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -42,17 +44,24 @@ public class RegisterActivity extends BaseActivity {
 		userNameEditText = (EditText) findViewById(R.id.username);
 		passwordEditText = (EditText) findViewById(R.id.password);
 		confirmPwdEditText = (EditText) findViewById(R.id.confirm_password);
+		nickNameEditText= (EditText) findViewById(R.id.nickName);
 	}
 
 	public void register(View view) {
 		final String username = userNameEditText.getText().toString().trim();
 		final String pwd = passwordEditText.getText().toString().trim();
+		String nick=nickNameEditText.getText().toString().trim();
 		String confirm_pwd = confirmPwdEditText.getText().toString().trim();
 		if (TextUtils.isEmpty(username)) {
 			Toast.makeText(this, getResources().getString(R.string.User_name_cannot_be_empty), Toast.LENGTH_SHORT).show();
 			userNameEditText.requestFocus();
 			return;
-		} else if (TextUtils.isEmpty(pwd)) {
+		} else if (TextUtils.isEmpty(nick)){
+			Toast.makeText(this,getResources().getString(R.string.User_nickName_cannot_be_empty),Toast.LENGTH_SHORT).show();
+			nickNameEditText.requestFocus();
+			return;
+		}
+		else if (TextUtils.isEmpty(pwd)) {
 			Toast.makeText(this, getResources().getString(R.string.Password_cannot_be_empty), Toast.LENGTH_SHORT).show();
 			passwordEditText.requestFocus();
 			return;
@@ -80,7 +89,7 @@ public class RegisterActivity extends BaseActivity {
 								if (!RegisterActivity.this.isFinishing())
 									pd.dismiss();
 								// save current user
-								DemoHelper.getInstance().setCurrentUserName(username);
+								SuperWeChatHelper.getInstance().setCurrentUserName(username);
 								Toast.makeText(getApplicationContext(), getResources().getString(R.string.Registered_successfully), Toast.LENGTH_SHORT).show();
 								finish();
 							}
@@ -112,7 +121,7 @@ public class RegisterActivity extends BaseActivity {
 	}
 
 	public void back(View view) {
-		finish();
+		MFGT.finish(this);
 	}
 
 }
