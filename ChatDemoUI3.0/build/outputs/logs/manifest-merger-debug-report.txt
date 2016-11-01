@@ -41,6 +41,10 @@ MERGED from [com.jakewharton:butterknife:8.4.0] D:\AndroidWorkSpace\SuperWeChat\
 		ADDED from D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\AndroidManifest.xml:9:9-35
 		INJECTED from D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\AndroidManifest.xml
 		INJECTED from D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\AndroidManifest.xml
+user-permission
+ADDED from D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\AndroidManifest.xml:12:5-74
+	android:name
+		ADDED from D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\AndroidManifest.xml:12:22-72
 uses-permission#android.permission.VIBRATE
 ADDED from D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\AndroidManifest.xml:13:5-66
 	android:name
