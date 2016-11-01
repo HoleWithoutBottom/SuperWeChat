@@ -836,7 +836,9 @@
     <string name="login_txt_china">中国</string>
     <string name="login_txt_code">验证码</string>
     <string name="login_txt_inputpwd">填写密码</string>
+    <string name="login_txt_name">用户名</string>
     <string name="login_txt_nickname">你的昵称</string>
+    <string name="login_txt_password">密码</string>
     <string name="login_txt_qustion">登录遇到问题？</string>
     <string name="login_txt_username">你的用户名</string>
     <string name="login_txt_yourphone">你的手机号码</string>

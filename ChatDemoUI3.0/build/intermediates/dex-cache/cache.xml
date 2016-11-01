@@ -1,3 +1,173 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
 
+    <item
+        jar="D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\libs\umeng-analytics-v5.2.4.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="0f9eccf79ae6006e4346725b09114182dca0c023">
+        <dex dex="D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\build\intermediates\transforms\dex\debug\folders\1000\2\umeng-analytics-v5.2.4_5dfccc11f03b72ab860071b8d1f4394e19d40631\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\build\intermediates\exploded-aar\ChatDemoUI3.0\EaseUI\unspecified\jars\libs\google-play-services.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="f4c3becc6410b18dbdb5ce69baab10872cc45017">
+        <dex dex="D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\build\intermediates\transforms\dex\debug\folders\1000\8\google-play-services_9074af0b0f293e0be5c761be4719b9615bd9b7e7\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\build\intermediates\exploded-aar\ChatDemoUI3.0\EaseUI\unspecified\jars\libs\android-support-v4.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ec6be5f70ca1d31aedc6a189e164f0532bb2944d">
+        <dex dex="D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\build\intermediates\transforms\dex\debug\folders\1000\8\android-support-v4_4f7cf0383b9e77129a3441c902fdb0be6d9546c0\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
+        <dex dex="D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.3.0_3adb7d7c4d35b815638179356d7f135a32ecb75c\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\libs\internal_impl-23.3.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
+        <dex dex="D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.3.0_fd11fec2af8558f0b187ca6dc0bab90ece1b5b6c\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\libs\parse-android-1.13.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="58a7d54b6a4f28be11f0cecec93097eddf473e6f">
+        <dex dex="D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\build\intermediates\transforms\dex\debug\folders\1000\2\parse-android-1.13.0_f137ea0ef7c554d7d7063507e6ab5e471c7ad08f\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="1b8e03daaa43fb0a4cd57e378167c2fd70454c1e">
+        <dex dex="D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.3.0_823838139ac363970c21a5eeeafb356ef0539b9a\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\build\intermediates\exploded-aar\ChatDemoUI3.0\EaseUI\unspecified\jars\libs\BaiduLBS_Android.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="0196150744fba902b69c4917776ad603f0e9ed55">
+        <dex dex="D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\build\intermediates\transforms\dex\debug\folders\1000\8\BaiduLBS_Android_362131d26573f515f79cfd0e6f4b11852a8a6743\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\build\intermediates\exploded-aar\ChatDemoUI3.0\redpacketlibrary\unspecified\jars\libs\redpacket-3.1.1.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="4bcb00c533d5ddd361b45b481e7b85b562c4c5b2">
+        <dex dex="D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\build\intermediates\transforms\dex\debug\folders\1000\8\redpacket-3.1.1_dc47ec8a4e9f4f85aa08de799844c07cc912fda9\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\build\intermediates\exploded-aar\ChatDemoUI3.0\EaseUI\unspecified\jars\libs\hyphenatechat_3.1.5.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="daf5e848ec78112477a9a59cf3195ca4b3bade02">
+        <dex dex="D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\build\intermediates\transforms\dex\debug\folders\1000\8\hyphenatechat_3.1.5_4083cf08539e95cc0a0f9fc4ab5f12ccae470a4d\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\build\intermediates\exploded-aar\ChatDemoUI3.0\EaseUI\unspecified\jars\libs\MiPush_SDK_Client_2_2_19.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="20f44aa40cfb20df33c07b192586786be72a1558">
+        <dex dex="D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\build\intermediates\transforms\dex\debug\folders\1000\8\MiPush_SDK_Client_2_2_19_e49dd9601a98ec7febc4fc0e80815d140c0094ff\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\build\intermediates\exploded-aar\ChatDemoUI3.0\EaseUI\unspecified\jars\libs\HwPush_SDK_V2705_nomap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="a962a9ef11651b6506bca6d6f0a8fb05879ec1e5">
+        <dex dex="D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\build\intermediates\transforms\dex\debug\folders\1000\8\HwPush_SDK_V2705_nomap_2b88793b9e03077e8eaf7459bfec219b0799dbee\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\libs\bolts-tasks-1.4.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\build\intermediates\transforms\dex\debug\folders\1000\2\bolts-tasks-1.4.0_9f9c1541db0b34554b09bec5a9ac3702f88e4903\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\build\intermediates\exploded-aar\ChatDemoUI3.0\EaseUI\unspecified\jars\libs\glide-3.6.1.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="16d7d883d6ada0f9862ac9e221a4f8995426041c">
+        <dex dex="D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\build\intermediates\transforms\dex\debug\folders\1000\8\glide-3.6.1_7e957ececd82090481b18e0f5be3b6e938450514\classes.dex" />
+    </item>
+    <item
+        jar="D:\sdk\extras\android\m2repository\com\android\support\support-annotations\23.3.0\support-annotations-23.3.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
+        <dex dex="D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.3.0_b51cd4f0c6893152fb3fe61702601394c8c6a993\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="23be6993826b8fd88bbc8d14928bb3b8960d3d4e">
+        <dex dex="D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.3.0_e4266230ab82e87f10de404ddbd86fc3d7629d86\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\build\intermediates\exploded-aar\com.android.support\multidex\1.0.1\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-multidex-1.0.1_baca01000647e1c4ab597ff604c384b831c19ac2\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="aaf939d503c1f2f36073143bbe56607825723f44">
+        <dex dex="D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_1970e18666b12c355c303b5930ec721264969d79\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\build\intermediates\exploded-aar\ChatDemoUI3.0\redpacketlibrary\unspecified\jars\libs\alipaySdk-20160516.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="b10af932e192a3ba331955911d469d620fcb5ebc">
+        <dex dex="D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\build\intermediates\transforms\dex\debug\folders\1000\8\alipaySdk-20160516_71c97106241431e5cdffc99cae91a2d9a218d510\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\build\intermediates\exploded-aar\ChatDemoUI3.0\redpacketlibrary\unspecified\jars\libs\volley-1.0.19.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="985cb30ef7c3020275f5f6229075bd29bae7612d">
+        <dex dex="D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\build\intermediates\transforms\dex\debug\folders\1000\8\volley-1.0.19_a780d335468b3884cfac6f53d0d4e8ac3b66fd2f\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\libs\umeng-update-v2.6.0.1.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="7bfeea30c4995f90a4374ce4177772a4579f2797">
+        <dex dex="D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\build\intermediates\transforms\dex\debug\folders\1000\2\umeng-update-v2.6.0.1_a290d058a929465b527d86e0932816eabeddf988\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="7ee45e671b01b027de99825b9331e4707b990d6f">
+        <dex dex="D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_acd1f5b9cefda670c0045795cbbc9c0ca1560c59\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="a0b5d60246cd9d4f3f2443611b3b4c25265840b5">
+        <dex dex="D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.3.0_631150096c66ebaa1d4b13250f5b757b284bbe41\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\build\intermediates\exploded-aar\ChatDemoUI3.0\EaseUI\unspecified\jars\libs\org.apache.http.legacy.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="40893e8162b7508515262dff4a5495fae3b3c10b">
+        <dex dex="D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\build\intermediates\transforms\dex\debug\folders\1000\8\org.apache.http.legacy_3af3b9610a1bfec32072875616323dcf36321871\classes.dex" />
+    </item>
+
+</items>

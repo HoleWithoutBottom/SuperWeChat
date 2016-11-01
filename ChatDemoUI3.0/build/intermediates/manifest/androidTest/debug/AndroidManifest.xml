@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.hyphenate.chatuidemo.test" >
+    package="cn.ucai.superwechat.test" >
 
     <uses-sdk
         android:minSdkVersion="11"
@@ -10,8 +10,8 @@
         android:name="com.android.test.runner.MultiDexTestRunner"
         android:functionalTest="false"
         android:handleProfiling="false"
-        android:label="Tests for com.hyphenate.chatuidemo"
-        android:targetPackage="com.hyphenate.chatuidemo" />
+        android:label="Tests for cn.ucai.superwechat"
+        android:targetPackage="cn.ucai.superwechat" />
 
     <application>
         <uses-library android:name="android.test.runner" />
