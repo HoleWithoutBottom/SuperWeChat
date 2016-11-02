@@ -30,11 +30,13 @@ import com.hyphenate.exceptions.HyphenateException;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
+import cn.ucai.superwechat.I;
 import cn.ucai.superwechat.R;
 import cn.ucai.superwechat.SuperWeChatHelper;
 import cn.ucai.superwechat.bean.Result;
 import cn.ucai.superwechat.data.NetDao;
 import cn.ucai.superwechat.data.OkHttpUtils;
+import cn.ucai.superwechat.utils.MD5;
 import cn.ucai.superwechat.utils.MFGT;
 
 /**
@@ -85,7 +87,6 @@ public class RegisterActivity extends BaseActivity {
     }
 
     public void register() {
-        Log.e("main", "sb");
         username = etUsername.getText().toString().trim();
         pwd = etPassword.getText().toString().trim();
         nick = etNickName.getText().toString().trim();
@@ -129,8 +130,18 @@ public class RegisterActivity extends BaseActivity {
         NetDao.register(mContext, username, nick, pwd, new OkHttpUtils.OnCompleteListener<Result>() {
             @Override
             public void onSuccess(Result result) {
-                if (result.getRetCode() == 0) {
+                if (result!=null && result.getRetCode() == 0) {
                     registerEMCServer();
+                }else{
+                    pd.dismiss();
+                    switch (result.getRetCode()){
+                        case I.MSG_REGISTER_USERNAME_EXISTS:
+                            Toast.makeText(RegisterActivity.this,"改账号已存在", Toast.LENGTH_SHORT).show();
+                            break;
+                        case I.MSG_REGISTER_FAIL:
+                            Toast.makeText(RegisterActivity.this,"注册失败", Toast.LENGTH_SHORT).show();
+                            break;
+                    }
                 }
             }
 
@@ -148,7 +159,7 @@ public class RegisterActivity extends BaseActivity {
             public void run() {
                 try {
                     // call method in SDK
-                    EMClient.getInstance().createAccount(username, pwd);
+                    EMClient.getInstance().createAccount(username, MD5.getMessageDigest(pwd));
                     runOnUiThread(new Runnable() {
                         public void run() {
                             if (!RegisterActivity.this.isFinishing())
@@ -161,15 +172,20 @@ public class RegisterActivity extends BaseActivity {
                     });
                 } catch (final HyphenateException e) {
                     pd.dismiss();
+                    // 注册失败解除注册
                     NetDao.unRegister(mContext, username, new OkHttpUtils.OnCompleteListener<Result>() {
                         @Override
                         public void onSuccess(Result result) {
-
+                            if (result!=null && result.getRetCode()==0){
+                                Toast.makeText(RegisterActivity.this, "解除注册成功", Toast.LENGTH_SHORT).show();
+                            }else {
+                                Toast.makeText(RegisterActivity.this, "解除注册失败", Toast.LENGTH_SHORT).show();
+                            }
                         }
 
                         @Override
                         public void onError(String error) {
-
+                            Toast.makeText(RegisterActivity.this, error, Toast.LENGTH_SHORT).show();
                         }
                     });
                     runOnUiThread(new Runnable() {
