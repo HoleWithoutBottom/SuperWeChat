@@ -28,7 +28,7 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_below="@id/btn_welcome_login"
-        android:text="@string/Sign"
+        android:text="@string/register"
         android:textSize="20sp"
         android:textColor="@color/black"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
