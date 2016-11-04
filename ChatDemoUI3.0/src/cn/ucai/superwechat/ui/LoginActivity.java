@@ -33,13 +33,15 @@ import cn.ucai.superwechat.SuperWeChatApplication;
 import cn.ucai.superwechat.SuperWeChatHelper;
 import cn.ucai.superwechat.R;
 import cn.ucai.superwechat.bean.Result;
-import cn.ucai.superwechat.bean.User;
 import cn.ucai.superwechat.data.NetDao;
 import cn.ucai.superwechat.data.OkHttpUtils;
 import cn.ucai.superwechat.db.SuperWeChatDBManager;
+import cn.ucai.superwechat.db.UserDao;
+import cn.ucai.superwechat.utils.L;
 import cn.ucai.superwechat.utils.MD5;
 import cn.ucai.superwechat.utils.ResultUtils;
 
+import com.hyphenate.easeui.domain.User;
 import com.hyphenate.easeui.utils.EaseCommonUtils;
 
 /**
@@ -176,11 +178,23 @@ public class LoginActivity extends BaseActivity {
 			@Override
 			public void onSuccess(String s) {
 				if(s!=null) {
+					L.e("s="+s);
 					Result result = ResultUtils.getResultFromJson(s, User.class);
-					if (result.getRetCode()==0) {
+					if (result!=null && result.isRetMsg()) {
 						User user = (User) result.getRetData();
-						loginSuccess();
-					}
+                        if (user!=null) {
+                            UserDao dao = new UserDao(mContext);
+                            // 保存到数据库
+                            if (dao.saveUser(user)) {
+                                // 保存到内存
+                                SuperWeChatHelper.getInstance().setCurrentUser(user);
+                                loginSuccess();
+                            }
+                        }
+					}else {
+                        pd.dismiss();
+                        L.e(TAG,"login fail"+result);
+                    }
 				}
 			}
 
