@@ -41,7 +41,6 @@ import cn.ucai.superwechat.ui.VoiceCallActivity;
 import cn.ucai.superwechat.utils.L;
 import cn.ucai.superwechat.utils.PreferenceManager;
 
-import com.hyphenate.chat.adapter.EMAChatClient;
 import com.hyphenate.easeui.controller.EaseUI;
 import com.hyphenate.easeui.controller.EaseUI.EaseEmojiconInfoProvider;
 import com.hyphenate.easeui.controller.EaseUI.EaseSettingsProvider;
@@ -221,6 +220,11 @@ public class SuperWeChatHelper {
             @Override
             public EaseUser getUser(String username) {
                 return getUserInfo(username);
+            }
+
+            @Override
+            public User getAppUser(String username) {
+               return getCurrentUser();
             }
         });
 
