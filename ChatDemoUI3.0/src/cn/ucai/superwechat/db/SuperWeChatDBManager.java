@@ -426,4 +426,79 @@ public class SuperWeChatDBManager {
         }
         return false;
     }
+
+    synchronized public void saveAppContact(User user) {
+        SQLiteDatabase db = dbHelper.getWritableDatabase();
+        ContentValues values = new ContentValues();
+        values.put(UserDao.USER_COLUMN_NAME,user.getMUserName());
+        if(user.getMUserNick() != null)
+            values.put(UserDao.COLUMN_NAME_NICK, user.getMUserNick());
+        if(user.getMAvatarPath() != null)
+            values.put(UserDao.COLUMN_NAME_AVATAR, user.getMAvatarPath());
+        if (user.getMAvatarId()!=null){
+            values.put(UserDao.USER_COLUMN_AVATAR_ID, user.getMAvatarId());
+        }
+        if (user.getMAvatarSuffix()!=null){
+            values.put(UserDao.USER_COLUMN_AVATAR_SUFFIX, user.getMAvatarSuffix());
+        }
+        if (user.getMAvatarType()!=null) {
+            values.put(UserDao.USER_COLUMN_AVATAR_TYPE, user.getMAvatarType());
+        }
+        if (user.getMAvatarLastUpdateTime()!=null) {
+            values.put(UserDao.USER_COLUMN_AVATAR_LASTUPDATE_TIME, user.getMAvatarLastUpdateTime());
+        }
+        if(db.isOpen()){
+            db.replace(UserDao.USER_TABLE_NAME, null, values);
+        }
+    }
+
+    synchronized public void saveAppContactList(ArrayList<User> mList) {
+        SQLiteDatabase db = dbHelper.getWritableDatabase();
+        if (db.isOpen()) {
+            db.delete(UserDao.USER_TABLE_NAME, null, null);
+            for (User user : mList) {
+                ContentValues values = new ContentValues();
+                values.put(UserDao.USER_COLUMN_NAME,user.getMUserName());
+                if(user.getMUserNick() != null)
+                    values.put(UserDao.COLUMN_NAME_NICK, user.getMUserNick());
+                if(user.getMAvatarPath() != null)
+                    values.put(UserDao.COLUMN_NAME_AVATAR, user.getMAvatarPath());
+                if (user.getMAvatarId()!=null){
+                    values.put(UserDao.USER_COLUMN_AVATAR_ID, user.getMAvatarId());
+                }
+                if (user.getMAvatarSuffix()!=null){
+                    values.put(UserDao.USER_COLUMN_AVATAR_SUFFIX, user.getMAvatarSuffix());
+                }
+                if (user.getMAvatarType()!=null) {
+                    values.put(UserDao.USER_COLUMN_AVATAR_TYPE, user.getMAvatarType());
+                }
+                if (user.getMAvatarLastUpdateTime()!=null) {
+                    values.put(UserDao.USER_COLUMN_AVATAR_LASTUPDATE_TIME, user.getMAvatarLastUpdateTime());
+                }
+                db.replace(UserDao.USER_TABLE_NAME, null, values);
+            }
+        }
+    }
+
+    synchronized public Map<String, User> getAppContactList() {
+        SQLiteDatabase db = dbHelper.getReadableDatabase();
+        Map<String, User> users = new Hashtable<String, User>();
+        if (db.isOpen()) {
+            Cursor cursor = db.rawQuery("select * from " + UserDao.USER_TABLE_NAME /* + " desc" */, null);
+            while (cursor.moveToNext()) {
+                String username = cursor.getString(cursor.getColumnIndex(UserDao.USER_COLUMN_NAME));
+                User user = new User(username);
+                user.setMAvatarId(cursor.getInt(cursor.getColumnIndex(UserDao.USER_COLUMN_AVATAR_ID)));
+                user.setMUserNick(cursor.getString(cursor.getColumnIndex(UserDao.USER_COLUMN_NICK)));
+                user.setMAvatarType(cursor.getInt(cursor.getColumnIndex(UserDao.USER_COLUMN_AVATAR_TYPE)));
+                user.setMAvatarPath(cursor.getString(cursor.getColumnIndex(UserDao.USER_COLUMN_AVATAR_PATH)));
+                user.setMAvatarSuffix(cursor.getString(cursor.getColumnIndex(UserDao.USER_COLUMN_AVATAR_SUFFIX)));
+                user.setMAvatarLastUpdateTime(cursor.getString(cursor.getColumnIndex(UserDao.USER_COLUMN_AVATAR_LASTUPDATE_TIME)));
+                EaseCommonUtils.setAppUserInitialLetter(user);
+                users.put(username, user);
+            }
+            cursor.close();
+        }
+        return users;
+    }
 }
