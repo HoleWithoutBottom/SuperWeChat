@@ -22,6 +22,11 @@
           <theme>@style/AppTheme</theme>
         </config>
       </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/em_activity_main.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
       <layout url="file://$PROJECT_DIR$/res/layout/main_tab_bottom_item.xml">
         <config>
           <theme>@style/AppTheme</theme>
@@ -31,27 +36,49 @@
   </component>
   <component name="AndroidLogFilters">
     <option name="TOOL_WINDOW_LOG_LEVEL" value="ERROR" />
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a07b4fa2-3be4-40d6-9340-51602b5c5e36" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/view_layout_title.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/outputFileStates.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_EaseUI_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_EaseUI_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_EaseUI_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_EaseUI_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_EaseUI_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_EaseUI_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_EaseUI_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_EaseUI_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_EaseUI_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_EaseUI_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_redpacketlibrary_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_redpacketlibrary_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_redpacketlibrary_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_redpacketlibrary_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_redpacketlibrary_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_redpacketlibrary_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_redpacketlibrary_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_redpacketlibrary_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_redpacketlibrary_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_redpacketlibrary_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_redpacketlibrary_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_redpacketlibrary_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/generated/mockable-android-23.jar" afterPath="$PROJECT_DIR$/build/generated/mockable-android-23.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/exploded-aar/ChatDemoUI3.0/EaseUI/unspecified/jars/classes.jar" afterPath="$PROJECT_DIR$/build/intermediates/exploded-aar/ChatDemoUI3.0/EaseUI/unspecified/jars/classes.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/exploded-aar/ChatDemoUI3.0/EaseUI/unspecified/jars/libs/BaiduLBS_Android.jar" afterPath="$PROJECT_DIR$/build/intermediates/exploded-aar/ChatDemoUI3.0/EaseUI/unspecified/jars/libs/BaiduLBS_Android.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/exploded-aar/ChatDemoUI3.0/EaseUI/unspecified/jars/libs/HwPush_SDK_V2705_nomap.jar" afterPath="$PROJECT_DIR$/build/intermediates/exploded-aar/ChatDemoUI3.0/EaseUI/unspecified/jars/libs/HwPush_SDK_V2705_nomap.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/exploded-aar/ChatDemoUI3.0/EaseUI/unspecified/jars/libs/MiPush_SDK_Client_2_2_19.jar" afterPath="$PROJECT_DIR$/build/intermediates/exploded-aar/ChatDemoUI3.0/EaseUI/unspecified/jars/libs/MiPush_SDK_Client_2_2_19.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/exploded-aar/ChatDemoUI3.0/EaseUI/unspecified/jars/libs/android-support-v4.jar" afterPath="$PROJECT_DIR$/build/intermediates/exploded-aar/ChatDemoUI3.0/EaseUI/unspecified/jars/libs/android-support-v4.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/exploded-aar/ChatDemoUI3.0/EaseUI/unspecified/jars/libs/glide-3.6.1.jar" afterPath="$PROJECT_DIR$/build/intermediates/exploded-aar/ChatDemoUI3.0/EaseUI/unspecified/jars/libs/glide-3.6.1.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/exploded-aar/ChatDemoUI3.0/EaseUI/unspecified/jars/libs/google-play-services.jar" afterPath="$PROJECT_DIR$/build/intermediates/exploded-aar/ChatDemoUI3.0/EaseUI/unspecified/jars/libs/google-play-services.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/exploded-aar/ChatDemoUI3.0/EaseUI/unspecified/jars/libs/hyphenatechat_3.1.5.jar" afterPath="$PROJECT_DIR$/build/intermediates/exploded-aar/ChatDemoUI3.0/EaseUI/unspecified/jars/libs/hyphenatechat_3.1.5.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/exploded-aar/ChatDemoUI3.0/EaseUI/unspecified/jars/libs/org.apache.http.legacy.jar" afterPath="$PROJECT_DIR$/build/intermediates/exploded-aar/ChatDemoUI3.0/EaseUI/unspecified/jars/libs/org.apache.http.legacy.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/exploded-aar/ChatDemoUI3.0/redpacketlibrary/unspecified/jars/classes.jar" afterPath="$PROJECT_DIR$/build/intermediates/exploded-aar/ChatDemoUI3.0/redpacketlibrary/unspecified/jars/classes.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/exploded-aar/ChatDemoUI3.0/redpacketlibrary/unspecified/jars/libs/alipaySdk-20160516.jar" afterPath="$PROJECT_DIR$/build/intermediates/exploded-aar/ChatDemoUI3.0/redpacketlibrary/unspecified/jars/libs/alipaySdk-20160516.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/exploded-aar/ChatDemoUI3.0/redpacketlibrary/unspecified/jars/libs/redpacket-3.1.1.jar" afterPath="$PROJECT_DIR$/build/intermediates/exploded-aar/ChatDemoUI3.0/redpacketlibrary/unspecified/jars/libs/redpacket-3.1.1.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/exploded-aar/ChatDemoUI3.0/redpacketlibrary/unspecified/jars/libs/volley-1.0.19.jar" afterPath="$PROJECT_DIR$/build/intermediates/exploded-aar/ChatDemoUI3.0/redpacketlibrary/unspecified/jars/libs/volley-1.0.19.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/build/intermediates/res/resources-debug-androidTest.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/build/intermediates/res/resources-debug.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/bundles/debug/classes.jar" afterPath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/bundles/debug/classes.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/bundles/debug/libs/alipaySdk-20160516.jar" afterPath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/bundles/debug/libs/alipaySdk-20160516.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/bundles/debug/libs/redpacket-3.1.1.jar" afterPath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/bundles/debug/libs/redpacket-3.1.1.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/bundles/debug/libs/volley-1.0.19.jar" afterPath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/bundles/debug/libs/volley-1.0.19.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/bundles/release/classes.jar" afterPath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/bundles/release/classes.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/bundles/release/libs/alipaySdk-20160516.jar" afterPath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/bundles/release/libs/alipaySdk-20160516.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/bundles/release/libs/redpacket-3.1.1.jar" afterPath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/bundles/release/libs/redpacket-3.1.1.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/bundles/release/libs/volley-1.0.19.jar" afterPath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/bundles/release/libs/volley-1.0.19.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/exploded-aar/ChatDemoUI3.0/EaseUI/unspecified/jars/classes.jar" afterPath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/exploded-aar/ChatDemoUI3.0/EaseUI/unspecified/jars/classes.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/exploded-aar/ChatDemoUI3.0/EaseUI/unspecified/jars/libs/BaiduLBS_Android.jar" afterPath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/exploded-aar/ChatDemoUI3.0/EaseUI/unspecified/jars/libs/BaiduLBS_Android.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/exploded-aar/ChatDemoUI3.0/EaseUI/unspecified/jars/libs/HwPush_SDK_V2705_nomap.jar" afterPath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/exploded-aar/ChatDemoUI3.0/EaseUI/unspecified/jars/libs/HwPush_SDK_V2705_nomap.jar" />
@@ -61,6 +88,9 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/exploded-aar/ChatDemoUI3.0/EaseUI/unspecified/jars/libs/google-play-services.jar" afterPath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/exploded-aar/ChatDemoUI3.0/EaseUI/unspecified/jars/libs/google-play-services.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/exploded-aar/ChatDemoUI3.0/EaseUI/unspecified/jars/libs/hyphenatechat_3.1.5.jar" afterPath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/exploded-aar/ChatDemoUI3.0/EaseUI/unspecified/jars/libs/hyphenatechat_3.1.5.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/exploded-aar/ChatDemoUI3.0/EaseUI/unspecified/jars/libs/org.apache.http.legacy.jar" afterPath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/exploded-aar/ChatDemoUI3.0/EaseUI/unspecified/jars/libs/org.apache.http.legacy.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/res/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/res/resources-debug-androidTest.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redpacketlibrary/build/outputs/aar/redpacketlibrary-debug.aar" afterPath="$PROJECT_DIR$/redpacketlibrary/build/outputs/aar/redpacketlibrary-debug.aar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redpacketlibrary/build/outputs/aar/redpacketlibrary-release.aar" afterPath="$PROJECT_DIR$/redpacketlibrary/build/outputs/aar/redpacketlibrary-release.aar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redpacketlibrary/build/tmp/expandedArchives/classes.jar_9gaud5kniuisgf8zfs29z96xv/com/hyphenate/easeui/controller/EaseUI$1.class" afterPath="$PROJECT_DIR$/redpacketlibrary/build/tmp/expandedArchives/classes.jar_9gaud5kniuisgf8zfs29z96xv/com/hyphenate/easeui/controller/EaseUI$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redpacketlibrary/build/tmp/expandedArchives/classes.jar_9gaud5kniuisgf8zfs29z96xv/com/hyphenate/easeui/controller/EaseUI$DefaultSettingsProvider.class" afterPath="$PROJECT_DIR$/redpacketlibrary/build/tmp/expandedArchives/classes.jar_9gaud5kniuisgf8zfs29z96xv/com/hyphenate/easeui/controller/EaseUI$DefaultSettingsProvider.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redpacketlibrary/build/tmp/expandedArchives/classes.jar_9gaud5kniuisgf8zfs29z96xv/com/hyphenate/easeui/controller/EaseUI$EaseUserProfileProvider.class" afterPath="$PROJECT_DIR$/redpacketlibrary/build/tmp/expandedArchives/classes.jar_9gaud5kniuisgf8zfs29z96xv/com/hyphenate/easeui/controller/EaseUI$EaseUserProfileProvider.class" />
@@ -78,6 +108,15 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../easeui/build/intermediates/bundles/debug/libs/google-play-services.jar" afterPath="$PROJECT_DIR$/../easeui/build/intermediates/bundles/debug/libs/google-play-services.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../easeui/build/intermediates/bundles/debug/libs/hyphenatechat_3.1.5.jar" afterPath="$PROJECT_DIR$/../easeui/build/intermediates/bundles/debug/libs/hyphenatechat_3.1.5.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../easeui/build/intermediates/bundles/debug/libs/org.apache.http.legacy.jar" afterPath="$PROJECT_DIR$/../easeui/build/intermediates/bundles/debug/libs/org.apache.http.legacy.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../easeui/build/intermediates/bundles/release/classes.jar" afterPath="$PROJECT_DIR$/../easeui/build/intermediates/bundles/release/classes.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../easeui/build/intermediates/bundles/release/libs/BaiduLBS_Android.jar" afterPath="$PROJECT_DIR$/../easeui/build/intermediates/bundles/release/libs/BaiduLBS_Android.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../easeui/build/intermediates/bundles/release/libs/HwPush_SDK_V2705_nomap.jar" afterPath="$PROJECT_DIR$/../easeui/build/intermediates/bundles/release/libs/HwPush_SDK_V2705_nomap.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../easeui/build/intermediates/bundles/release/libs/MiPush_SDK_Client_2_2_19.jar" afterPath="$PROJECT_DIR$/../easeui/build/intermediates/bundles/release/libs/MiPush_SDK_Client_2_2_19.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../easeui/build/intermediates/bundles/release/libs/android-support-v4.jar" afterPath="$PROJECT_DIR$/../easeui/build/intermediates/bundles/release/libs/android-support-v4.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../easeui/build/intermediates/bundles/release/libs/glide-3.6.1.jar" afterPath="$PROJECT_DIR$/../easeui/build/intermediates/bundles/release/libs/glide-3.6.1.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../easeui/build/intermediates/bundles/release/libs/google-play-services.jar" afterPath="$PROJECT_DIR$/../easeui/build/intermediates/bundles/release/libs/google-play-services.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../easeui/build/intermediates/bundles/release/libs/hyphenatechat_3.1.5.jar" afterPath="$PROJECT_DIR$/../easeui/build/intermediates/bundles/release/libs/hyphenatechat_3.1.5.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../easeui/build/intermediates/bundles/release/libs/org.apache.http.legacy.jar" afterPath="$PROJECT_DIR$/../easeui/build/intermediates/bundles/release/libs/org.apache.http.legacy.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../easeui/build/intermediates/classes/debug/com/hyphenate/easeui/controller/EaseUI$1.class" afterPath="$PROJECT_DIR$/../easeui/build/intermediates/classes/debug/com/hyphenate/easeui/controller/EaseUI$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../easeui/build/intermediates/classes/debug/com/hyphenate/easeui/controller/EaseUI$DefaultSettingsProvider.class" afterPath="$PROJECT_DIR$/../easeui/build/intermediates/classes/debug/com/hyphenate/easeui/controller/EaseUI$DefaultSettingsProvider.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../easeui/build/intermediates/classes/debug/com/hyphenate/easeui/controller/EaseUI$EaseUserProfileProvider.class" afterPath="$PROJECT_DIR$/../easeui/build/intermediates/classes/debug/com/hyphenate/easeui/controller/EaseUI$EaseUserProfileProvider.class" />
@@ -86,19 +125,31 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../easeui/build/intermediates/classes/debug/com/hyphenate/easeui/utils/EaseCommonUtils$1GetInitialLetter.class" afterPath="$PROJECT_DIR$/../easeui/build/intermediates/classes/debug/com/hyphenate/easeui/utils/EaseCommonUtils$1GetInitialLetter.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../easeui/build/intermediates/classes/debug/com/hyphenate/easeui/utils/EaseCommonUtils.class" afterPath="$PROJECT_DIR$/../easeui/build/intermediates/classes/debug/com/hyphenate/easeui/utils/EaseCommonUtils.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../easeui/build/intermediates/classes/debug/com/hyphenate/easeui/utils/EaseUserUtils.class" afterPath="$PROJECT_DIR$/../easeui/build/intermediates/classes/debug/com/hyphenate/easeui/utils/EaseUserUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../easeui/build/intermediates/res/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/../easeui/build/intermediates/res/resources-debug-androidTest.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../easeui/build/outputs/aar/EaseUI-debug.aar" afterPath="$PROJECT_DIR$/../easeui/build/outputs/aar/EaseUI-debug.aar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../easeui/build/outputs/aar/EaseUI-release.aar" afterPath="$PROJECT_DIR$/../easeui/build/outputs/aar/EaseUI-release.aar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ChatDemoUI3.0.iml" afterPath="$PROJECT_DIR$/ChatDemoUI3.0.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/generated/source/r/debug/android/support/v7/appcompat/R.java" afterPath="$PROJECT_DIR$/build/generated/source/r/debug/android/support/v7/appcompat/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/generated/source/r/debug/com/easemob/redpacketui/R.java" afterPath="$PROJECT_DIR$/build/generated/source/r/debug/com/easemob/redpacketui/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/drawable-xxhdpi-v4.json" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/drawable-xxhdpi-v4.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/layout.json" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/layout.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merger.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/em_activity_main.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/em_activity_main.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/build/intermediates/symbols/debug/R.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/blame/res/androidTest/debug/single/drawable-hdpi-v4.json" afterPath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/blame/res/androidTest/debug/single/drawable-hdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/blame/res/androidTest/debug/single/drawable-xxhdpi-v4.json" afterPath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/blame/res/androidTest/debug/single/drawable-xxhdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/blame/res/androidTest/debug/single/drawable.json" afterPath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/blame/res/androidTest/debug/single/drawable.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/blame/res/androidTest/debug/single/layout.json" afterPath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/blame/res/androidTest/debug/single/layout.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/blame/res/release/single/drawable-xxhdpi-v4.json" afterPath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/blame/res/release/single/drawable-xxhdpi-v4.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redpacketlibrary/redpacketlibrary.iml" afterPath="$PROJECT_DIR$/redpacketlibrary/redpacketlibrary.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/em_activity_main.xml" afterPath="$PROJECT_DIR$/res/layout/em_activity_main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/view_layout_title.xml" afterPath="$PROJECT_DIR$/res/layout/view_layout_title.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/ui/MainActivity.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/ui/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../easeui/EaseUI.iml" afterPath="$PROJECT_DIR$/../easeui/EaseUI.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../easeui/build/intermediates/blame/res/androidTest/debug/single/drawable-hdpi-v4.json" afterPath="$PROJECT_DIR$/../easeui/build/intermediates/blame/res/androidTest/debug/single/drawable-hdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../easeui/build/intermediates/blame/res/androidTest/debug/single/drawable.json" afterPath="$PROJECT_DIR$/../easeui/build/intermediates/blame/res/androidTest/debug/single/drawable.json" />
     </list>
     <ignored path="ChatDemoUI3.0.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -145,13 +196,13 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.109375">
-              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+            <state vertical-scroll-proportion="-4.09375">
+              <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
               <folding>
-                <element signature="e#1448#1466#0" expanded="true" />
-                <element signature="e#1757#1775#0" expanded="true" />
-                <element signature="e#2058#2076#0" expanded="true" />
-                <element signature="e#2362#2374#0" expanded="true" />
+                <element signature="e#1530#1548#0" expanded="true" />
+                <element signature="e#1839#1857#0" expanded="true" />
+                <element signature="e#2140#2158#0" expanded="true" />
+                <element signature="e#2444#2456#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -160,12 +211,33 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/cn/ucai/superwechat/ui/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.276644">
-              <caret line="342" column="39" selection-start-line="342" selection-start-column="39" selection-end-line="342" selection-end-column="39" />
+            <state vertical-scroll-proportion="0.121839084">
+              <caret line="323" column="5" selection-start-line="323" selection-start-column="5" selection-end-line="323" selection-end-column="5" />
               <folding>
-                <element signature="e#7906#8177#0" expanded="true" />
-                <element signature="e#8176#8177#0" expanded="true" />
+                <element signature="e#7832#7860#0" expanded="true" />
+                <element signature="e#7917#7945#0" expanded="true" />
+                <element signature="e#7999#8027#0" expanded="true" />
+                <element signature="e#8081#8103#0" expanded="true" />
+                <element signature="e#9686#10005#0" expanded="true" />
+                <element signature="e#10004#10005#0" expanded="true" />
+                <element signature="e#12946#12997#0" expanded="true" />
+                <element signature="e#17754#17808#0" expanded="true" />
+                <element signature="e#18133#18158#0" expanded="true" />
+                <element signature="e#18211#18222#0" expanded="true" />
+                <element signature="e#19314#19372#0" expanded="true" />
+                <element signature="e#19722#19745#0" expanded="true" />
+                <element signature="e#19804#19815#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainTabAdpter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/ucai/superwechat/adapter/MainTabAdpter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="13" column="62" selection-start-line="13" selection-start-column="62" selection-end-line="13" selection-end-column="62" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -2233,7 +2305,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="5906327967651" />
+        <entry key="$PROJECT_DIR$" value="5906334090360" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -2749,6 +2821,7 @@
         <option value="$PROJECT_DIR$/src/cn/ucai/superwechat/ui/DiscoverFragment.java" />
         <option value="$PROJECT_DIR$/src/cn/ucai/superwechat/widget/DMTabButton.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/res/layout/view_layout_title.xml" />
         <option value="$PROJECT_DIR$/res/layout/em_activity_main.xml" />
         <option value="$PROJECT_DIR$/src/cn/ucai/superwechat/ui/MainActivity.java" />
       </list>
@@ -2771,7 +2844,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="AndroidView" proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -2801,6 +2874,30 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="ChatDemoUI3.0" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ChatDemoUI3.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ChatDemoUI3.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ChatDemoUI3.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ChatDemoUI3.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -2845,7 +2942,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="device.picker.selection" value="sk" />
     <property name="android.project.structure.last.selected" value="ChatDemoUI3.0" />
@@ -3307,7 +3404,13 @@
       <option name="project" value="LOCAL" />
       <updated>1478323973202</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="修改MainActivity布局和代码">
+      <created>1478326039796</created>
+      <option name="number" value="00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1478326039796</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TodoView">
@@ -3320,7 +3423,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935154" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -3329,8 +3432,8 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5853242" sideWeight="0.50907713" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15017065" sideWeight="0.49092284" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2118003" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="530" y="41" width="305" height="602" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20819113" sideWeight="0.49092284" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16111952" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="530" y="41" width="305" height="602" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37030718" sideWeight="0.49546143" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24744028" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -3385,7 +3488,8 @@
     <MESSAGE value="添加discoverFragment及相关布局" />
     <MESSAGE value="修复butterkonife不能使用的bug" />
     <MESSAGE value="修改MainActivity布局和代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改MainActivity布局和代码" />
+    <MESSAGE value="MainActivity中ViewPager和DMTabHost的联动" />
+    <option name="LAST_COMMIT_MESSAGE" value="MainActivity中ViewPager和DMTabHost的联动" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3394,17 +3498,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/res/layout/em_activity_group_search_message.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../easeui/res/values/ease_styles.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.17201835">
@@ -3763,14 +3856,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/ucai/superwechat/adapter/MainTabAdpter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.64113784">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/ucai/superwechat/SuperWeChatHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4726477">
@@ -3821,10 +3906,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/ucai/superwechat/adapter/MainTabAdpter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="62" selection-start-line="13" selection-start-column="62" selection-end-line="13" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../easeui/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31982943">
-          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.48806942">
+          <caret line="78" column="52" selection-start-line="78" selection-start-column="52" selection-end-line="78" selection-end-column="52" />
           <folding />
         </state>
       </provider>
@@ -3834,12 +3935,12 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7407407">
-          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+        <state vertical-scroll-proportion="0.74811083">
+          <caret line="40" column="4" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="4" />
           <folding>
             <element signature="e#541#559#0" expanded="true" />
             <element signature="e#808#826#0" expanded="true" />
-            <element signature="e#1017#1035#0" expanded="true" />
+            <element signature="e#1656#1685#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -3849,24 +3950,35 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.109375">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+        <state vertical-scroll-proportion="-4.09375">
+          <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
           <folding>
-            <element signature="e#1448#1466#0" expanded="true" />
-            <element signature="e#1757#1775#0" expanded="true" />
-            <element signature="e#2058#2076#0" expanded="true" />
-            <element signature="e#2362#2374#0" expanded="true" />
+            <element signature="e#1530#1548#0" expanded="true" />
+            <element signature="e#1839#1857#0" expanded="true" />
+            <element signature="e#2140#2158#0" expanded="true" />
+            <element signature="e#2444#2456#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/ucai/superwechat/ui/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.276644">
-          <caret line="342" column="39" selection-start-line="342" selection-start-column="39" selection-end-line="342" selection-end-column="39" />
+        <state vertical-scroll-proportion="0.121839084">
+          <caret line="323" column="5" selection-start-line="323" selection-start-column="5" selection-end-line="323" selection-end-column="5" />
           <folding>
-            <element signature="e#7906#8177#0" expanded="true" />
-            <element signature="e#8176#8177#0" expanded="true" />
+            <element signature="e#7832#7860#0" expanded="true" />
+            <element signature="e#7917#7945#0" expanded="true" />
+            <element signature="e#7999#8027#0" expanded="true" />
+            <element signature="e#8081#8103#0" expanded="true" />
+            <element signature="e#9686#10005#0" expanded="true" />
+            <element signature="e#10004#10005#0" expanded="true" />
+            <element signature="e#12946#12997#0" expanded="true" />
+            <element signature="e#17754#17808#0" expanded="true" />
+            <element signature="e#18133#18158#0" expanded="true" />
+            <element signature="e#18211#18222#0" expanded="true" />
+            <element signature="e#19314#19372#0" expanded="true" />
+            <element signature="e#19722#19745#0" expanded="true" />
+            <element signature="e#19804#19815#0" expanded="true" />
           </folding>
         </state>
       </provider>

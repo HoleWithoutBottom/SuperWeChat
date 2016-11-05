@@ -300,12 +300,12 @@
         "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\exploded-aar\\ChatDemoUI3.0\\redpacketlibrary\\unspecified\\res\\drawable-xxhdpi-v4\\rp_search_bar_input.9.png"
     },
     {
-        "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png",
-        "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xxhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
-    },
-    {
         "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png",
         "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xxhdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png",
+        "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xxhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
     },
     {
         "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_list_longpressed_holo.9.png",

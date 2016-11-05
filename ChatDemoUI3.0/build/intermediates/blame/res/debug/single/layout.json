@@ -4,12 +4,12 @@
         "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\notification_media_cancel_action.xml"
     },
     {
-        "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\layout\\rp_divider.xml",
-        "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\exploded-aar\\ChatDemoUI3.0\\redpacketlibrary\\unspecified\\res\\layout\\rp_divider.xml"
-    },
-    {
         "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\layout\\em_contacts_header.xml",
         "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\res\\layout\\em_contacts_header.xml"
+    },
+    {
+        "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\layout\\rp_divider.xml",
+        "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\exploded-aar\\ChatDemoUI3.0\\redpacketlibrary\\unspecified\\res\\layout\\rp_divider.xml"
     },
     {
         "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\layout\\em_activity_group_details.xml",
@@ -200,12 +200,12 @@
         "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\exploded-aar\\ChatDemoUI3.0\\redpacketlibrary\\unspecified\\res\\layout\\rp_bank_city_list_dialog.xml"
     },
     {
-        "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\layout\\rp_choose_verify_popup_layout.xml",
-        "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\exploded-aar\\ChatDemoUI3.0\\redpacketlibrary\\unspecified\\res\\layout\\rp_choose_verify_popup_layout.xml"
-    },
-    {
         "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
         "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\layout\\rp_choose_verify_popup_layout.xml",
+        "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\exploded-aar\\ChatDemoUI3.0\\redpacketlibrary\\unspecified\\res\\layout\\rp_choose_verify_popup_layout.xml"
     },
     {
         "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_sent_video.xml",
@@ -220,12 +220,12 @@
         "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\exploded-aar\\ChatDemoUI3.0\\redpacketlibrary\\unspecified\\res\\layout\\rp_message.xml"
     },
     {
-        "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\layout\\rp_fragment_recharge.xml",
-        "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\exploded-aar\\ChatDemoUI3.0\\redpacketlibrary\\unspecified\\res\\layout\\rp_fragment_recharge.xml"
-    },
-    {
         "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_received_video_call.xml",
         "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\exploded-aar\\ChatDemoUI3.0\\EaseUI\\unspecified\\res\\layout\\ease_row_received_video_call.xml"
+    },
+    {
+        "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\layout\\rp_fragment_recharge.xml",
+        "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\exploded-aar\\ChatDemoUI3.0\\redpacketlibrary\\unspecified\\res\\layout\\rp_fragment_recharge.xml"
     },
     {
         "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\layout\\ease_emojicon.xml",
@@ -288,16 +288,16 @@
         "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\res\\layout\\em_row_contact_with_checkbox.xml"
     },
     {
-        "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
-        "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+        "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\layout\\activity_set_servers.xml",
+        "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\res\\layout\\activity_set_servers.xml"
     },
     {
         "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\layout\\em_activity_group_search_message.xml",
         "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\res\\layout\\em_activity_group_search_message.xml"
     },
     {
-        "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\layout\\activity_set_servers.xml",
-        "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\res\\layout\\activity_set_servers.xml"
+        "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
     },
     {
         "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\layout\\rp_loading.xml",
@@ -344,12 +344,12 @@
         "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\support_simple_spinner_dropdown_item.xml"
     },
     {
-        "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\layout\\em_activity_pick_contact_no_checkbox.xml",
-        "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\res\\layout\\em_activity_pick_contact_no_checkbox.xml"
-    },
-    {
         "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\layout\\em_row_search_message.xml",
         "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\res\\layout\\em_row_search_message.xml"
+    },
+    {
+        "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\layout\\em_activity_pick_contact_no_checkbox.xml",
+        "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\res\\layout\\em_activity_pick_contact_no_checkbox.xml"
     },
     {
         "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\layout\\view_title_popup.xml",
@@ -372,12 +372,12 @@
         "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\res\\layout\\em_activity_black_list.xml"
     },
     {
-        "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\layout\\ease_fragment_contact_list.xml",
-        "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\exploded-aar\\ChatDemoUI3.0\\EaseUI\\unspecified\\res\\layout\\ease_fragment_contact_list.xml"
-    },
-    {
         "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\layout\\view_layout_title.xml",
         "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\res\\layout\\view_layout_title.xml"
+    },
+    {
+        "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\layout\\ease_fragment_contact_list.xml",
+        "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\exploded-aar\\ChatDemoUI3.0\\EaseUI\\unspecified\\res\\layout\\ease_fragment_contact_list.xml"
     },
     {
         "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
