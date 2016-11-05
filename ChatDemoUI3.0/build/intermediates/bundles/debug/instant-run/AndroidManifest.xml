@@ -269,6 +269,11 @@
             android:name="cn.ucai.superwechat.ui.SetServersActivity"
             android:screenOrientation="portrait"
             android:theme="@style/horizontal_slide" />
+        <!-- 将fragment改为Activity时必须添加清单文件 -->
+        <activity
+            android:name="cn.ucai.superwechat.ui.SettingsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/horizontal_slide" />
 
         <!-- 红包相关Activity start -->
         <!-- 发红包 -->

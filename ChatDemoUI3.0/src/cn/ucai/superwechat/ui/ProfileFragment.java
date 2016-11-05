@@ -1,6 +1,7 @@
 package cn.ucai.superwechat.ui;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -18,6 +19,7 @@ import butterknife.ButterKnife;
 import butterknife.OnClick;
 import cn.ucai.superwechat.Constant;
 import cn.ucai.superwechat.R;
+import cn.ucai.superwechat.utils.MFGT;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -86,6 +88,8 @@ public class ProfileFragment extends Fragment {
             case R.id.tv_profile_smail:
                 break;
             case R.id.tv_profile_setting:
+                Intent intent=new Intent(getActivity(),SettingsActivity.class);
+                MFGT.startActivity(getActivity(),intent);
                 break;
         }
     }

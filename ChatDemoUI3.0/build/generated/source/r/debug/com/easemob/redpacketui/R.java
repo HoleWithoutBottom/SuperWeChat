@@ -262,6 +262,7 @@ public final class R {
 		public static final int size_avatar = 0x7f0900a0;
 	}
 	public static final class drawable {
+		public static final int default_hd_avatar = 0x7f020060;
 		public static final int ease_app_panel_video_icon = 0x7f020062;
 		public static final int ease_appitem_del_btn_normal = 0x7f020063;
 		public static final int ease_appitem_del_btn_pressed = 0x7f020064;
