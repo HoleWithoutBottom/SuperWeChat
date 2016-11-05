@@ -247,4 +247,13 @@ public class LoginActivity extends BaseActivity {
 	public void onRegister(View view) {
 		startActivity(new Intent(this,RegisterActivity.class));
 	}
+
+	@Override
+	protected void onDestroy() {
+		super.onDestroy();
+		if (pd!=null){
+			pd.dismiss();
+
+		}
+	}
 }
