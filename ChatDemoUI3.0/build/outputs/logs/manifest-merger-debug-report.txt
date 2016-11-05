@@ -23,14 +23,15 @@ MERGED from [com.android.support:multidex:1.0.1] D:\AndroidWorkSpace\SuperWeChat
 MERGED from [ChatDemoUI3.0:redpacketlibrary:unspecified] D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\build\intermediates\exploded-aar\ChatDemoUI3.0\redpacketlibrary\unspecified\AndroidManifest.xml:7:5-9:41
 MERGED from [ChatDemoUI3.0:EaseUI:unspecified] D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\build\intermediates\exploded-aar\ChatDemoUI3.0\EaseUI\unspecified\AndroidManifest.xml:7:5-9:41
 MERGED from [ChatDemoUI3.0:EaseUI:unspecified] D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\build\intermediates\exploded-aar\ChatDemoUI3.0\EaseUI\unspecified\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:appcompat-v7:23.3.0] D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.3.0\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:support-vector-drawable:23.3.0] D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.3.0\AndroidManifest.xml:5:5-43
-MERGED from [com.android.support:support-v4:23.3.0] D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:animated-vector-drawable:23.3.0] D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.3.0\AndroidManifest.xml:5:5-44
-MERGED from [com.android.support:support-vector-drawable:23.3.0] D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.3.0\AndroidManifest.xml:5:5-43
-MERGED from [com.android.support:support-v4:23.3.0] D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.3.0] D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.4.0] D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.4.0] D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.4.0] D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.4.0] D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:23.4.0] D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.4.0] D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
 MERGED from [com.jakewharton:butterknife:8.4.0] D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\build\intermediates\exploded-aar\com.jakewharton\butterknife\8.4.0\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.4.0] D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
 	tools:overrideLibrary
 		ADDED from D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\AndroidManifest.xml:11:9-56
 	android:targetSdkVersion
@@ -155,13 +156,14 @@ ADDED from D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\AndroidManifest.xml:48:
 		ADDED from D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\AndroidManifest.xml:48:22-77
 application
 ADDED from D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\AndroidManifest.xml:50:5-475:19
-MERGED from [com.android.support:appcompat-v7:23.3.0] D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.3.0\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-vector-drawable:23.3.0] D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.3.0\AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-v4:23.3.0] D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:animated-vector-drawable:23.3.0] D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.3.0\AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-vector-drawable:23.3.0] D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.3.0\AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-v4:23.3.0] D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.3.0] D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.4.0] D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.4.0] D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.4.0] D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.4.0] D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.4.0] D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
 	android:label
 		ADDED from D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\AndroidManifest.xml:55:9-41
 	android:allowBackup

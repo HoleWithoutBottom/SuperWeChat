@@ -791,6 +791,7 @@
     <string name="hanging_up">Hanging up..</string>
     <string name="have_connected_with">Connected to the peer and waiting for the peer to accept</string>
     <string name="have_you_removed">Have you removed from his buddy list</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="hint_money_amount">填写金额</string>
     <string name="hint_money_count">填写个数</string>
     <string name="hint_title">提示</string>

@@ -4,12 +4,12 @@
         "source": "D:\\AndroidWorkSpace\\SuperWeChat\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\ease_chat_location_selector.xml"
     },
     {
-        "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ease_mm_listitem_grey.xml",
-        "source": "D:\\AndroidWorkSpace\\SuperWeChat\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\ease_mm_listitem_grey.xml"
-    },
-    {
         "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ease_chat_press_speak_btn.xml",
         "source": "D:\\AndroidWorkSpace\\SuperWeChat\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\ease_chat_press_speak_btn.xml"
+    },
+    {
+        "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ease_mm_listitem_grey.xml",
+        "source": "D:\\AndroidWorkSpace\\SuperWeChat\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\ease_mm_listitem_grey.xml"
     },
     {
         "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ease_search_clear.xml",
