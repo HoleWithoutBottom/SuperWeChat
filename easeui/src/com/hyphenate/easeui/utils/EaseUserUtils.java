@@ -33,6 +33,14 @@ public class EaseUserUtils {
 
         return null;
     }
+    // 获取当前登陆用户
+    public static User getCurrentAppUserInfo(){
+        String username = EMClient.getInstance().getCurrentUser();
+        if(userProvider != null)
+            return userProvider.getAppUser(username);
+
+        return null;
+    }
     public static User getAppUserInfo(String username){
         if(userProvider != null)
             return userProvider.getAppUser(username);
@@ -116,5 +124,10 @@ public class EaseUserUtils {
 
     private static void setAppUserName(String suffix,String username, TextView textview) {
         textview.setText(suffix+username);
+    }
+
+    public static void setCurrentAppUserName(TextView textview) {
+        String username = EMClient.getInstance().getCurrentUser();
+        setAppUserName("",username,textview);
     }
 }

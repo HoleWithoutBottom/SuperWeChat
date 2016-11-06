@@ -537,6 +537,7 @@
     <string name="title_small_change">零钱</string>
     <string name="title_user_profile">个人资料</string>
     <string name="toast_nick_not_isnull">昵称不能为空！</string>
+    <string name="toast_nick_not_notify">昵称未修改</string>
     <string name="toast_no_support">暂不支持！</string>
     <string name="toast_updatenick_fail">更新昵称失败!</string>
     <string name="toast_updatenick_success">更新昵称成功!</string>

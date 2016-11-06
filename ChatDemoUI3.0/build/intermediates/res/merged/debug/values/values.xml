@@ -1053,6 +1053,7 @@
     <string name="title_small_change">零钱</string>
     <string name="title_user_profile">Profile</string>
     <string name="toast_nick_not_isnull">nickname cannot be empty!</string>
+    <string name="toast_nick_not_notify">nick not  notify</string>
     <string name="toast_no_support">No Support!</string>
     <string name="toast_updatenick_fail">update nickname fail!</string>
     <string name="toast_updatenick_success">update nickname success!</string>

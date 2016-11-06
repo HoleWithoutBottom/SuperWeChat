@@ -10210,8 +10210,27 @@
                     "startLine": 539,
                     "startColumn": 4,
                     "startOffset": 29498,
+                    "endColumn": 55,
+                    "endOffset": 29549
+                },
+                "from": {
+                    "file": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 57,
+                        "endColumn": 55,
+                        "endOffset": 108
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 540,
+                    "startColumn": 4,
+                    "startOffset": 29554,
                     "endColumn": 50,
-                    "endOffset": 29544
+                    "endOffset": 29600
                 },
                 "from": {
                     "file": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\res\\values-zh\\em_strings.xml",
@@ -10226,11 +10245,11 @@
             },
             {
                 "to": {
-                    "startLine": 540,
+                    "startLine": 541,
                     "startColumn": 4,
-                    "startOffset": 29549,
+                    "startOffset": 29605,
                     "endColumn": 57,
-                    "endOffset": 29602
+                    "endOffset": 29658
                 },
                 "from": {
                     "file": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\res\\values-zh\\em_strings.xml",
@@ -10245,11 +10264,11 @@
             },
             {
                 "to": {
-                    "startLine": 541,
+                    "startLine": 542,
                     "startColumn": 4,
-                    "startOffset": 29607,
+                    "startOffset": 29663,
                     "endColumn": 60,
-                    "endOffset": 29663
+                    "endOffset": 29719
                 },
                 "from": {
                     "file": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\res\\values-zh\\em_strings.xml",
@@ -10264,11 +10283,11 @@
             },
             {
                 "to": {
-                    "startLine": 542,
+                    "startLine": 543,
                     "startColumn": 4,
-                    "startOffset": 29668,
+                    "startOffset": 29724,
                     "endColumn": 58,
-                    "endOffset": 29722
+                    "endOffset": 29778
                 },
                 "from": {
                     "file": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\res\\values-zh\\em_strings.xml",
@@ -10283,11 +10302,11 @@
             },
             {
                 "to": {
-                    "startLine": 543,
+                    "startLine": 544,
                     "startColumn": 4,
-                    "startOffset": 29727,
+                    "startOffset": 29783,
                     "endColumn": 61,
-                    "endOffset": 29784
+                    "endOffset": 29840
                 },
                 "from": {
                     "file": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\res\\values-zh\\em_strings.xml",
@@ -10302,11 +10321,11 @@
             },
             {
                 "to": {
-                    "startLine": 544,
+                    "startLine": 545,
                     "startColumn": 4,
-                    "startOffset": 29789,
+                    "startOffset": 29845,
                     "endColumn": 45,
-                    "endOffset": 29830
+                    "endOffset": 29886
                 },
                 "from": {
                     "file": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\exploded-aar\\ChatDemoUI3.0\\redpacketlibrary\\unspecified\\res\\values-zh\\values-zh.xml",
@@ -10321,11 +10340,11 @@
             },
             {
                 "to": {
-                    "startLine": 545,
+                    "startLine": 546,
                     "startColumn": 4,
-                    "startOffset": 29835,
+                    "startOffset": 29891,
                     "endColumn": 48,
-                    "endOffset": 29879
+                    "endOffset": 29935
                 },
                 "from": {
                     "file": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\exploded-aar\\ChatDemoUI3.0\\redpacketlibrary\\unspecified\\res\\values-zh\\values-zh.xml",
@@ -10340,11 +10359,11 @@
             },
             {
                 "to": {
-                    "startLine": 546,
+                    "startLine": 547,
                     "startColumn": 4,
-                    "startOffset": 29884,
+                    "startOffset": 29940,
                     "endColumn": 46,
-                    "endOffset": 29926
+                    "endOffset": 29982
                 },
                 "from": {
                     "file": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\exploded-aar\\ChatDemoUI3.0\\redpacketlibrary\\unspecified\\res\\values-zh\\values-zh.xml",
@@ -10359,11 +10378,11 @@
             },
             {
                 "to": {
-                    "startLine": 547,
+                    "startLine": 548,
                     "startColumn": 4,
-                    "startOffset": 29931,
+                    "startOffset": 29987,
                     "endColumn": 64,
-                    "endOffset": 29991
+                    "endOffset": 30047
                 },
                 "from": {
                     "file": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\exploded-aar\\ChatDemoUI3.0\\redpacketlibrary\\unspecified\\res\\values-zh\\values-zh.xml",
@@ -10378,11 +10397,11 @@
             },
             {
                 "to": {
-                    "startLine": 548,
+                    "startLine": 549,
                     "startColumn": 4,
-                    "startOffset": 29996,
+                    "startOffset": 30052,
                     "endColumn": 94,
-                    "endOffset": 30086
+                    "endOffset": 30142
                 },
                 "from": {
                     "file": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\exploded-aar\\ChatDemoUI3.0\\redpacketlibrary\\unspecified\\res\\values-zh\\values-zh.xml",
@@ -10397,11 +10416,11 @@
             },
             {
                 "to": {
-                    "startLine": 549,
+                    "startLine": 550,
                     "startColumn": 4,
-                    "startOffset": 30091,
+                    "startOffset": 30147,
                     "endColumn": 59,
-                    "endOffset": 30146
+                    "endOffset": 30202
                 },
                 "from": {
                     "file": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\exploded-aar\\ChatDemoUI3.0\\redpacketlibrary\\unspecified\\res\\values-zh\\values-zh.xml",
@@ -10416,11 +10435,11 @@
             },
             {
                 "to": {
-                    "startLine": 550,
+                    "startLine": 551,
                     "startColumn": 4,
-                    "startOffset": 30151,
+                    "startOffset": 30207,
                     "endColumn": 58,
-                    "endOffset": 30205
+                    "endOffset": 30261
                 },
                 "from": {
                     "file": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\exploded-aar\\ChatDemoUI3.0\\redpacketlibrary\\unspecified\\res\\values-zh\\values-zh.xml",
@@ -10435,11 +10454,11 @@
             },
             {
                 "to": {
-                    "startLine": 551,
+                    "startLine": 552,
                     "startColumn": 4,
-                    "startOffset": 30210,
+                    "startOffset": 30266,
                     "endColumn": 65,
-                    "endOffset": 30271
+                    "endOffset": 30327
                 },
                 "from": {
                     "file": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\exploded-aar\\ChatDemoUI3.0\\redpacketlibrary\\unspecified\\res\\values-zh\\values-zh.xml",
@@ -10454,11 +10473,11 @@
             },
             {
                 "to": {
-                    "startLine": 552,
+                    "startLine": 553,
                     "startColumn": 4,
-                    "startOffset": 30276,
+                    "startOffset": 30332,
                     "endColumn": 67,
-                    "endOffset": 30339
+                    "endOffset": 30395
                 },
                 "from": {
                     "file": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\exploded-aar\\ChatDemoUI3.0\\redpacketlibrary\\unspecified\\res\\values-zh\\values-zh.xml",
@@ -10473,11 +10492,11 @@
             },
             {
                 "to": {
-                    "startLine": 553,
+                    "startLine": 554,
                     "startColumn": 4,
-                    "startOffset": 30344,
+                    "startOffset": 30400,
                     "endColumn": 49,
-                    "endOffset": 30389
+                    "endOffset": 30445
                 },
                 "from": {
                     "file": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\exploded-aar\\ChatDemoUI3.0\\redpacketlibrary\\unspecified\\res\\values-zh\\values-zh.xml",
@@ -10492,11 +10511,11 @@
             },
             {
                 "to": {
-                    "startLine": 554,
+                    "startLine": 555,
                     "startColumn": 4,
-                    "startOffset": 30394,
+                    "startOffset": 30450,
                     "endColumn": 52,
-                    "endOffset": 30442
+                    "endOffset": 30498
                 },
                 "from": {
                     "file": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\exploded-aar\\ChatDemoUI3.0\\redpacketlibrary\\unspecified\\res\\values-zh\\values-zh.xml",
@@ -10511,11 +10530,11 @@
             },
             {
                 "to": {
-                    "startLine": 555,
+                    "startLine": 556,
                     "startColumn": 4,
-                    "startOffset": 30447,
+                    "startOffset": 30503,
                     "endColumn": 42,
-                    "endOffset": 30485
+                    "endOffset": 30541
                 },
                 "from": {
                     "file": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\exploded-aar\\ChatDemoUI3.0\\redpacketlibrary\\unspecified\\res\\values-zh\\values-zh.xml",
@@ -10530,11 +10549,11 @@
             },
             {
                 "to": {
-                    "startLine": 556,
+                    "startLine": 557,
                     "startColumn": 4,
-                    "startOffset": 30490,
+                    "startOffset": 30546,
                     "endColumn": 49,
-                    "endOffset": 30535
+                    "endOffset": 30591
                 },
                 "from": {
                     "file": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\exploded-aar\\ChatDemoUI3.0\\redpacketlibrary\\unspecified\\res\\values-zh\\values-zh.xml",
@@ -10549,11 +10568,11 @@
             },
             {
                 "to": {
-                    "startLine": 557,
+                    "startLine": 558,
                     "startColumn": 4,
-                    "startOffset": 30540,
+                    "startOffset": 30596,
                     "endColumn": 51,
-                    "endOffset": 30587
+                    "endOffset": 30643
                 },
                 "from": {
                     "file": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\exploded-aar\\ChatDemoUI3.0\\redpacketlibrary\\unspecified\\res\\values-zh\\values-zh.xml",
@@ -10568,11 +10587,11 @@
             },
             {
                 "to": {
-                    "startLine": 558,
+                    "startLine": 559,
                     "startColumn": 4,
-                    "startOffset": 30592,
+                    "startOffset": 30648,
                     "endColumn": 60,
-                    "endOffset": 30648
+                    "endOffset": 30704
                 },
                 "from": {
                     "file": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\exploded-aar\\ChatDemoUI3.0\\redpacketlibrary\\unspecified\\res\\values-zh\\values-zh.xml",
@@ -10587,11 +10606,11 @@
             },
             {
                 "to": {
-                    "startLine": 559,
+                    "startLine": 560,
                     "startColumn": 4,
-                    "startOffset": 30653,
+                    "startOffset": 30709,
                     "endColumn": 57,
-                    "endOffset": 30706
+                    "endOffset": 30762
                 },
                 "from": {
                     "file": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\res\\values-zh\\umeng_common_strings.xml",
@@ -10606,11 +10625,11 @@
             },
             {
                 "to": {
-                    "startLine": 560,
+                    "startLine": 561,
                     "startColumn": 4,
-                    "startOffset": 30711,
+                    "startOffset": 30767,
                     "endColumn": 59,
-                    "endOffset": 30766
+                    "endOffset": 30822
                 },
                 "from": {
                     "file": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\res\\values-zh\\umeng_common_strings.xml",
@@ -10625,11 +10644,11 @@
             },
             {
                 "to": {
-                    "startLine": 561,
+                    "startLine": 562,
                     "startColumn": 4,
-                    "startOffset": 30771,
+                    "startOffset": 30827,
                     "endColumn": 65,
-                    "endOffset": 30832
+                    "endOffset": 30888
                 },
                 "from": {
                     "file": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\res\\values-zh\\umeng_common_strings.xml",
@@ -10644,11 +10663,11 @@
             },
             {
                 "to": {
-                    "startLine": 562,
+                    "startLine": 563,
                     "startColumn": 4,
-                    "startOffset": 30837,
+                    "startOffset": 30893,
                     "endColumn": 56,
-                    "endOffset": 30889
+                    "endOffset": 30945
                 },
                 "from": {
                     "file": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\res\\values-zh\\umeng_common_strings.xml",
@@ -10663,11 +10682,11 @@
             },
             {
                 "to": {
-                    "startLine": 563,
+                    "startLine": 564,
                     "startColumn": 4,
-                    "startOffset": 30894,
+                    "startOffset": 30950,
                     "endColumn": 61,
-                    "endOffset": 30951
+                    "endOffset": 31007
                 },
                 "from": {
                     "file": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\res\\values-zh\\umeng_common_strings.xml",
@@ -10682,11 +10701,11 @@
             },
             {
                 "to": {
-                    "startLine": 564,
+                    "startLine": 565,
                     "startColumn": 4,
-                    "startOffset": 30956,
+                    "startOffset": 31012,
                     "endColumn": 67,
-                    "endOffset": 31019
+                    "endOffset": 31075
                 },
                 "from": {
                     "file": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\res\\values-zh\\umeng_common_strings.xml",
@@ -10701,11 +10720,11 @@
             },
             {
                 "to": {
-                    "startLine": 565,
+                    "startLine": 566,
                     "startColumn": 4,
-                    "startOffset": 31024,
+                    "startOffset": 31080,
                     "endColumn": 76,
-                    "endOffset": 31096
+                    "endOffset": 31152
                 },
                 "from": {
                     "file": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\res\\values-zh\\umeng_common_strings.xml",
@@ -10720,11 +10739,11 @@
             },
             {
                 "to": {
-                    "startLine": 566,
+                    "startLine": 567,
                     "startColumn": 4,
-                    "startOffset": 31101,
+                    "startOffset": 31157,
                     "endColumn": 71,
-                    "endOffset": 31168
+                    "endOffset": 31224
                 },
                 "from": {
                     "file": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\res\\values-zh\\umeng_common_strings.xml",
@@ -10739,11 +10758,11 @@
             },
             {
                 "to": {
-                    "startLine": 567,
+                    "startLine": 568,
                     "startColumn": 4,
-                    "startOffset": 31173,
+                    "startOffset": 31229,
                     "endColumn": 71,
-                    "endOffset": 31240
+                    "endOffset": 31296
                 },
                 "from": {
                     "file": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\res\\values-zh\\umeng_common_strings.xml",
@@ -10758,11 +10777,11 @@
             },
             {
                 "to": {
-                    "startLine": 568,
+                    "startLine": 569,
                     "startColumn": 4,
-                    "startOffset": 31245,
+                    "startOffset": 31301,
                     "endColumn": 64,
-                    "endOffset": 31305
+                    "endOffset": 31361
                 },
                 "from": {
                     "file": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\res\\values-zh\\umeng_common_strings.xml",
@@ -10777,11 +10796,11 @@
             },
             {
                 "to": {
-                    "startLine": 569,
+                    "startLine": 570,
                     "startColumn": 4,
-                    "startOffset": 31310,
+                    "startOffset": 31366,
                     "endColumn": 71,
-                    "endOffset": 31377
+                    "endOffset": 31433
                 },
                 "from": {
                     "file": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\res\\values-zh\\umeng_common_strings.xml",
@@ -10796,11 +10815,11 @@
             },
             {
                 "to": {
-                    "startLine": 570,
+                    "startLine": 571,
                     "startColumn": 4,
-                    "startOffset": 31382,
+                    "startOffset": 31438,
                     "endColumn": 78,
-                    "endOffset": 31456
+                    "endOffset": 31512
                 },
                 "from": {
                     "file": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\res\\values-zh\\umeng_common_strings.xml",
@@ -10815,11 +10834,11 @@
             },
             {
                 "to": {
-                    "startLine": 571,
+                    "startLine": 572,
                     "startColumn": 4,
-                    "startOffset": 31461,
+                    "startOffset": 31517,
                     "endColumn": 75,
-                    "endOffset": 31532
+                    "endOffset": 31588
                 },
                 "from": {
                     "file": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\res\\values-zh\\umeng_common_strings.xml",
@@ -10834,11 +10853,11 @@
             },
             {
                 "to": {
-                    "startLine": 572,
+                    "startLine": 573,
                     "startColumn": 4,
-                    "startOffset": 31537,
+                    "startOffset": 31593,
                     "endColumn": 73,
-                    "endOffset": 31606
+                    "endOffset": 31662
                 },
                 "from": {
                     "file": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\res\\values-zh\\umeng_common_strings.xml",
@@ -10853,11 +10872,11 @@
             },
             {
                 "to": {
-                    "startLine": 573,
+                    "startLine": 574,
                     "startColumn": 4,
-                    "startOffset": 31611,
+                    "startOffset": 31667,
                     "endColumn": 54,
-                    "endOffset": 31661
+                    "endOffset": 31717
                 },
                 "from": {
                     "file": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\res\\values-zh\\em_strings.xml",
@@ -10872,11 +10891,11 @@
             },
             {
                 "to": {
-                    "startLine": 574,
+                    "startLine": 575,
                     "startColumn": 4,
-                    "startOffset": 31666,
+                    "startOffset": 31722,
                     "endColumn": 63,
-                    "endOffset": 31725
+                    "endOffset": 31781
                 },
                 "from": {
                     "file": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\res\\values-zh\\em_strings.xml",
@@ -10891,11 +10910,11 @@
             },
             {
                 "to": {
-                    "startLine": 575,
+                    "startLine": 576,
                     "startColumn": 4,
-                    "startOffset": 31730,
+                    "startOffset": 31786,
                     "endColumn": 51,
-                    "endOffset": 31777
+                    "endOffset": 31833
                 },
                 "from": {
                     "file": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\res\\values-zh\\em_strings.xml",
@@ -10910,11 +10929,11 @@
             },
             {
                 "to": {
-                    "startLine": 576,
+                    "startLine": 577,
                     "startColumn": 4,
-                    "startOffset": 31782,
+                    "startOffset": 31838,
                     "endColumn": 60,
-                    "endOffset": 31838
+                    "endOffset": 31894
                 },
                 "from": {
                     "file": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\res\\values-zh\\em_strings.xml",
@@ -10929,11 +10948,11 @@
             },
             {
                 "to": {
-                    "startLine": 577,
+                    "startLine": 578,
                     "startColumn": 4,
-                    "startOffset": 31843,
+                    "startOffset": 31899,
                     "endColumn": 55,
-                    "endOffset": 31894
+                    "endOffset": 31950
                 },
                 "from": {
                     "file": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\res\\values-zh\\em_strings.xml",
@@ -10948,11 +10967,11 @@
             },
             {
                 "to": {
-                    "startLine": 578,
+                    "startLine": 579,
                     "startColumn": 4,
-                    "startOffset": 31899,
+                    "startOffset": 31955,
                     "endColumn": 64,
-                    "endOffset": 31959
+                    "endOffset": 32015
                 },
                 "from": {
                     "file": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\res\\values-zh\\em_strings.xml",
@@ -10967,11 +10986,11 @@
             },
             {
                 "to": {
-                    "startLine": 579,
+                    "startLine": 580,
                     "startColumn": 4,
-                    "startOffset": 31964,
+                    "startOffset": 32020,
                     "endColumn": 46,
-                    "endOffset": 32006
+                    "endOffset": 32062
                 },
                 "from": {
                     "file": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\res\\values-zh\\em_strings.xml",
@@ -10986,11 +11005,11 @@
             },
             {
                 "to": {
-                    "startLine": 580,
+                    "startLine": 581,
                     "startColumn": 4,
-                    "startOffset": 32011,
+                    "startOffset": 32067,
                     "endColumn": 55,
-                    "endOffset": 32062
+                    "endOffset": 32118
                 },
                 "from": {
                     "file": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\res\\values-zh\\em_strings.xml",
@@ -11005,11 +11024,11 @@
             },
             {
                 "to": {
-                    "startLine": 581,
+                    "startLine": 582,
                     "startColumn": 4,
-                    "startOffset": 32067,
+                    "startOffset": 32123,
                     "endColumn": 66,
-                    "endOffset": 32129
+                    "endOffset": 32185
                 },
                 "from": {
                     "file": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\exploded-aar\\ChatDemoUI3.0\\redpacketlibrary\\unspecified\\res\\values-zh\\values-zh.xml",
@@ -11024,11 +11043,11 @@
             },
             {
                 "to": {
-                    "startLine": 582,
+                    "startLine": 583,
                     "startColumn": 4,
-                    "startOffset": 32134,
+                    "startOffset": 32190,
                     "endColumn": 83,
-                    "endOffset": 32213
+                    "endOffset": 32269
                 },
                 "from": {
                     "file": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\res\\values-zh\\em_strings.xml",
@@ -11043,11 +11062,11 @@
             },
             {
                 "to": {
-                    "startLine": 583,
+                    "startLine": 584,
                     "startColumn": 4,
-                    "startOffset": 32218,
+                    "startOffset": 32274,
                     "endColumn": 40,
-                    "endOffset": 32254
+                    "endOffset": 32310
                 },
                 "from": {
                     "file": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\res\\values-zh\\em_strings.xml",
@@ -11062,11 +11081,11 @@
             },
             {
                 "to": {
-                    "startLine": 584,
+                    "startLine": 585,
                     "startColumn": 4,
-                    "startOffset": 32259,
+                    "startOffset": 32315,
                     "endColumn": 41,
-                    "endOffset": 32296
+                    "endOffset": 32352
                 },
                 "from": {
                     "file": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\res\\values-zh\\em_strings.xml",
@@ -11081,11 +11100,11 @@
             },
             {
                 "to": {
-                    "startLine": 585,
+                    "startLine": 586,
                     "startColumn": 4,
-                    "startOffset": 32301,
+                    "startOffset": 32357,
                     "endColumn": 59,
-                    "endOffset": 32356
+                    "endOffset": 32412
                 },
                 "from": {
                     "file": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\res\\values-zh\\em_strings.xml",
@@ -11100,11 +11119,11 @@
             },
             {
                 "to": {
-                    "startLine": 586,
+                    "startLine": 587,
                     "startColumn": 4,
-                    "startOffset": 32361,
+                    "startOffset": 32417,
                     "endColumn": 44,
-                    "endOffset": 32401
+                    "endOffset": 32457
                 },
                 "from": {
                     "file": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\exploded-aar\\ChatDemoUI3.0\\redpacketlibrary\\unspecified\\res\\values-zh\\values-zh.xml",
@@ -11119,11 +11138,11 @@
             },
             {
                 "to": {
-                    "startLine": 587,
+                    "startLine": 588,
                     "startColumn": 4,
-                    "startOffset": 32406,
+                    "startOffset": 32462,
                     "endColumn": 44,
-                    "endOffset": 32446
+                    "endOffset": 32502
                 },
                 "from": {
                     "file": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\exploded-aar\\ChatDemoUI3.0\\redpacketlibrary\\unspecified\\res\\values-zh\\values-zh.xml",
@@ -11138,11 +11157,11 @@
             },
             {
                 "to": {
-                    "startLine": 588,
+                    "startLine": 589,
                     "startColumn": 4,
-                    "startOffset": 32451,
+                    "startOffset": 32507,
                     "endColumn": 48,
-                    "endOffset": 32495
+                    "endOffset": 32551
                 },
                 "from": {
                     "file": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\exploded-aar\\ChatDemoUI3.0\\redpacketlibrary\\unspecified\\res\\values-zh\\values-zh.xml",
@@ -11157,11 +11176,11 @@
             },
             {
                 "to": {
-                    "startLine": 589,
+                    "startLine": 590,
                     "startColumn": 4,
-                    "startOffset": 32500,
+                    "startOffset": 32556,
                     "endColumn": 38,
-                    "endOffset": 32534
+                    "endOffset": 32590
                 },
                 "from": {
                     "file": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\res\\values-zh\\em_strings.xml",
@@ -11176,11 +11195,11 @@
             },
             {
                 "to": {
-                    "startLine": 590,
+                    "startLine": 591,
                     "startColumn": 4,
-                    "startOffset": 32539,
+                    "startOffset": 32595,
                     "endColumn": 36,
-                    "endOffset": 32571
+                    "endOffset": 32627
                 },
                 "from": {
                     "file": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\res\\values-zh\\em_strings.xml",
@@ -11195,11 +11214,11 @@
             },
             {
                 "to": {
-                    "startLine": 591,
+                    "startLine": 592,
                     "startColumn": 4,
-                    "startOffset": 32576,
+                    "startOffset": 32632,
                     "endColumn": 45,
-                    "endOffset": 32617
+                    "endOffset": 32673
                 },
                 "from": {
                     "file": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\res\\values-zh\\em_strings.xml",
@@ -11214,11 +11233,11 @@
             },
             {
                 "to": {
-                    "startLine": 592,
+                    "startLine": 593,
                     "startColumn": 4,
-                    "startOffset": 32622,
+                    "startOffset": 32678,
                     "endColumn": 48,
-                    "endOffset": 32666
+                    "endOffset": 32722
                 },
                 "from": {
                     "file": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\exploded-aar\\ChatDemoUI3.0\\redpacketlibrary\\unspecified\\res\\values-zh\\values-zh.xml",
@@ -11233,11 +11252,11 @@
             },
             {
                 "to": {
-                    "startLine": 593,
+                    "startLine": 594,
                     "startColumn": 4,
-                    "startOffset": 32671,
+                    "startOffset": 32727,
                     "endColumn": 51,
-                    "endOffset": 32718
+                    "endOffset": 32774
                 },
                 "from": {
                     "file": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\exploded-aar\\ChatDemoUI3.0\\redpacketlibrary\\unspecified\\res\\values-zh\\values-zh.xml",
@@ -11252,11 +11271,11 @@
             },
             {
                 "to": {
-                    "startLine": 594,
+                    "startLine": 595,
                     "startColumn": 4,
-                    "startOffset": 32723,
+                    "startOffset": 32779,
                     "endColumn": 61,
-                    "endOffset": 32780
+                    "endOffset": 32836
                 },
                 "from": {
                     "file": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\exploded-aar\\ChatDemoUI3.0\\redpacketlibrary\\unspecified\\res\\values-zh\\values-zh.xml",
@@ -11271,11 +11290,11 @@
             },
             {
                 "to": {
-                    "startLine": 595,
+                    "startLine": 596,
                     "startColumn": 4,
-                    "startOffset": 32785,
+                    "startOffset": 32841,
                     "endColumn": 45,
-                    "endOffset": 32826
+                    "endOffset": 32882
                 },
                 "from": {
                     "file": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\exploded-aar\\ChatDemoUI3.0\\redpacketlibrary\\unspecified\\res\\values-zh\\values-zh.xml",
@@ -11290,11 +11309,11 @@
             },
             {
                 "to": {
-                    "startLine": 596,
+                    "startLine": 597,
                     "startColumn": 4,
-                    "startOffset": 32831,
+                    "startOffset": 32887,
                     "endColumn": 62,
-                    "endOffset": 32889
+                    "endOffset": 32945
                 },
                 "from": {
                     "file": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\exploded-aar\\ChatDemoUI3.0\\redpacketlibrary\\unspecified\\res\\values-zh\\values-zh.xml",
@@ -11309,11 +11328,11 @@
             },
             {
                 "to": {
-                    "startLine": 597,
+                    "startLine": 598,
                     "startColumn": 4,
-                    "startOffset": 32894,
+                    "startOffset": 32950,
                     "endColumn": 70,
-                    "endOffset": 32960
+                    "endOffset": 33016
                 },
                 "from": {
                     "file": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\exploded-aar\\ChatDemoUI3.0\\redpacketlibrary\\unspecified\\res\\values-zh\\values-zh.xml",
@@ -11328,11 +11347,11 @@
             },
             {
                 "to": {
-                    "startLine": 598,
+                    "startLine": 599,
                     "startColumn": 4,
-                    "startOffset": 32965,
+                    "startOffset": 33021,
                     "endColumn": 60,
-                    "endOffset": 33021
+                    "endOffset": 33077
                 },
                 "from": {
                     "file": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\exploded-aar\\ChatDemoUI3.0\\redpacketlibrary\\unspecified\\res\\values-zh\\values-zh.xml",
@@ -11347,11 +11366,11 @@
             },
             {
                 "to": {
-                    "startLine": 599,
+                    "startLine": 600,
                     "startColumn": 4,
-                    "startOffset": 33026,
+                    "startOffset": 33082,
                     "endColumn": 60,
-                    "endOffset": 33082
+                    "endOffset": 33138
                 },
                 "from": {
                     "file": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\exploded-aar\\ChatDemoUI3.0\\redpacketlibrary\\unspecified\\res\\values-zh\\values-zh.xml",
@@ -11366,11 +11385,11 @@
             },
             {
                 "to": {
-                    "startLine": 600,
+                    "startLine": 601,
                     "startColumn": 4,
-                    "startOffset": 33087,
+                    "startOffset": 33143,
                     "endColumn": 76,
-                    "endOffset": 33159
+                    "endOffset": 33215
                 },
                 "from": {
                     "file": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\exploded-aar\\ChatDemoUI3.0\\redpacketlibrary\\unspecified\\res\\values-zh\\values-zh.xml",
@@ -11385,11 +11404,11 @@
             },
             {
                 "to": {
-                    "startLine": 601,
+                    "startLine": 602,
                     "startColumn": 4,
-                    "startOffset": 33164,
+                    "startOffset": 33220,
                     "endColumn": 39,
-                    "endOffset": 33199
+                    "endOffset": 33255
                 },
                 "from": {
                     "file": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\exploded-aar\\ChatDemoUI3.0\\redpacketlibrary\\unspecified\\res\\values-zh\\values-zh.xml",
@@ -11404,11 +11423,11 @@
             },
             {
                 "to": {
-                    "startLine": 602,
+                    "startLine": 603,
                     "startColumn": 4,
-                    "startOffset": 33204,
+                    "startOffset": 33260,
                     "endColumn": 49,
-                    "endOffset": 33249
+                    "endOffset": 33305
                 },
                 "from": {
                     "file": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\res\\values-zh\\em_strings.xml",
@@ -11423,11 +11442,11 @@
             },
             {
                 "to": {
-                    "startLine": 603,
+                    "startLine": 604,
                     "startColumn": 4,
-                    "startOffset": 33254,
+                    "startOffset": 33310,
                     "endColumn": 42,
-                    "endOffset": 33292
+                    "endOffset": 33348
                 },
                 "from": {
                     "file": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\exploded-aar\\ChatDemoUI3.0\\redpacketlibrary\\unspecified\\res\\values-zh\\values-zh.xml",
@@ -11442,11 +11461,11 @@
             },
             {
                 "to": {
-                    "startLine": 604,
+                    "startLine": 605,
                     "startColumn": 4,
-                    "startOffset": 33297,
+                    "startOffset": 33353,
                     "endColumn": 54,
-                    "endOffset": 33347
+                    "endOffset": 33403
                 },
                 "from": {
                     "file": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\res\\values-zh\\em_strings.xml",
@@ -11461,11 +11480,11 @@
             },
             {
                 "to": {
-                    "startLine": 605,
+                    "startLine": 606,
                     "startColumn": 4,
-                    "startOffset": 33352,
+                    "startOffset": 33408,
                     "endColumn": 52,
-                    "endOffset": 33400
+                    "endOffset": 33456
                 },
                 "from": {
                     "file": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\exploded-aar\\ChatDemoUI3.0\\redpacketlibrary\\unspecified\\res\\values-zh\\values-zh.xml",

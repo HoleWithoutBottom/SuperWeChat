@@ -109,4 +109,5 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="User_name_cannot_be_modify">微信号不能修改</string>
+    <string name="toast_nick_not_notify">nick not  notify</string>
 </resources>
