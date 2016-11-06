@@ -544,6 +544,7 @@
     <string name="Upload_the_log">Uploading the log</string>
     <string name="User_already_exists">User already existed!</string>
     <string name="User_name_cannot_be_empty">User name cannot be empty!</string>
+    <string name="User_name_cannot_be_modify">微信号不能修改</string>
     <string name="User_nickName_cannot_be_empty">NickName cannot be empty!</string>
     <string name="Version_number_is_wrong">Version number is wrong</string>
     <string name="Video_footage">Video record</string>

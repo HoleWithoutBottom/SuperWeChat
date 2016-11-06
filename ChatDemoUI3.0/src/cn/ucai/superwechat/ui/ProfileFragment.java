@@ -76,6 +76,7 @@ public class ProfileFragment extends Fragment {
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.layout_profile_view:
+                MFGT.startActivity(getActivity(), new Intent(getActivity(),UserProfileActivity.class));
                 break;
             case R.id.tv_profile_album:
                 break;
@@ -88,8 +89,7 @@ public class ProfileFragment extends Fragment {
             case R.id.tv_profile_smail:
                 break;
             case R.id.tv_profile_setting:
-                Intent intent=new Intent(getActivity(),SettingsActivity.class);
-                MFGT.startActivity(getActivity(),intent);
+                MFGT.startActivity(getActivity(),new Intent(getActivity(),SettingsActivity.class));
                 break;
         }
     }
