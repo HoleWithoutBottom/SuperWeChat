@@ -32,8 +32,6 @@ import com.hyphenate.chat.EMOptions;
 import com.hyphenate.easeui.widget.EaseSwitchButton;
 import com.hyphenate.util.EMLog;
 
-import butterknife.BindView;
-import butterknife.ButterKnife;
 import cn.ucai.superwechat.R;
 import cn.ucai.superwechat.SuperWeChatHelper;
 import cn.ucai.superwechat.SuperWeChatModel;

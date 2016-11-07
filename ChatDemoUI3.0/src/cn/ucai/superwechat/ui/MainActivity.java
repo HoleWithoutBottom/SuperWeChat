@@ -1,6 +1,6 @@
 /**
  * Copyright (C) 2016 Hyphenate Inc. All rights reserved.
- * <p/>
+ * <p>
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -32,7 +32,9 @@ import android.support.v4.view.ViewPager;
 import android.view.KeyEvent;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -53,9 +55,8 @@ import com.umeng.update.UmengUpdateAgent;
 
 import java.util.List;
 
-import butterknife.BindView;
+import butterknife.Bind;
 import butterknife.ButterKnife;
-import butterknife.OnClick;
 import cn.ucai.superwechat.Constant;
 import cn.ucai.superwechat.R;
 import cn.ucai.superwechat.SuperWeChatHelper;
@@ -66,13 +67,12 @@ import cn.ucai.superwechat.dialog.TitleMenu.ActionItem;
 import cn.ucai.superwechat.dialog.TitleMenu.TitlePopup;
 import cn.ucai.superwechat.runtimepermissions.PermissionsManager;
 import cn.ucai.superwechat.runtimepermissions.PermissionsResultAction;
-import cn.ucai.superwechat.utils.L;
 import cn.ucai.superwechat.utils.MFGT;
 import cn.ucai.superwechat.widget.DMTabHost;
 import cn.ucai.superwechat.widget.MFViewPager;
 
 @SuppressLint("NewApi")
-public class MainActivity extends BaseActivity implements DMTabHost.OnCheckedChangeListener,ViewPager.OnPageChangeListener{
+public class MainActivity extends BaseActivity implements DMTabHost.OnCheckedChangeListener, ViewPager.OnPageChangeListener {
 
     protected static final String TAG = "MainActivity";
     // textview for unread message count
@@ -88,19 +88,25 @@ public class MainActivity extends BaseActivity implements DMTabHost.OnCheckedCha
     private int currentTabIndex;*/
     // user logged into another device
     public boolean isConflict = false;
-    @BindView(R.id.text_left)
-    TextView textLeft;
-    @BindView(R.id.img_right)
-    ImageView imgRight;
-    @BindView(R.id.layout_viewpager)
-    MFViewPager layoutViewpager;
-    @BindView(R.id.layout_tabHost)
-    DMTabHost layoutTabHost;
     MainTabAdpter adapter;
+    @Bind(R.id.text_left)
+    TextView textLeft;
+    @Bind(R.id.img_back)
+    ImageView imgBack;
+    @Bind(R.id.text_title)
+    TextView textTitle;
+    @Bind(R.id.img_right)
+    ImageView imgRight;
+
+    @Bind(R.id.layout_viewpager)
+    MFViewPager layoutViewpager;
+    @Bind(R.id.layout_tabHost)
+    DMTabHost layoutTabHost;
     // user account was removed
     private boolean isCurrentAccountRemoved = false;
 
     TitlePopup mTitlePopup;
+
     /**
      * check if current user account was remove
      */
@@ -128,7 +134,7 @@ public class MainActivity extends BaseActivity implements DMTabHost.OnCheckedCha
 
         inviteMessgeDao = new InviteMessgeDao(this);
         UserDao userDao = new UserDao(this);
-		/*conversationListFragment = new ConversationListFragment();
+        /*conversationListFragment = new ConversationListFragment();
 		contactListFragment = new ContactListFragment();
 		SettingsFragment settingFragment = new SettingsFragment();
 		fragments = new Fragment[] { conversationListFragment, contactListFragment, settingFragment};
@@ -219,34 +225,35 @@ public class MainActivity extends BaseActivity implements DMTabHost.OnCheckedCha
     private void initView() {
         textLeft.setVisibility(View.VISIBLE);
         imgRight.setVisibility(View.VISIBLE);
-        adapter=new MainTabAdpter(getSupportFragmentManager());
+        adapter = new MainTabAdpter(getSupportFragmentManager());
         layoutViewpager.setAdapter(adapter);
         layoutViewpager.setOffscreenPageLimit(4);
         adapter.clear();
-        adapter.addFragment(new ConversationListFragment(),getString(R.string.app_name));
-        adapter.addFragment(new ContactListFragment(),getString(R.string.contacts));
-        adapter.addFragment(new DiscoverFragment(),getString(R.string.discover));
-        adapter.addFragment(new ProfileFragment(),getString(R.string.me));
+        adapter.addFragment(new ConversationListFragment(), getString(R.string.app_name));
+        adapter.addFragment(new ContactListFragment(), getString(R.string.contacts));
+        adapter.addFragment(new DiscoverFragment(), getString(R.string.discover));
+        adapter.addFragment(new ProfileFragment(), getString(R.string.me));
         adapter.notifyDataSetChanged();
         layoutTabHost.setChecked(0);
         // 添加设置监听
         layoutTabHost.setOnCheckedChangeListener(this);
         layoutViewpager.setOnPageChangeListener(this);
-        mTitlePopup=new TitlePopup(this, ViewGroup.LayoutParams.WRAP_CONTENT,ViewGroup.LayoutParams.WRAP_CONTENT);
-        mTitlePopup.addAction(new ActionItem(this,R.string.menu_groupchat,R.drawable.icon_menu_group));
-        mTitlePopup.addAction(new ActionItem(this,R.string.menu_addfriend,R.drawable.icon_menu_addfriend));
-        mTitlePopup.addAction(new ActionItem(this,R.string.menu_qrcode,R.drawable.icon_menu_sao));
-        mTitlePopup.addAction(new ActionItem(this,R.string.menu_money,R.drawable.icon_menu_money));
+        mTitlePopup = new TitlePopup(this, ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT);
+        mTitlePopup.addAction(new ActionItem(this, R.string.menu_groupchat, R.drawable.icon_menu_group));
+        mTitlePopup.addAction(new ActionItem(this, R.string.menu_addfriend, R.drawable.icon_menu_addfriend));
+        mTitlePopup.addAction(new ActionItem(this, R.string.menu_qrcode, R.drawable.icon_menu_sao));
+        mTitlePopup.addAction(new ActionItem(this, R.string.menu_money, R.drawable.icon_menu_money));
         mTitlePopup.setItemOnClickListener(mOnItemOnClickListener);
     }
-    TitlePopup.OnItemOnClickListener mOnItemOnClickListener=new TitlePopup.OnItemOnClickListener() {
+
+    TitlePopup.OnItemOnClickListener mOnItemOnClickListener = new TitlePopup.OnItemOnClickListener() {
         @Override
         public void onItemClick(ActionItem item, int position) {
-            switch (position){
+            switch (position) {
                 case 0:
                     break;
                 case 1:
-                    MFGT.startActivity(MainActivity.this,new Intent(MainActivity.this,AddContactActivity.class));
+                    MFGT.startActivity(MainActivity.this, new Intent(MainActivity.this, AddContactActivity.class));
                     break;
                 case 2:
                     break;
@@ -356,7 +363,7 @@ public class MainActivity extends BaseActivity implements DMTabHost.OnCheckedCha
 
     @Override
     public void onCheckedChange(int checkedPosition, boolean byUser) {
-        layoutViewpager.setCurrentItem(checkedPosition,false);
+        layoutViewpager.setCurrentItem(checkedPosition, false);
     }
 
     @Override

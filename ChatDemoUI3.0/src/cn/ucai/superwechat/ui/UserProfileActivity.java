@@ -1,6 +1,5 @@
 package cn.ucai.superwechat.ui;
 
-import android.app.AlertDialog;
 import android.app.AlertDialog.Builder;
 import android.app.ProgressDialog;
 import android.content.DialogInterface;
@@ -14,8 +13,10 @@ import android.provider.MediaStore;
 import android.text.TextUtils;
 import android.view.View;
 import android.view.View.OnClickListener;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -30,11 +31,10 @@ import com.hyphenate.easeui.utils.EaseUserUtils;
 import java.io.BufferedOutputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
-import butterknife.BindView;
+import butterknife.Bind;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 import cn.ucai.superwechat.I;
@@ -43,29 +43,58 @@ import cn.ucai.superwechat.SuperWeChatHelper;
 import cn.ucai.superwechat.bean.Result;
 import cn.ucai.superwechat.data.NetDao;
 import cn.ucai.superwechat.data.OkHttpUtils;
-import cn.ucai.superwechat.db.SuperWeChatDBManager;
-import cn.ucai.superwechat.db.UserDao;
 import cn.ucai.superwechat.utils.L;
 import cn.ucai.superwechat.utils.MFGT;
 import cn.ucai.superwechat.utils.ResultUtils;
 
 public class UserProfileActivity extends BaseActivity implements OnClickListener {
-    private static final String TAG=UserProfileActivity.class.getSimpleName();
+    private static final String TAG = UserProfileActivity.class.getSimpleName();
     private static final int REQUESTCODE_PICK = 1;
     private static final int REQUESTCODE_CUTTING = 2;
-    @BindView(R.id.img_back)
+    @Bind(R.id.text_left)
+    TextView textLeft;
+    @Bind(R.id.img_back)
     ImageView imgBack;
-    @BindView(R.id.text_title)
+    @Bind(R.id.text_title)
     TextView textTitle;
-    @BindView(R.id.iv_user_avatar)
+    @Bind(R.id.img_right)
+    ImageView imgRight;
+    @Bind(R.id.btn_send)
+    Button btnSend;
+    @Bind(R.id.iv_user_avatar)
     ImageView ivUserAvatar;
-    @BindView(R.id.tv_user_nick)
+    @Bind(R.id.rl_user_avatar)
+    RelativeLayout rlUserAvatar;
+    @Bind(R.id.tv_user_nick)
     TextView tvUserNick;
-    @BindView(R.id.tv_user_wechat_No)
+    @Bind(R.id.layout_user_nick)
+    LinearLayout layoutUserNick;
+    @Bind(R.id.tv_user_wechat_No)
     TextView tvUserWechatNo;
+    @Bind(R.id.layout_user_wechat_No)
+    LinearLayout layoutUserWechatNo;
+    @Bind(R.id.iv_user_qrcode)
+    ImageView ivUserQrcode;
+    @Bind(R.id.layout_user_qrcode)
+    LinearLayout layoutUserQrcode;
+    @Bind(R.id.layout_user_address)
+    LinearLayout layoutUserAddress;
+    @Bind(R.id.tv_user_sex)
+    TextView tvUserSex;
+    @Bind(R.id.layout_user_sex)
+    LinearLayout layoutUserSex;
+    @Bind(R.id.tv_user_area)
+    TextView tvUserArea;
+    @Bind(R.id.layout_user_area)
+    LinearLayout layoutUserArea;
+    @Bind(R.id.tv_user_sign)
+    TextView tvUserSign;
+    @Bind(R.id.layout_user_sign)
+    LinearLayout layoutUserSign;
+
     private ProgressDialog dialog;
     private RelativeLayout rlNickName;
-    User user=null;
+    User user = null;
 
 
     @Override
@@ -85,10 +114,11 @@ public class UserProfileActivity extends BaseActivity implements OnClickListener
     }
 
     private void initListener() {
-        EaseUserUtils.setCurrentAppUserAvatar(this,ivUserAvatar);
+        EaseUserUtils.setCurrentAppUserAvatar(this, ivUserAvatar);
         EaseUserUtils.setCurrentAppUserNick(tvUserNick);
         EaseUserUtils.setCurrentAppUserName(tvUserWechatNo);
     }
+
     public void asyncFetchUserInfo(String username) {
         SuperWeChatHelper.getInstance().getUserProfileManager().asyncGetUserInfo(username, new EMValueCallBack<EaseUser>() {
 
@@ -161,7 +191,7 @@ public class UserProfileActivity extends BaseActivity implements OnClickListener
                         }
                     });
                 } else {
-                   updateAppNick(nickName);
+                    updateAppNick(nickName);
                     runOnUiThread(new Runnable() {
                         @Override
                         public void run() {
@@ -180,17 +210,17 @@ public class UserProfileActivity extends BaseActivity implements OnClickListener
         NetDao.updateUserNick(this, user.getMUserName(), nickName, new OkHttpUtils.OnCompleteListener<String>() {
             @Override
             public void onSuccess(String s) {
-                if (s!=null){
+                if (s != null) {
                     Result result = ResultUtils.getResultFromJson(s, User.class);
-                    if (result!=null && result.isRetMsg()){
+                    if (result != null && result.isRetMsg()) {
                         User u = (User) result.getRetData();
                         updateLocalUser(u);
-                    }else {
+                    } else {
                         Toast.makeText(UserProfileActivity.this, getString(R.string.toast_updatenick_fail), Toast.LENGTH_SHORT)
                                 .show();
                         dialog.dismiss();
                     }
-                }else {
+                } else {
                     Toast.makeText(UserProfileActivity.this, getString(R.string.toast_updatenick_fail), Toast.LENGTH_SHORT)
                             .show();
                     dialog.dismiss();
@@ -199,7 +229,7 @@ public class UserProfileActivity extends BaseActivity implements OnClickListener
 
             @Override
             public void onError(String error) {
-                L.e(TAG,"error="+error);
+                L.e(TAG, "error=" + error);
                 Toast.makeText(UserProfileActivity.this, getString(R.string.toast_updatenick_fail), Toast.LENGTH_SHORT)
                         .show();
                 dialog.dismiss();
@@ -240,17 +270,17 @@ public class UserProfileActivity extends BaseActivity implements OnClickListener
         NetDao.updateUserAvatar(this, user.getMUserName(), file, new OkHttpUtils.OnCompleteListener<String>() {
             @Override
             public void onSuccess(String s) {
-                if (s!=null){
+                if (s != null) {
                     Result result = ResultUtils.getResultFromJson(s, User.class);
-                    if (result!=null && result.isRetMsg()){
+                    if (result != null && result.isRetMsg()) {
                         User u = (User) result.getRetData();
                         updateLocalUser(u);
                         setPicToView(picData);
-                    }else {
+                    } else {
                         dialog.dismiss();
                         Toast.makeText(UserProfileActivity.this, R.string.toast_updatephoto_fail, Toast.LENGTH_SHORT).show();
                     }
-                }else {
+                } else {
                     dialog.dismiss();
                     Toast.makeText(UserProfileActivity.this, R.string.toast_updatephoto_fail, Toast.LENGTH_SHORT).show();
                 }
@@ -258,7 +288,7 @@ public class UserProfileActivity extends BaseActivity implements OnClickListener
 
             @Override
             public void onError(String error) {
-                L.e(TAG,"error+"+error);
+                L.e(TAG, "error+" + error);
                 dialog.dismiss();
                 Toast.makeText(UserProfileActivity.this, R.string.toast_updatephoto_fail, Toast.LENGTH_SHORT).show();
             }
@@ -267,16 +297,16 @@ public class UserProfileActivity extends BaseActivity implements OnClickListener
 
     private File saveBitmapFile(Intent picData) {
         Bundle extras = picData.getExtras();
-        if (extras!=null){
+        if (extras != null) {
             Bitmap bitmap = extras.getParcelable("data");
-            String path = EaseImageUtils.getImagePath(user.getMUserName()+ I.AVATAR_SUFFIX_JPG);
-            File file=new File(path);
+            String path = EaseImageUtils.getImagePath(user.getMUserName() + I.AVATAR_SUFFIX_JPG);
+            File file = new File(path);
             try {
-                BufferedOutputStream bf=new BufferedOutputStream(new FileOutputStream(file));
-                bitmap.compress(Bitmap.CompressFormat.PNG,100,bf);
+                BufferedOutputStream bf = new BufferedOutputStream(new FileOutputStream(file));
+                bitmap.compress(Bitmap.CompressFormat.PNG, 100, bf);
                 bf.flush();
                 bf.close();
-            }  catch (IOException e) {
+            } catch (IOException e) {
                 e.printStackTrace();
             }
             return file;
@@ -370,7 +400,7 @@ public class UserProfileActivity extends BaseActivity implements OnClickListener
                                     Toast.makeText(UserProfileActivity.this, getString(R.string.toast_nick_not_isnull), Toast.LENGTH_SHORT).show();
                                     return;
                                 }
-                                if (nickString.equals(user.getMUserNick())){
+                                if (nickString.equals(user.getMUserNick())) {
                                     Toast.makeText(UserProfileActivity.this, R.string.toast_nick_not_notify, Toast.LENGTH_SHORT).show();
                                     return;
                                 }

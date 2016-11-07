@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\redpacketlibrary\src\main\shaders"/></dataSet><dataSet config="debug"><source path="D:\AndroidWorkSpace\SuperWeChat\ChatDemoUI3.0\redpacketlibrary\build-types\debug\shaders"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="D:\Android-WorkSpace\SuperWeChat\ChatDemoUI3.0\redpacketlibrary\src\main\shaders"/></dataSet><dataSet config="debug"><source path="D:\Android-WorkSpace\SuperWeChat\ChatDemoUI3.0\redpacketlibrary\build-types\debug\shaders"/></dataSet></merger>

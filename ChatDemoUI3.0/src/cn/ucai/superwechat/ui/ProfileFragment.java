@@ -14,7 +14,7 @@ import android.widget.TextView;
 import com.easemob.redpacketui.utils.RedPacketUtil;
 import com.hyphenate.easeui.utils.EaseUserUtils;
 
-import butterknife.BindView;
+import butterknife.Bind;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 import cn.ucai.superwechat.Constant;
@@ -25,25 +25,23 @@ import cn.ucai.superwechat.utils.MFGT;
  * A simple {@link Fragment} subclass.
  */
 public class ProfileFragment extends Fragment {
-
-
-    @BindView(R.id.iv_profile_avatar)
+    @Bind(R.id.iv_profile_avatar)
     ImageView ivProfileAvatar;
-    @BindView(R.id.tv_profile_nick)
+    @Bind(R.id.tv_profile_nick)
     TextView tvProfileNick;
-    @BindView(R.id.tv_profile_username)
+    @Bind(R.id.tv_profile_username)
     TextView tvProfileUsername;
-    @BindView(R.id.layout_profile_view)
+    @Bind(R.id.layout_profile_view)
     RelativeLayout layoutProfileView;
-    @BindView(R.id.tv_profile_album)
+    @Bind(R.id.tv_profile_album)
     TextView tvProfileAlbum;
-    @BindView(R.id.tv_profile_collect)
+    @Bind(R.id.tv_profile_collect)
     TextView tvProfileCollect;
-    @BindView(R.id.tv_profile_money)
+    @Bind(R.id.tv_profile_money)
     TextView tvProfileMoney;
-    @BindView(R.id.tv_profile_smail)
+    @Bind(R.id.tv_profile_smail)
     TextView tvProfileSmail;
-    @BindView(R.id.tv_profile_setting)
+    @Bind(R.id.tv_profile_setting)
     TextView tvProfileSetting;
 
     public ProfileFragment() {
@@ -67,7 +65,7 @@ public class ProfileFragment extends Fragment {
     }
 
     private void setUserInfo() {
-        EaseUserUtils.setCurrentAppUserAvatar(getActivity(),ivProfileAvatar);
+        EaseUserUtils.setCurrentAppUserAvatar(getActivity(), ivProfileAvatar);
         EaseUserUtils.setCurrentAppUserNick(tvProfileNick);
         EaseUserUtils.setCurrentAppUserNameWithNo(tvProfileUsername);
     }
@@ -76,7 +74,7 @@ public class ProfileFragment extends Fragment {
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.layout_profile_view:
-                MFGT.startActivity(getActivity(), new Intent(getActivity(),UserProfileActivity.class));
+                MFGT.startActivity(getActivity(), new Intent(getActivity(), UserProfileActivity.class));
                 break;
             case R.id.tv_profile_album:
                 break;
@@ -89,16 +87,17 @@ public class ProfileFragment extends Fragment {
             case R.id.tv_profile_smail:
                 break;
             case R.id.tv_profile_setting:
-                MFGT.startActivity(getActivity(),new Intent(getActivity(),SettingsActivity.class));
+                MFGT.startActivity(getActivity(), new Intent(getActivity(), SettingsActivity.class));
                 break;
         }
     }
+
     @Override
     public void onSaveInstanceState(Bundle outState) {
         super.onSaveInstanceState(outState);
-        if(((MainActivity)getActivity()).isConflict){
+        if (((MainActivity) getActivity()).isConflict) {
             outState.putBoolean("isConflict", true);
-        }else if(((MainActivity)getActivity()).getCurrentAccountRemoved()){
+        } else if (((MainActivity) getActivity()).getCurrentAccountRemoved()) {
             outState.putBoolean(Constant.ACCOUNT_REMOVED, true);
         }
     }
@@ -107,5 +106,11 @@ public class ProfileFragment extends Fragment {
     public void onResume() {
         super.onResume();
         setUserInfo();
+    }
+
+    @Override
+    public void onDestroyView() {
+        super.onDestroyView();
+        ButterKnife.unbind(this);
     }
 }

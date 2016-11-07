@@ -30,7 +30,6 @@ MERGED from [com.android.support:animated-vector-drawable:23.3.0] D:\Android-Wor
 MERGED from [com.android.support:support-vector-drawable:23.3.0] D:\Android-WorkSpace\SuperWeChat\ChatDemoUI3.0\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.3.0\AndroidManifest.xml:5:5-43
 MERGED from [com.android.support:support-v4:23.3.0] D:\Android-WorkSpace\SuperWeChat\ChatDemoUI3.0\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:support-v4:23.3.0] D:\Android-WorkSpace\SuperWeChat\ChatDemoUI3.0\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\AndroidManifest.xml:20:5-43
-MERGED from [com.jakewharton:butterknife:8.4.0] D:\Android-WorkSpace\SuperWeChat\ChatDemoUI3.0\build\intermediates\exploded-aar\com.jakewharton\butterknife\8.4.0\AndroidManifest.xml:5:5-43
 MERGED from [com.android.support:support-v4:23.3.0] D:\Android-WorkSpace\SuperWeChat\ChatDemoUI3.0\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\AndroidManifest.xml:20:5-43
 	tools:overrideLibrary
 		ADDED from D:\Android-WorkSpace\SuperWeChat\ChatDemoUI3.0\AndroidManifest.xml:11:9-56

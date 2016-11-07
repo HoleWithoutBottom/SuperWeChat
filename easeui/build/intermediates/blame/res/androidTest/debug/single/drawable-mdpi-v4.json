@@ -1,6 +1,14 @@
 [
     {
+        "merged": "D:\\Android-WorkSpace\\SuperWeChat\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\default_hd_avatar.png",
+        "source": "D:\\Android-WorkSpace\\SuperWeChat\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\default_hd_avatar.png"
+    },
+    {
         "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\ic_launcher.png",
         "source": "D:\\AndroidWorkSpace\\SuperWeChat\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Android-WorkSpace\\SuperWeChat\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\ic_launcher.png",
+        "source": "D:\\Android-WorkSpace\\SuperWeChat\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\ic_launcher.png"
     }
 ]
