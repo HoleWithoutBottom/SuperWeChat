@@ -1,10 +1,10 @@
 [
     {
-        "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4\\em_empty_photo.png",
-        "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\res\\drawable-nodpi\\em_empty_photo.png"
+        "merged": "D:\\Android-WorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4\\default_nor_avatar.png",
+        "source": "D:\\Android-WorkSpace\\SuperWeChat\\ChatDemoUI3.0\\res\\drawable-nodpi\\default_nor_avatar.png"
     },
     {
-        "merged": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4\\default_nor_avatar.png",
-        "source": "D:\\AndroidWorkSpace\\SuperWeChat\\ChatDemoUI3.0\\res\\drawable-nodpi\\default_nor_avatar.png"
+        "merged": "D:\\Android-WorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4\\em_empty_photo.png",
+        "source": "D:\\Android-WorkSpace\\SuperWeChat\\ChatDemoUI3.0\\res\\drawable-nodpi\\em_empty_photo.png"
     }
 ]
