@@ -6,35 +6,7 @@
     android:orientation="vertical" >
 
 
-    <RelativeLayout
-        android:id="@+id/title"
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/height_top_bar"
-        android:background="@color/colorPrimary"
-        android:gravity="center_vertical">
-
-        <include layout="@layout/ease_commom_back_btn" />
-
-        <TextView
-            android:id="@+id/add_list_friends"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerInParent="true"
-            android:textColor="#fff"
-            android:textSize="18sp" />
-        
-        <Button
-            android:id="@+id/search"
-            android:layout_width="54dp"
-            android:layout_height="match_parent"
-            android:layout_alignParentRight="true"
-            android:layout_centerVertical="true"
-            android:background="@drawable/ease_common_tab_bg"
-            android:onClick="searchContact"
-            android:text="@string/button_search"
-            android:textColor="#fff"
-            android:textSize="16sp" />
-    </RelativeLayout>
+    <include layout="@layout/view_layout_title"/>
 
     <EditText
         android:id="@+id/edit_note"

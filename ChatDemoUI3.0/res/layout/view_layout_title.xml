@@ -46,4 +46,12 @@
         android:layout_centerVertical="true"
         android:visibility="gone"
         android:text="@string/addcontact_send_msg"/>
+    <TextView
+        android:id="@+id/tv_right"
+        style="@style/txt_titleStyle1"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:visibility="gone"
+        android:text="@string/search"/>
 </RelativeLayout>
