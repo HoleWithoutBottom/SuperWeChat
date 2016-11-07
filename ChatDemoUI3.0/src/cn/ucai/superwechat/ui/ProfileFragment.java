@@ -14,7 +14,6 @@ import android.widget.TextView;
 import com.easemob.redpacketui.utils.RedPacketUtil;
 import com.hyphenate.easeui.utils.EaseUserUtils;
 
-import butterknife.Bind;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 import cn.ucai.superwechat.Constant;
@@ -24,35 +23,48 @@ import cn.ucai.superwechat.utils.MFGT;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class ProfileFragment extends Fragment {
-    @Bind(R.id.iv_profile_avatar)
+public class ProfileFragment extends Fragment implements View.OnClickListener{
     ImageView ivProfileAvatar;
-    @Bind(R.id.tv_profile_nick)
     TextView tvProfileNick;
-    @Bind(R.id.tv_profile_username)
     TextView tvProfileUsername;
-    @Bind(R.id.layout_profile_view)
     RelativeLayout layoutProfileView;
-    @Bind(R.id.tv_profile_album)
     TextView tvProfileAlbum;
-    @Bind(R.id.tv_profile_collect)
     TextView tvProfileCollect;
-    @Bind(R.id.tv_profile_money)
     TextView tvProfileMoney;
-    @Bind(R.id.tv_profile_smail)
     TextView tvProfileSmail;
-    @Bind(R.id.tv_profile_setting)
     TextView tvProfileSetting;
-
+    View view;
     public ProfileFragment() {
     }
 
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_profile, container, false);
-        ButterKnife.bind(this, view);
+        view = inflater.inflate(R.layout.fragment_profile, container, false);
+        initView();
+        setListener();
         return view;
+    }
+
+    private void setListener() {
+        layoutProfileView.setOnClickListener(this);
+        tvProfileAlbum.setOnClickListener(this);
+        tvProfileCollect.setOnClickListener(this);
+        tvProfileMoney.setOnClickListener(this);
+        tvProfileSmail.setOnClickListener(this);
+        tvProfileSetting.setOnClickListener(this);
+    }
+
+    private void initView() {
+        ivProfileAvatar = (ImageView) view.findViewById(R.id.iv_profile_avatar);
+        tvProfileNick= (TextView) view.findViewById(R.id.tv_profile_nick);
+        tvProfileUsername = (TextView) view.findViewById(R.id.tv_profile_username);
+        layoutProfileView = (RelativeLayout) view.findViewById(R.id.layout_profile_view);
+        tvProfileAlbum = (TextView) view.findViewById(R.id.tv_profile_album);
+        tvProfileCollect = (TextView) view.findViewById(R.id.tv_profile_collect);
+        tvProfileMoney = (TextView) view.findViewById(R.id.tv_profile_money);
+        tvProfileSmail= (TextView) view.findViewById(R.id.tv_profile_smail);
+        tvProfileSetting = (TextView) view.findViewById(R.id.tv_profile_setting);
     }
 
     @Override
@@ -70,7 +82,7 @@ public class ProfileFragment extends Fragment {
         EaseUserUtils.setCurrentAppUserNameWithNo(tvProfileUsername);
     }
 
-    @OnClick({R.id.layout_profile_view, R.id.tv_profile_album, R.id.tv_profile_collect, R.id.tv_profile_money, R.id.tv_profile_smail, R.id.tv_profile_setting})
+    @Override
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.layout_profile_view:

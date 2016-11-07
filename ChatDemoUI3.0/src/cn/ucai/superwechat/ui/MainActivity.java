@@ -1,6 +1,6 @@
 /**
  * Copyright (C) 2016 Hyphenate Inc. All rights reserved.
- * <p>
+ * <p/>
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -71,7 +71,6 @@ import cn.ucai.superwechat.utils.MFGT;
 import cn.ucai.superwechat.widget.DMTabHost;
 import cn.ucai.superwechat.widget.MFViewPager;
 
-@SuppressLint("NewApi")
 public class MainActivity extends BaseActivity implements DMTabHost.OnCheckedChangeListener, ViewPager.OnPageChangeListener {
 
     protected static final String TAG = "MainActivity";
@@ -89,19 +88,16 @@ public class MainActivity extends BaseActivity implements DMTabHost.OnCheckedCha
     // user logged into another device
     public boolean isConflict = false;
     MainTabAdpter adapter;
-    @Bind(R.id.text_left)
     TextView textLeft;
-    @Bind(R.id.img_back)
     ImageView imgBack;
-    @Bind(R.id.text_title)
     TextView textTitle;
-    @Bind(R.id.img_right)
     ImageView imgRight;
 
-    @Bind(R.id.layout_viewpager)
     MFViewPager layoutViewpager;
-    @Bind(R.id.layout_tabHost)
+
     DMTabHost layoutTabHost;
+
+    RelativeLayout mainLayout;
     // user account was removed
     private boolean isCurrentAccountRemoved = false;
 
@@ -123,19 +119,16 @@ public class MainActivity extends BaseActivity implements DMTabHost.OnCheckedCha
         // 检查登陆
         checkLogined(savedInstanceState);
         setContentView(R.layout.em_activity_main);
-        ButterKnife.bind(this);
         // runtime permission for android 6.0, just require all permissions here for simple
         requestPermissions();
         initView();
         umeng();
         // 检查账号
         checkedAccount();
-
-
         inviteMessgeDao = new InviteMessgeDao(this);
         UserDao userDao = new UserDao(this);
         /*conversationListFragment = new ConversationListFragment();
-		contactListFragment = new ContactListFragment();
+        contactListFragment = new ContactListFragment();
 		SettingsFragment settingFragment = new SettingsFragment();
 		fragments = new Fragment[] { conversationListFragment, contactListFragment, settingFragment};
 
@@ -223,6 +216,16 @@ public class MainActivity extends BaseActivity implements DMTabHost.OnCheckedCha
      * init views
      */
     private void initView() {
+        textLeft = (TextView) findViewById(R.id.text_left);
+        imgBack = (ImageView) findViewById(R.id.img_back);
+        textTitle = (TextView) findViewById(R.id.text_title);
+        imgRight = (ImageView) findViewById(R.id.img_right);
+
+        layoutViewpager = (MFViewPager) findViewById(R.id.layout_viewpager);
+        layoutTabHost = (DMTabHost) findViewById(R.id.layout_tabHost);
+
+        mainLayout= (RelativeLayout) findViewById(R.id.mainLayout);
+
         textLeft.setVisibility(View.VISIBLE);
         imgRight.setVisibility(View.VISIBLE);
         adapter = new MainTabAdpter(getSupportFragmentManager());
@@ -306,7 +309,7 @@ public class MainActivity extends BaseActivity implements DMTabHost.OnCheckedCha
             public void run() {
                 // refresh unread count
                 updateUnreadLabel();
-				/*if (currentTabIndex == 0) {
+                /*if (currentTabIndex == 0) {
 					// refresh conversation list
 					if (conversationListFragment != null) {
 						conversationListFragment.refresh();

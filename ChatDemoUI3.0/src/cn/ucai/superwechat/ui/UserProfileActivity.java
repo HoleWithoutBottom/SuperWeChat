@@ -47,49 +47,28 @@ import cn.ucai.superwechat.utils.L;
 import cn.ucai.superwechat.utils.MFGT;
 import cn.ucai.superwechat.utils.ResultUtils;
 
-public class UserProfileActivity extends BaseActivity implements OnClickListener {
+public class UserProfileActivity extends BaseActivity implements View.OnClickListener {
     private static final String TAG = UserProfileActivity.class.getSimpleName();
     private static final int REQUESTCODE_PICK = 1;
     private static final int REQUESTCODE_CUTTING = 2;
-    @Bind(R.id.text_left)
     TextView textLeft;
-    @Bind(R.id.img_back)
     ImageView imgBack;
-    @Bind(R.id.text_title)
     TextView textTitle;
-    @Bind(R.id.img_right)
     ImageView imgRight;
-    @Bind(R.id.btn_send)
-    Button btnSend;
-    @Bind(R.id.iv_user_avatar)
     ImageView ivUserAvatar;
-    @Bind(R.id.rl_user_avatar)
     RelativeLayout rlUserAvatar;
-    @Bind(R.id.tv_user_nick)
     TextView tvUserNick;
-    @Bind(R.id.layout_user_nick)
     LinearLayout layoutUserNick;
-    @Bind(R.id.tv_user_wechat_No)
     TextView tvUserWechatNo;
-    @Bind(R.id.layout_user_wechat_No)
     LinearLayout layoutUserWechatNo;
-    @Bind(R.id.iv_user_qrcode)
     ImageView ivUserQrcode;
-    @Bind(R.id.layout_user_qrcode)
     LinearLayout layoutUserQrcode;
-    @Bind(R.id.layout_user_address)
     LinearLayout layoutUserAddress;
-    @Bind(R.id.tv_user_sex)
     TextView tvUserSex;
-    @Bind(R.id.layout_user_sex)
     LinearLayout layoutUserSex;
-    @Bind(R.id.tv_user_area)
     TextView tvUserArea;
-    @Bind(R.id.layout_user_area)
     LinearLayout layoutUserArea;
-    @Bind(R.id.tv_user_sign)
     TextView tvUserSign;
-    @Bind(R.id.layout_user_sign)
     LinearLayout layoutUserSign;
 
     private ProgressDialog dialog;
@@ -101,13 +80,31 @@ public class UserProfileActivity extends BaseActivity implements OnClickListener
     protected void onCreate(Bundle arg0) {
         super.onCreate(arg0);
         setContentView(R.layout.em_activity_user_profile);
-        ButterKnife.bind(this);
         initView();
         initListener();
         user = EaseUserUtils.getCurrentAppUserInfo();
     }
 
     private void initView() {
+        textLeft = (TextView) findViewById(R.id.text_left);
+        imgBack = (ImageView) findViewById(R.id.img_back);
+        textTitle = (TextView) findViewById(R.id.text_title);
+        imgRight = (ImageView) findViewById(R.id.img_right);
+        ivUserAvatar= (ImageView) findViewById(R.id.iv_user_avatar);
+        rlUserAvatar = (RelativeLayout) findViewById(R.id.rl_user_avatar);
+        tvUserNick= (TextView) findViewById(R.id.tv_user_nick);
+        layoutUserNick = (LinearLayout) findViewById(R.id.layout_user_nick);
+        tvUserWechatNo = (TextView) findViewById(R.id.tv_user_wechat_No);
+        layoutUserWechatNo= (LinearLayout) findViewById(R.id.layout_user_wechat_No);
+        ivUserQrcode = (ImageView) findViewById(R.id.iv_user_qrcode);
+        layoutUserQrcode = (LinearLayout) findViewById(R.id.layout_user_qrcode);
+        layoutUserAddress= (LinearLayout) findViewById(R.id.layout_user_address);
+        tvUserSex= (TextView) findViewById(R.id.tv_user_sex);
+        layoutUserSex = (LinearLayout) findViewById(R.id.layout_user_sex);
+        tvUserArea= (TextView) findViewById(R.id.tv_user_area);
+        layoutUserArea= (LinearLayout) findViewById(R.id.layout_user_area);
+        tvUserSign= (TextView) findViewById(R.id.tv_user_sign);
+        layoutUserSign= (LinearLayout) findViewById(R.id.layout_user_sign);
         imgBack.setVisibility(View.VISIBLE);
         textTitle.setVisibility(View.VISIBLE);
         textTitle.setText(getString(R.string.title_user_profile));
@@ -117,6 +114,10 @@ public class UserProfileActivity extends BaseActivity implements OnClickListener
         EaseUserUtils.setCurrentAppUserAvatar(this, ivUserAvatar);
         EaseUserUtils.setCurrentAppUserNick(tvUserNick);
         EaseUserUtils.setCurrentAppUserName(tvUserWechatNo);
+        imgBack.setOnClickListener(this);
+        rlUserAvatar.setOnClickListener(this);
+        layoutUserNick.setOnClickListener(this);
+        layoutUserWechatNo.setOnClickListener(this);
     }
 
     public void asyncFetchUserInfo(String username) {
@@ -378,7 +379,7 @@ public class UserProfileActivity extends BaseActivity implements OnClickListener
         return baos.toByteArray();
     }
 
-    @OnClick({R.id.img_back, R.id.rl_user_avatar, R.id.layout_user_nick, R.id.layout_user_wechat_No})
+    @Override
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.img_back:
