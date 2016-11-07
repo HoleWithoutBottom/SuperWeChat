@@ -36,6 +36,10 @@
         "source": "D:\\Android-WorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\exploded-aar\\ChatDemoUI3.0\\redpacketlibrary\\unspecified\\res\\layout\\rp_details_list_item.xml"
     },
     {
+        "merged": "D:\\Android-WorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\layout\\activity_friend_profile.xml",
+        "source": "D:\\Android-WorkSpace\\SuperWeChat\\ChatDemoUI3.0\\res\\layout\\activity_friend_profile.xml"
+    },
+    {
         "merged": "D:\\Android-WorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\layout\\rp_pay_change_no_pwd_dialog.xml",
         "source": "D:\\Android-WorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\exploded-aar\\ChatDemoUI3.0\\redpacketlibrary\\unspecified\\res\\layout\\rp_pay_change_no_pwd_dialog.xml"
     },
@@ -48,12 +52,12 @@
         "source": "D:\\Android-WorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\exploded-aar\\ChatDemoUI3.0\\EaseUI\\unspecified\\res\\layout\\ease_widget_contact_list.xml"
     },
     {
-        "merged": "D:\\Android-WorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\layout\\em_activity_splash.xml",
-        "source": "D:\\Android-WorkSpace\\SuperWeChat\\ChatDemoUI3.0\\res\\layout\\em_activity_splash.xml"
-    },
-    {
         "merged": "D:\\Android-WorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\layout\\activity_welcome.xml",
         "source": "D:\\Android-WorkSpace\\SuperWeChat\\ChatDemoUI3.0\\res\\layout\\activity_welcome.xml"
+    },
+    {
+        "merged": "D:\\Android-WorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\layout\\em_activity_splash.xml",
+        "source": "D:\\Android-WorkSpace\\SuperWeChat\\ChatDemoUI3.0\\res\\layout\\em_activity_splash.xml"
     },
     {
         "merged": "D:\\Android-WorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
@@ -442,6 +446,10 @@
     {
         "merged": "D:\\Android-WorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\layout\\rp_textview.xml",
         "source": "D:\\Android-WorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\exploded-aar\\ChatDemoUI3.0\\redpacketlibrary\\unspecified\\res\\layout\\rp_textview.xml"
+    },
+    {
+        "merged": "D:\\Android-WorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\layout\\ctivity_add_friend.xml",
+        "source": "D:\\Android-WorkSpace\\SuperWeChat\\ChatDemoUI3.0\\res\\layout\\ctivity_add_friend.xml"
     },
     {
         "merged": "D:\\Android-WorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\layout\\em_activity_login.xml",

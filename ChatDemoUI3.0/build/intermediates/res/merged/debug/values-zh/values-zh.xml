@@ -378,6 +378,7 @@
     <string name="money_username_format">%1$s的红包</string>
     <string name="move_out_backlist">移出黑名单</string>
     <string name="move_up_to_cancel">手指上滑，取消发送</string>
+    <string name="msg_104">搜索用户失败</string>
     <string name="msg_captcha_has_sent">验证码已发送</string>
     <string name="msg_choose_few_person_red_packet">当前选定1人可领取，为专属红包</string>
     <string name="msg_error_page_hint">糟糕，好像哪里出了点问题！</string>

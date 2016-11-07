@@ -580,9 +580,10 @@
     <string name="addcontact_adding">正在添加...</string>
     <string name="addcontact_be_friented">已添加</string>
     <string name="addcontact_search">正在查找联系人...</string>
-    <string name="addcontact_send_msg">发送</string>
+    <string name="addcontact_send_msg">发送消息</string>
     <string name="addcontact_send_msg_prefix">我是</string>
     <string name="addcontact_send_msg_title">你需要发送验证申请,等对方通过</string>
+    <string name="addcontact_send_video">发视频</string>
     <string name="addcontact_title">添加联系人</string>
     <string name="address_book">Address book</string>
     <string name="agree">Agree</string>
@@ -875,6 +876,7 @@
     <string name="money_username_format">%1$s的红包</string>
     <string name="move_out_backlist">Remove from blacklist</string>
     <string name="move_up_to_cancel">Finger up to cancel sending</string>
+    <string name="msg_104">search user fail</string>
     <string name="msg_captcha_has_sent">验证码已发送</string>
     <string name="msg_choose_few_person_red_packet">当前选定1人可领取，为专属红包</string>
     <string name="msg_error_page_hint">糟糕，好像哪里出了点问题！</string>

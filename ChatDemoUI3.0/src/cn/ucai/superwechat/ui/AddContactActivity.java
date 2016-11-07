@@ -14,6 +14,7 @@
 package cn.ucai.superwechat.ui;
 
 import android.app.ProgressDialog;
+import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
@@ -26,12 +27,16 @@ import android.widget.Toast;
 
 import com.hyphenate.chat.EMClient;
 
+import cn.ucai.superwechat.I;
 import cn.ucai.superwechat.SuperWeChatHelper;
 import cn.ucai.superwechat.R;
+import cn.ucai.superwechat.bean.Result;
 import cn.ucai.superwechat.data.NetDao;
 import cn.ucai.superwechat.data.OkHttpUtils;
 import cn.ucai.superwechat.utils.MFGT;
+import cn.ucai.superwechat.utils.ResultUtils;
 
+import com.hyphenate.easeui.domain.User;
 import com.hyphenate.easeui.widget.EaseAlertDialog;
 
 public class AddContactActivity extends BaseActivity implements View.OnClickListener {
@@ -42,6 +47,7 @@ public class AddContactActivity extends BaseActivity implements View.OnClickList
     private TextView tvRight;
     private ImageView imgBack;
     private TextView tvTitle;
+    User user;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -74,6 +80,7 @@ public class AddContactActivity extends BaseActivity implements View.OnClickList
 
     /**
      * search contact
+     *
      * @param
      */
     public void searchContact() {
@@ -83,6 +90,11 @@ public class AddContactActivity extends BaseActivity implements View.OnClickList
             new EaseAlertDialog(this, R.string.Please_enter_a_username).show();
             return;
         }
+        progressDialog = new ProgressDialog(this);
+        String stri = getResources().getString(R.string.addcontact_search);
+        progressDialog.setMessage(stri);
+        progressDialog.setCanceledOnTouchOutside(false);
+        progressDialog.show();
         searchAppContact();
     }
 
@@ -90,18 +102,38 @@ public class AddContactActivity extends BaseActivity implements View.OnClickList
         NetDao.searchUserByName(this, toAddUsername, new OkHttpUtils.OnCompleteListener<String>() {
             @Override
             public void onSuccess(String s) {
-
+                if (s != null) {
+                    Result result = ResultUtils.getResultFromJson(s, User.class);
+                    if (result != null && result.isRetMsg()) {
+                        user = (User) result.getRetData();
+                        if (user != null) {
+                            // SuperWeChatHelper.getInstance().saveAppContact(user);
+                            Intent intent = new Intent(AddContactActivity.this, FriendProfileActivity.class);
+                            intent.putExtra(I.User.USER_NAME, user);
+                            progressDialog.dismiss();
+                            MFGT.startActivity(AddContactActivity.this, intent);
+                        }else {
+                            progressDialog.dismiss();
+                            Toast.makeText(AddContactActivity.this, R.string.msg_104, Toast.LENGTH_SHORT).show();
+                        }
+                    }else {
+                        progressDialog.dismiss();
+                        Toast.makeText(AddContactActivity.this, R.string.msg_104, Toast.LENGTH_SHORT).show();
+                    }
+                }
             }
 
             @Override
             public void onError(String error) {
-
+                progressDialog.dismiss();
+                Toast.makeText(AddContactActivity.this, R.string.msg_104, Toast.LENGTH_SHORT).show();
             }
         });
     }
 
     /**
-     *  add contact
+     * add contact
+     *
      * @param
      */
     public void addContact() {
@@ -120,11 +152,6 @@ public class AddContactActivity extends BaseActivity implements View.OnClickList
             return;
         }
 
-        progressDialog = new ProgressDialog(this);
-        String stri = getResources().getString(R.string.Is_sending_a_request);
-        progressDialog.setMessage(stri);
-        progressDialog.setCanceledOnTouchOutside(false);
-        progressDialog.show();
 
         new Thread(new Runnable() {
             public void run() {
@@ -158,10 +185,13 @@ public class AddContactActivity extends BaseActivity implements View.OnClickList
         switch (v.getId()) {
             case R.id.tv_right:
                 searchContact();
+
                 break;
             case R.id.img_back:
                 MFGT.finish(this);
                 break;
         }
     }
+
+
 }

@@ -130,4 +130,9 @@ public class EaseUserUtils {
         String username = EMClient.getInstance().getCurrentUser();
         setAppUserName("",username,textview);
     }
+
+
+    public static void setAppUserNameWithNo(String username, TextView textview) {
+        setAppUserName("微信号:",username,textview);
+    }
 }

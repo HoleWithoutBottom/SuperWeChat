@@ -70,11 +70,11 @@
     <string name="addcontact_title">添加联系人</string>
     <string name="addcontact_search">正在查找联系人...</string>
     <string name="addcontact_adding">正在添加...</string>
-    <string name="addcontact_send_msg">发送</string>
+    <string name="addcontact_send_msg">发送消息</string>
     <string name="addcontact_send_msg_title">你需要发送验证申请,等对方通过</string>
     <string name="addcontact_send_msg_prefix">我是</string>
     <string name="addcontact_be_friented">已添加</string>
-
+    <string name="addcontact_send_video">发视频</string>
 
     <!-- Dicover-->
     <string name="discover_txt_pengyouquan">朋友圈</string>
@@ -110,4 +110,5 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="User_name_cannot_be_modify">微信号不能修改</string>
     <string name="toast_nick_not_notify">nick not  notify</string>
+    <string name="msg_104">search user fail</string>
 </resources>

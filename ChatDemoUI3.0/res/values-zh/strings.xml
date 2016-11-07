@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="toast_nick_not_notify">昵称未修改</string>
+    <string name="msg_104">搜索用户失败</string>
 </resources>

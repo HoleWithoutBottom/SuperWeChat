@@ -74,7 +74,7 @@ public class NetDao {
 
     public static void searchUserByName(Context context, String name, OkHttpUtils.OnCompleteListener<String> listener) {
         OkHttpUtils<String> utils = new OkHttpUtils<>(context);
-        utils.setRequestUrl(I.REQUEST_LOGIN)
+        utils.setRequestUrl(I.REQUEST_FIND_USER)
                 .addParam(I.User.USER_NAME, name)
                 .targetClass(String.class)
                 .execute(listener);
