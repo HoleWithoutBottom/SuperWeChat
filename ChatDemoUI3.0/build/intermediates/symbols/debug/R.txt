@@ -1296,7 +1296,6 @@ int id action_mode_close_button 0x7f0e0040
 int id actionbar_title 0x7f0e0005
 int id activity_chooser_view_content 0x7f0e0041
 int id add_list_friends 0x7f0e0118
-int id add_to_blacklist 0x7f0e02bd
 int id agree 0x7f0e017b
 int id alertTitle 0x7f0e004d
 int id alert_message 0x7f0e0085
@@ -1394,7 +1393,8 @@ int id decode_failed 0x7f0e0008
 int id decode_succeeded 0x7f0e0009
 int id decor_content_parent 0x7f0e005c
 int id default_activity_button 0x7f0e0044
-int id delete_contact 0x7f0e02bc
+int id delete_contact 0x7f0e02c0
+int id delete_contact_list 0x7f0e02bc
 int id delete_conversation 0x7f0e02c1
 int id delete_message 0x7f0e02c2
 int id detail_fragment_container 0x7f0e01b6
@@ -1967,9 +1967,9 @@ int id umeng_update_wifi_indicator 0x7f0e02af
 int id unread_count 0x7f0e0197
 int id unread_msg_number 0x7f0e009a
 int id up 0x7f0e001c
-int id update_blacklist 0x7f0e02bf
-int id update_contacts 0x7f0e02be
-int id update_groups 0x7f0e02c0
+int id update_blacklist 0x7f0e02be
+int id update_contacts 0x7f0e02bd
+int id update_groups 0x7f0e02bf
 int id useLogo 0x7f0e0027
 int id user_state 0x7f0e017c
 int id username 0x7f0e0102

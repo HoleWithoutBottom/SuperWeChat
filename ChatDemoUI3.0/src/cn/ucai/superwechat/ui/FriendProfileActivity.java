@@ -88,7 +88,7 @@ public class FriendProfileActivity extends BaseActivity {
         EaseUserUtils.setAppUserNameWithNo(user.getMUserName(), tvUsername);
     }
 
-    @OnClick({R.id.img_back, R.id.btn_add_friend, R.id.btn_send_msg})
+    @OnClick({R.id.img_back, R.id.btn_add_friend, R.id.btn_send_msg,R.id.btn_send_video})
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.img_back:
@@ -100,7 +100,10 @@ public class FriendProfileActivity extends BaseActivity {
                 MFGT.startActivity(this, intent);
                 break;
             case R.id.btn_send_msg:
-                MFGT.startActivity(FriendProfileActivity.this,new Intent(FriendProfileActivity.this,ChatActivity.class).putExtra("userId",user.getMUserName()));
+                MFGT.startActivity(this,new Intent(this,ChatActivity.class).putExtra("userId",user.getMUserName()));
+                break;
+            case R.id.btn_send_video:
+
                 break;
         }
     }

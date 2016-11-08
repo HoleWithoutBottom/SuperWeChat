@@ -666,8 +666,9 @@ public class SuperWeChatHelper {
             Map<String, EaseUser> localUsers = SuperWeChatHelper.getInstance().getContactList();
             localUsers.remove(username);
             userDao.deleteContact(username);
+            userDao.deleteAppContact(username);
+            getAppContactList().remove(username);
             inviteMessgeDao.deleteMessage(username);
-
             broadcastManager.sendBroadcast(new Intent(Constant.ACTION_CONTACT_CHANAGED));
         }
 

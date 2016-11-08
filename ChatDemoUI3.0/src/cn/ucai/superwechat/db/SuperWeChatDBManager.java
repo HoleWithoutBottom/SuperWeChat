@@ -501,4 +501,11 @@ public class SuperWeChatDBManager {
         }
         return users;
     }
+
+    synchronized public void deleteAppContact(String username) {
+        SQLiteDatabase db = dbHelper.getWritableDatabase();
+        if(db.isOpen()){
+            db.delete(UserDao.USER_TABLE_NAME, UserDao.USER_COLUMN_NAME + " = ?", new String[]{username});
+        }
+    }
 }
