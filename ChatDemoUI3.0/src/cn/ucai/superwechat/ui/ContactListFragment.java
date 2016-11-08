@@ -17,11 +17,14 @@ import java.util.Hashtable;
 import java.util.Map;
 
 import com.hyphenate.chat.EMClient;
+
+import cn.ucai.superwechat.I;
 import cn.ucai.superwechat.SuperWeChatHelper;
 import cn.ucai.superwechat.SuperWeChatHelper.DataSyncListener;
 import cn.ucai.superwechat.R;
 import cn.ucai.superwechat.db.InviteMessgeDao;
 import cn.ucai.superwechat.db.UserDao;
+import cn.ucai.superwechat.utils.MFGT;
 import cn.ucai.superwechat.widget.ContactItemView;
 import com.hyphenate.easeui.domain.EaseUser;
 import com.hyphenate.easeui.ui.EaseContactListFragment;
@@ -124,7 +127,10 @@ public class ContactListFragment extends EaseContactListFragment {
                 if (user != null) {
                     String username = user.getUsername();
                     // demo中直接进入聊天页面，实际一般是进入用户详情页
-                    startActivity(new Intent(getActivity(), ChatActivity.class).putExtra("userId", username));
+                    Intent intent = new Intent(getActivity(),FriendProfileActivity.class);
+                    intent.putExtra(I.User.USER_NAME,SuperWeChatHelper.getInstance().getAppContactList().get(username));
+                    MFGT.startActivity(getActivity(),intent);
+                    // startActivity(new Intent(getActivity(), ChatActivity.class).putExtra("userId", username));
                 }
             }
         });

@@ -100,6 +100,7 @@ public class FriendProfileActivity extends BaseActivity {
                 MFGT.startActivity(this, intent);
                 break;
             case R.id.btn_send_msg:
+                MFGT.startActivity(FriendProfileActivity.this,new Intent(FriendProfileActivity.this,ChatActivity.class).putExtra("userId",user.getMUserName()));
                 break;
         }
     }
