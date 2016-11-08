@@ -304,7 +304,7 @@ public class UserProfileActivity extends BaseActivity implements View.OnClickLis
             File file = new File(path);
             try {
                 BufferedOutputStream bf = new BufferedOutputStream(new FileOutputStream(file));
-                bitmap.compress(Bitmap.CompressFormat.PNG, 100, bf);
+                bitmap.compress(Bitmap.CompressFormat.JPEG, 100, bf);
                 bf.flush();
                 bf.close();
             } catch (IOException e) {

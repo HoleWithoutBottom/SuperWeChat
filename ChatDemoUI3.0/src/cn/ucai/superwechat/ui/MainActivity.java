@@ -79,12 +79,12 @@ public class MainActivity extends BaseActivity implements DMTabHost.OnCheckedCha
     // textview for unread event message
 	private TextView unreadAddressLable;
 
-	private Button[] mTabs;
+	private Button[] mTabs;*/
 	private ContactListFragment contactListFragment;
-	private Fragment[] fragments;*/
+	// private Fragment[] fragments;
 
-    /*private int index;
-    private int currentTabIndex;*/
+    /*private int index;*/
+    private int currentTabIndex;
     // user logged into another device
     public boolean isConflict = false;
     MainTabAdpter adapter;
@@ -128,7 +128,7 @@ public class MainActivity extends BaseActivity implements DMTabHost.OnCheckedCha
         inviteMessgeDao = new InviteMessgeDao(this);
         UserDao userDao = new UserDao(this);
         /*conversationListFragment = new ConversationListFragment();
-        contactListFragment = new ContactListFragment();
+
 		SettingsFragment settingFragment = new SettingsFragment();
 		fragments = new Fragment[] { conversationListFragment, contactListFragment, settingFragment};
 
@@ -221,6 +221,7 @@ public class MainActivity extends BaseActivity implements DMTabHost.OnCheckedCha
         textTitle = (TextView) findViewById(R.id.text_title);
         imgRight = (ImageView) findViewById(R.id.img_right);
 
+        contactListFragment = new ContactListFragment();
         layoutViewpager = (MFViewPager) findViewById(R.id.layout_viewpager);
         layoutTabHost = (DMTabHost) findViewById(R.id.layout_tabHost);
 
@@ -233,7 +234,7 @@ public class MainActivity extends BaseActivity implements DMTabHost.OnCheckedCha
         layoutViewpager.setOffscreenPageLimit(4);
         adapter.clear();
         adapter.addFragment(new ConversationListFragment(), getString(R.string.app_name));
-        adapter.addFragment(new ContactListFragment(), getString(R.string.contacts));
+        adapter.addFragment(contactListFragment, getString(R.string.contacts));
         adapter.addFragment(new DiscoverFragment(), getString(R.string.discover));
         adapter.addFragment(new ProfileFragment(), getString(R.string.me));
         adapter.notifyDataSetChanged();
@@ -341,11 +342,11 @@ public class MainActivity extends BaseActivity implements DMTabHost.OnCheckedCha
                     if (conversationListFragment != null) {
                         conversationListFragment.refresh();
                     }
-                } else if (currentTabIndex == 1) {
+                } else */if (currentTabIndex == 1) {
                     if(contactListFragment != null) {
                         contactListFragment.refresh();
                     }
-                }*/
+                }
                 String action = intent.getAction();
                 if (action.equals(Constant.ACTION_GROUP_CHANAGED)) {
                     if (EaseCommonUtils.getTopActivity(MainActivity.this).equals(GroupsActivity.class.getName())) {
@@ -371,12 +372,12 @@ public class MainActivity extends BaseActivity implements DMTabHost.OnCheckedCha
 
     @Override
     public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
-        layoutTabHost.setChecked(position);
+
     }
 
     @Override
     public void onPageSelected(int position) {
-
+        layoutTabHost.setChecked(position);
     }
 
     @Override
@@ -443,6 +444,11 @@ public class MainActivity extends BaseActivity implements DMTabHost.OnCheckedCha
      */
     public void updateUnreadLabel() {
         int count = getUnreadMsgCountTotal();
+        if (count>0){
+            layoutTabHost.setHasNew(0,true);
+        }else {
+            layoutTabHost.setHasNew(0,false);
+        }
 		/*if (count > 0) {
 			unreadLabel.setText(String.valueOf(count));
 			unreadLabel.setVisibility(View.VISIBLE);
@@ -458,6 +464,11 @@ public class MainActivity extends BaseActivity implements DMTabHost.OnCheckedCha
         runOnUiThread(new Runnable() {
             public void run() {
                 int count = getUnreadAddressCountTotal();
+                if (count>0){
+                    layoutTabHost.setHasNew(1,true);
+                }else {
+                    layoutTabHost.setHasNew(1,false);
+                }
 				/*if (count > 0) {
 					unreadAddressLable.setVisibility(View.VISIBLE);
 				} else {
