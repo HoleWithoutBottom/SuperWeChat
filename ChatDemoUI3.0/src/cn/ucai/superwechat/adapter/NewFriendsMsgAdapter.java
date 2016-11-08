@@ -111,6 +111,7 @@ public class NewFriendsMsgAdapter extends ArrayAdapter<InviteMessage> {
                             User user = (User) result.getRetData();
                             if (user!=null){
                                 EaseUserUtils.setAppUserAvatar(context,msg.getFrom(),holder.avator);
+                                EaseUserUtils.setAppUserNick(user.getMUserNick(),holder.name);
                             }
                         }
                     }

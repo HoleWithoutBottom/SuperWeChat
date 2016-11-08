@@ -52,8 +52,9 @@ public class AddFriendActicity extends BaseActivity {
         textTitle.setVisibility(View.VISIBLE);
         textTitle.setText(getString(R.string.add_friend));
         btnSend.setVisibility(View.VISIBLE);
-        msg = getString(R.string.addcontact_send_msg_prefix) + editNote.getText().toString();
+        msg = getString(R.string.addcontact_send_msg_prefix) + EaseUserUtils.getCurrentAppUserInfo().getMUserNick();
         editNote.setText(msg);
+        editNote.setSelection(2,editNote.getText().toString().length());
     }
 
     @OnClick({R.id.img_back, R.id.btn_send})
@@ -76,10 +77,10 @@ public class AddFriendActicity extends BaseActivity {
         progressDialog.show();
         new Thread(new Runnable() {
             public void run() {
-
                 try {
                     //demo use a hardcode reason here, you need let user to input if you like
                     String s = getResources().getString(R.string.Add_a_friend);
+                    msg = editNote.getText().toString().trim();
                     EMClient.getInstance().contactManager().addContact(userName, msg);
                     runOnUiThread(new Runnable() {
                         public void run() {

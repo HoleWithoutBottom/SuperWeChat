@@ -83,7 +83,7 @@
             android:text="@string/agree"
             android:textSize="13sp"
             android:visibility="gone"
-            android:background="@drawable/btn_bg_gray"/>
+            android:background="@drawable/btn_bg_green"/>
         
         <Button
             android:id="@+id/user_state"

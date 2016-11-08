@@ -72,8 +72,6 @@ public class AddContactActivity extends BaseActivity implements View.OnClickList
         tvTitle.setVisibility(View.VISIBLE);
         tvTitle.setText(R.string.add_friend);
         editText = (EditText) findViewById(R.id.edit_note);
-        String strUserName = getResources().getString(R.string.addcontact_search);
-        editText.setHint(strUserName);
         nameText = (TextView) findViewById(R.id.name);
     }
 
@@ -185,7 +183,6 @@ public class AddContactActivity extends BaseActivity implements View.OnClickList
         switch (v.getId()) {
             case R.id.tv_right:
                 searchContact();
-
                 break;
             case R.id.img_back:
                 MFGT.finish(this);
