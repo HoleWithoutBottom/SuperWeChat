@@ -16,12 +16,12 @@
         "source": "D:\\Android-WorkSpace\\SuperWeChat\\ChatDemoUI3.0\\res\\drawable-xhdpi\\w4.png"
     },
     {
-        "merged": "D:\\Android-WorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ease_chat_takepic_normal.png",
-        "source": "D:\\Android-WorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\exploded-aar\\ChatDemoUI3.0\\EaseUI\\unspecified\\res\\drawable-xhdpi-v4\\ease_chat_takepic_normal.png"
-    },
-    {
         "merged": "D:\\Android-WorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\em_video_recorder_start_btn.png",
         "source": "D:\\Android-WorkSpace\\SuperWeChat\\ChatDemoUI3.0\\res\\drawable-xhdpi\\em_video_recorder_start_btn.png"
+    },
+    {
+        "merged": "D:\\Android-WorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ease_chat_takepic_normal.png",
+        "source": "D:\\Android-WorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\exploded-aar\\ChatDemoUI3.0\\EaseUI\\unspecified\\res\\drawable-xhdpi-v4\\ease_chat_takepic_normal.png"
     },
     {
         "merged": "D:\\Android-WorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\em_seabar_input.9.png",

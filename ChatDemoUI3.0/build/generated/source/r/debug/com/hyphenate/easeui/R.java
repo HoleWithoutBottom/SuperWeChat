@@ -660,7 +660,7 @@ public final class R {
 		public static final int is_down_please_wait = 0x7f07005b;
 		public static final int is_modify_the_group_name = 0x7f07010d;
 		public static final int is_quit_the_group_chat = 0x7f07010e;
-		public static final int join_public_group = 0x7f0701cb;
+		public static final int join_public_group = 0x7f0701cc;
 		public static final int list_is_for = 0x7f07010f;
 		public static final int location_message = 0x7f07005c;
 		public static final int location_prefix = 0x7f07005d;

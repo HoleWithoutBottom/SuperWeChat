@@ -2,4 +2,5 @@
 <resources>
     <string name="toast_nick_not_notify">昵称未修改</string>
     <string name="msg_104">搜索用户失败</string>
+    <string name="command_new_friend">新的朋友</string>
 </resources>

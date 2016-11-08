@@ -111,4 +111,5 @@
     <string name="User_name_cannot_be_modify">微信号不能修改</string>
     <string name="toast_nick_not_notify">nick not  notify</string>
     <string name="msg_104">search user fail</string>
+    <string name="command_new_friend">command new friend</string>
 </resources>

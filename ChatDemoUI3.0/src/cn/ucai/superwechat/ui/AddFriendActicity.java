@@ -52,7 +52,7 @@ public class AddFriendActicity extends BaseActivity {
         textTitle.setVisibility(View.VISIBLE);
         textTitle.setText(getString(R.string.add_friend));
         btnSend.setVisibility(View.VISIBLE);
-        msg = getString(R.string.addcontact_send_msg_prefix) + EaseUserUtils.getCurrentAppUserInfo().getMUserNick();
+        msg = getString(R.string.addcontact_send_msg_prefix) + editNote.getText().toString();
         editNote.setText(msg);
     }
 
