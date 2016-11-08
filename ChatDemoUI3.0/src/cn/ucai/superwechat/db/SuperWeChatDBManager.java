@@ -432,10 +432,10 @@ public class SuperWeChatDBManager {
         ContentValues values = new ContentValues();
         values.put(UserDao.USER_COLUMN_NAME,user.getMUserName());
         if(user.getMUserNick() != null)
-            values.put(UserDao.COLUMN_NAME_NICK, user.getMUserNick());
+            values.put(UserDao.USER_COLUMN_NICK, user.getMUserNick());
         if(user.getMAvatarPath() != null)
-            values.put(UserDao.COLUMN_NAME_AVATAR, user.getMAvatarPath());
-        if (user.getMAvatarId()!=null){
+            values.put(UserDao.USER_COLUMN_AVATAR_PATH, user.getMAvatarPath());
+        if (user.getMAvatarId() !=null){
             values.put(UserDao.USER_COLUMN_AVATAR_ID, user.getMAvatarId());
         }
         if (user.getMAvatarSuffix()!=null){
@@ -460,9 +460,9 @@ public class SuperWeChatDBManager {
                 ContentValues values = new ContentValues();
                 values.put(UserDao.USER_COLUMN_NAME,user.getMUserName());
                 if(user.getMUserNick() != null)
-                    values.put(UserDao.COLUMN_NAME_NICK, user.getMUserNick());
+                    values.put(UserDao.USER_COLUMN_NICK, user.getMUserNick());
                 if(user.getMAvatarPath() != null)
-                    values.put(UserDao.COLUMN_NAME_AVATAR, user.getMAvatarPath());
+                    values.put(UserDao.USER_COLUMN_AVATAR_PATH, user.getMAvatarPath());
                 if (user.getMAvatarId()!=null){
                     values.put(UserDao.USER_COLUMN_AVATAR_ID, user.getMAvatarId());
                 }
