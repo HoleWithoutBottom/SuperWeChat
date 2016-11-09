@@ -221,6 +221,7 @@ public class MainActivity extends BaseActivity implements DMTabHost.OnCheckedCha
         textTitle = (TextView) findViewById(R.id.text_title);
         imgRight = (ImageView) findViewById(R.id.img_right);
 
+        conversationListFragment = new ConversationListFragment();
         contactListFragment = new ContactListFragment();
         layoutViewpager = (MFViewPager) findViewById(R.id.layout_viewpager);
         layoutTabHost = (DMTabHost) findViewById(R.id.layout_tabHost);
@@ -233,7 +234,7 @@ public class MainActivity extends BaseActivity implements DMTabHost.OnCheckedCha
         layoutViewpager.setAdapter(adapter);
         layoutViewpager.setOffscreenPageLimit(4);
         adapter.clear();
-        adapter.addFragment(new ConversationListFragment(), getString(R.string.app_name));
+        adapter.addFragment(conversationListFragment, getString(R.string.app_name));
         adapter.addFragment(contactListFragment, getString(R.string.contacts));
         adapter.addFragment(new DiscoverFragment(), getString(R.string.discover));
         adapter.addFragment(new ProfileFragment(), getString(R.string.me));
@@ -337,12 +338,12 @@ public class MainActivity extends BaseActivity implements DMTabHost.OnCheckedCha
             public void onReceive(Context context, Intent intent) {
                 updateUnreadLabel();
                 updateUnreadAddressLable();
-                /*if (currentTabIndex == 0) {
+                if (currentTabIndex == 0) {
                     // refresh conversation list
                     if (conversationListFragment != null) {
                         conversationListFragment.refresh();
                     }
-                } else */if (currentTabIndex == 1) {
+                } else if (currentTabIndex == 1) {
                     if(contactListFragment != null) {
                         contactListFragment.refresh();
                     }
