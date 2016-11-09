@@ -310,12 +310,12 @@ public class MainActivity extends BaseActivity implements DMTabHost.OnCheckedCha
             public void run() {
                 // refresh unread count
                 updateUnreadLabel();
-                /*if (currentTabIndex == 0) {
+                if (currentTabIndex == 0) {
 					// refresh conversation list
 					if (conversationListFragment != null) {
 						conversationListFragment.refresh();
 					}
-				}*/
+				}
             }
         });
     }
