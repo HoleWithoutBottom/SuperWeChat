@@ -112,4 +112,5 @@
     <string name="toast_nick_not_notify">nick not  notify</string>
     <string name="msg_104">search user fail</string>
     <string name="command_new_friend">command new friend</string>
+    <string name="groupAvatar">group_avatar</string>
 </resources>

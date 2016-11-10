@@ -1,10 +1,10 @@
 /**
  * Copyright (C) 2016 Hyphenate Inc. All rights reserved.
- *
+ * <p/>
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
- *     http://www.apache.org/licenses/LICENSE-2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -29,9 +29,12 @@ import android.widget.TextView;
 
 import com.hyphenate.chat.EMClient;
 import com.hyphenate.chat.EMGroup;
+
 import cn.ucai.superwechat.Constant;
 import cn.ucai.superwechat.SuperWeChatHelper;
 import cn.ucai.superwechat.R;
+import cn.ucai.superwechat.utils.MFGT;
+
 import com.hyphenate.easeui.adapter.EaseContactAdapter;
 import com.hyphenate.easeui.domain.User;
 import com.hyphenate.easeui.widget.EaseSidebar;
@@ -42,152 +45,156 @@ import java.util.Comparator;
 import java.util.List;
 
 public class GroupPickContactsActivity extends BaseActivity {
-	/** if this is a new group */
-	protected boolean isCreatingNewGroup;
-	private PickContactAdapter contactAdapter;
-	/** members already in the group */
-	private List<String> existMembers;
+    /** if this is a new group */
+    protected boolean isCreatingNewGroup;
+    private PickContactAdapter contactAdapter;
+    /** members already in the group */
+    private List<String> existMembers;
 
-	@Override
-	protected void onCreate(Bundle savedInstanceState) {
-		super.onCreate(savedInstanceState);
-		setContentView(R.layout.em_activity_group_pick_contacts);
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.em_activity_group_pick_contacts);
 
-		String groupId = getIntent().getStringExtra("groupId");
-		if (groupId == null) {// create new group
-			isCreatingNewGroup = true;
-		} else {
-			// get members of the group
-			EMGroup group = EMClient.getInstance().groupManager().getGroup(groupId);
-			existMembers = group.getMembers();
-		}
-		if(existMembers == null)
-			existMembers = new ArrayList<String>();
-		// get contact list
-		final List<User> alluserList = new ArrayList<User>();
-		for (User user : SuperWeChatHelper.getInstance().getAppContactList().values()) {
-			if (!user.getMUserName().equals(Constant.NEW_FRIENDS_USERNAME) & !user.getMUserName().equals(Constant.GROUP_USERNAME) & !user.getMUserName().equals(Constant.CHAT_ROOM) & !user.getMUserName().equals(Constant.CHAT_ROBOT))
-				alluserList.add(user);
-		}
-		// sort the list
+        String groupId = getIntent().getStringExtra("groupId");
+        if (groupId == null) {// create new group
+            isCreatingNewGroup = true;
+        } else {
+            // get members of the group
+            EMGroup group = EMClient.getInstance().groupManager().getGroup(groupId);
+            existMembers = group.getMembers();
+        }
+        if (existMembers == null)
+            existMembers = new ArrayList<String>();
+        // get contact list
+        final List<User> alluserList = new ArrayList<User>();
+        for (User user : SuperWeChatHelper.getInstance().getAppContactList().values()) {
+            if (!user.getMUserName().equals(Constant.NEW_FRIENDS_USERNAME) &
+                    !user.getMUserName().equals(Constant.GROUP_USERNAME) &
+                    !user.getMUserName().equals(Constant.CHAT_ROOM) &
+                    !user.getMUserName().equals(Constant.CHAT_ROBOT) &
+                    !user.getMUserName().equals(EMClient.getInstance().getCurrentUser()))
+                alluserList.add(user);
+        }
+        // sort the list
         Collections.sort(alluserList, new Comparator<User>() {
 
             @Override
             public int compare(User lhs, User rhs) {
-                if(lhs.getAppInitialLetter().equals(rhs.getAppInitialLetter())){
+                if (lhs.getAppInitialLetter().equals(rhs.getAppInitialLetter())) {
                     return lhs.getMUserNick().compareTo(rhs.getMUserNick());
-                }else{
-                    if("#".equals(lhs.getAppInitialLetter())){
+                } else {
+                    if ("#".equals(lhs.getAppInitialLetter())) {
                         return 1;
-                    }else if("#".equals(rhs.getAppInitialLetter())){
+                    } else if ("#".equals(rhs.getAppInitialLetter())) {
                         return -1;
                     }
                     return lhs.getAppInitialLetter().compareTo(rhs.getAppInitialLetter());
                 }
-                
+
             }
         });
 
-		ListView listView = (ListView) findViewById(R.id.list);
-		contactAdapter = new PickContactAdapter(this, R.layout.em_row_contact_with_checkbox, alluserList);
-		listView.setAdapter(contactAdapter);
-		((EaseSidebar) findViewById(R.id.sidebar)).setListView(listView);
-		listView.setOnItemClickListener(new OnItemClickListener() {
+        ListView listView = (ListView) findViewById(R.id.list);
+        contactAdapter = new PickContactAdapter(this, R.layout.em_row_contact_with_checkbox, alluserList);
+        listView.setAdapter(contactAdapter);
+        ((EaseSidebar) findViewById(R.id.sidebar)).setListView(listView);
+        listView.setOnItemClickListener(new OnItemClickListener() {
 
-			@Override
-			public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-				CheckBox checkBox = (CheckBox) view.findViewById(R.id.checkbox);
-				checkBox.toggle();
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                CheckBox checkBox = (CheckBox) view.findViewById(R.id.checkbox);
+                checkBox.toggle();
 
-			}
-		});
-	}
+            }
+        });
+    }
 
-	/**
-	 * save selected members
-	 * 
-	 * @param v
-	 */
-	public void save(View v) {
-		List<String> var = getToBeAddMembers();
-		setResult(RESULT_OK, new Intent().putExtra("newmembers", var.toArray(new String[var.size()])));
-		finish();
-	}
+    /**
+     * save selected members
+     *
+     * @param v
+     */
+    public void save(View v) {
+        List<String> var = getToBeAddMembers();
+        setResult(RESULT_OK, new Intent().putExtra("newmembers", var.toArray(new String[var.size()])));
+        MFGT.finish(this);
+    }
 
-	/**
-	 * get selected members
-	 * 
-	 * @return
-	 */
-	private List<String> getToBeAddMembers() {
-		List<String> members = new ArrayList<String>();
-		int length = contactAdapter.isCheckedArray.length;
-		for (int i = 0; i < length; i++) {
-			String username = contactAdapter.getItem(i).getMUserName();
-			if (contactAdapter.isCheckedArray[i] && !existMembers.contains(username)) {
-				members.add(username);
-			}
-		}
+    /**
+     * get selected members
+     *
+     * @return
+     */
+    private List<String> getToBeAddMembers() {
+        List<String> members = new ArrayList<String>();
+        int length = contactAdapter.isCheckedArray.length;
+        for (int i = 0; i < length; i++) {
+            String username = contactAdapter.getItem(i).getMUserName();
+            if (contactAdapter.isCheckedArray[i] && !existMembers.contains(username)) {
+                members.add(username);
+            }
+        }
 
-		return members;
-	}
+        return members;
+    }
 
-	/**
-	 * adapter
-	 */
-	private class PickContactAdapter extends EaseContactAdapter {
+    /**
+     * adapter
+     */
+    private class PickContactAdapter extends EaseContactAdapter {
 
-		private boolean[] isCheckedArray;
+        private boolean[] isCheckedArray;
 
-		public PickContactAdapter(Context context, int resource, List<User> users) {
-			super(context, resource, users);
-			isCheckedArray = new boolean[users.size()];
-		}
+        public PickContactAdapter(Context context, int resource, List<User> users) {
+            super(context, resource, users);
+            isCheckedArray = new boolean[users.size()];
+        }
 
-		@Override
-		public View getView(final int position, View convertView, ViewGroup parent) {
-			View view = super.getView(position, convertView, parent);
+        @Override
+        public View getView(final int position, View convertView, ViewGroup parent) {
+            View view = super.getView(position, convertView, parent);
 
-			final String username = getItem(position).getMUserName();
+            final String username = getItem(position).getMUserName();
 
-			final CheckBox checkBox = (CheckBox) view.findViewById(R.id.checkbox);
-			ImageView avatarView = (ImageView) view.findViewById(R.id.avatar);
-			TextView nameView = (TextView) view.findViewById(R.id.name);
-			
-			if (checkBox != null) {
-			    if(existMembers != null && existMembers.contains(username)){
+            final CheckBox checkBox = (CheckBox) view.findViewById(R.id.checkbox);
+            ImageView avatarView = (ImageView) view.findViewById(R.id.avatar);
+            TextView nameView = (TextView) view.findViewById(R.id.name);
+
+            if (checkBox != null) {
+                if (existMembers != null && existMembers.contains(username)) {
                     checkBox.setButtonDrawable(R.drawable.em_checkbox_bg_gray_selector);
-                }else{
+                } else {
                     checkBox.setButtonDrawable(R.drawable.em_checkbox_bg_selector);
                 }
 
-				checkBox.setOnCheckedChangeListener(new OnCheckedChangeListener() {
-					@Override
-					public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-						// check the exist members
-						if (existMembers.contains(username)) {
-								isChecked = true;
-								checkBox.setChecked(true);
-						}
-						isCheckedArray[position] = isChecked;
+                checkBox.setOnCheckedChangeListener(new OnCheckedChangeListener() {
+                    @Override
+                    public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                        // check the exist members
+                        if (existMembers.contains(username)) {
+                            isChecked = true;
+                            checkBox.setChecked(true);
+                        }
+                        isCheckedArray[position] = isChecked;
 
-					}
-				});
-				// keep exist members checked
-				if (existMembers.contains(username)) {
-						checkBox.setChecked(true);
-						isCheckedArray[position] = true;
-				} else {
-					checkBox.setChecked(isCheckedArray[position]);
-				}
-			}
+                    }
+                });
+                // keep exist members checked
+                if (existMembers.contains(username)) {
+                    checkBox.setChecked(true);
+                    isCheckedArray[position] = true;
+                } else {
+                    checkBox.setChecked(isCheckedArray[position]);
+                }
+            }
 
-			return view;
-		}
-	}
+            return view;
+        }
+    }
 
-	public void back(View view){
-		finish();
-	}
-	
+    public void back(View view) {
+        MFGT.finish(this);
+    }
+
 }

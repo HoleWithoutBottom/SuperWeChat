@@ -1147,6 +1147,7 @@ public class SuperWeChatHelper {
                                         UserDao dao = new UserDao(appContext);
                                         List<User> users = new ArrayList<User>(userlist.values());
                                         dao.saveAppContactList(users);
+                                        broadcastManager.sendBroadcast(new Intent(Constant.ACTION_CONTACT_CHANAGED));
                                     }
                                 }
                             }

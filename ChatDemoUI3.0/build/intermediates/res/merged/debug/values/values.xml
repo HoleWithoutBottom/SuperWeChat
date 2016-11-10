@@ -762,6 +762,7 @@
     <string name="go_real_name">去实名</string>
     <string name="gorup_not_found">Can not find this group</string>
     <string name="greetings_hint">打赏你哒!</string>
+    <string name="groupAvatar">group_avatar</string>
     <string name="group_change_normal">改为普通红包</string>
     <string name="group_change_random">改为拼手气红包</string>
     <string name="group_chat">Group chat</string>

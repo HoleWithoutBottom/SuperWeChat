@@ -8,7 +8,7 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="@dimen/height_top_bar"
-        android:background="@color/top_bar_normal_bg"
+        android:background="@color/colorPrimary"
         android:gravity="center_vertical" >
 
         <LinearLayout
@@ -71,9 +71,35 @@
         android:paddingLeft="5dp"
         android:paddingTop="5dp"
         android:textSize="18sp" />
-    
-    
-    <LinearLayout 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/em_button_normal_shape"
+        >
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/groupAvatar"
+            android:textColor="#333"
+            android:layout_gravity="center_vertical"
+            android:textSize="18sp"
+            android:layout_weight="1"
+            />
+
+      <ImageView
+          android:id="@+id/iv_select_group_avatar"
+          android:layout_width="60dp"
+          android:layout_height="60dp"
+          android:src="@drawable/ease_group_icon"
+          android:layout_margin="10dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
         android:layout_width="match_parent"
        android:layout_height="39dp"
         android:layout_marginBottom="10dp"
@@ -81,7 +107,7 @@
         android:layout_marginRight="10dp"
         android:background="@drawable/em_button_normal_shape"
         >
-        <TextView 
+        <TextView
             android:layout_marginLeft="5dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -91,8 +117,8 @@
             android:textSize="18sp"
             android:layout_weight="1"
             />
-        
-        <CheckBox 
+
+        <CheckBox
             android:id="@+id/cb_public"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -100,10 +126,10 @@
             android:layout_gravity="center_vertical"
             android:button="@drawable/em_checkbox_bg_selector"
             />
-        
+
     </LinearLayout>
-    
-    <LinearLayout 
+
+    <LinearLayout
         android:id="@+id/ll_open_invite"
         android:layout_width="match_parent"
        android:layout_height="39dp"
@@ -112,7 +138,7 @@
         android:layout_marginRight="10dp"
         android:background="@drawable/em_button_normal_shape"
         >
-        <TextView 
+        <TextView
             android:id="@+id/second_desc"
             android:layout_marginLeft="5dp"
             android:layout_width="wrap_content"
@@ -123,8 +149,8 @@
             android:textSize="18sp"
             android:layout_weight="1"
             />
-        
-        <CheckBox 
+
+        <CheckBox
             android:id="@+id/cb_member_inviter"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -132,7 +158,7 @@
             android:layout_gravity="center_vertical"
             android:button="@drawable/em_checkbox_bg_selector"
             />
-        
+
     </LinearLayout>
 
 </LinearLayout>

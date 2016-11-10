@@ -260,6 +260,11 @@ public class ChatFragment extends EaseChatFragment implements EaseChatFragmentHe
     public void onAvatarClick(String username) {
         //handling when user click avatar
         // UserProfileActivity
+        if (username.equals(EMClient.getInstance().getCurrentUser())){
+            Intent intent = new Intent(getActivity(), UserProfileActivity.class);
+            MFGT.startActivity(getActivity(),intent);
+            return;
+        }
         Intent intent = new Intent(getActivity(), FriendProfileActivity.class);
         intent.putExtra(I.User.USER_NAME, EaseUserUtils.getAppUserInfo(username));
         MFGT.startActivity(getActivity(),intent);

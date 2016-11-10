@@ -288,6 +288,7 @@
     <string name="give_up_set_pay_pwd">放弃支付密码设置吗？</string>
     <string name="go_real_name">去实名</string>
     <string name="greetings_hint">打赏你哒!</string>
+    <string name="groupAvatar">群图标</string>
     <string name="group_change_normal">改为普通红包</string>
     <string name="group_change_random">改为拼手气红包</string>
     <string name="group_chat">群聊</string>
