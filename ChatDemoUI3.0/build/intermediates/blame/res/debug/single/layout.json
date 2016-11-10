@@ -320,12 +320,12 @@
         "source": "D:\\Android-WorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\exploded-aar\\ChatDemoUI3.0\\redpacketlibrary\\unspecified\\res\\layout\\rp_bank_city_list_dialog.xml"
     },
     {
-        "merged": "D:\\Android-WorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\layout\\em_activity_pick_contact_no_checkbox.xml",
-        "source": "D:\\Android-WorkSpace\\SuperWeChat\\ChatDemoUI3.0\\res\\layout\\em_activity_pick_contact_no_checkbox.xml"
-    },
-    {
         "merged": "D:\\Android-WorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
         "source": "D:\\Android-WorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "D:\\Android-WorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\layout\\em_activity_pick_contact_no_checkbox.xml",
+        "source": "D:\\Android-WorkSpace\\SuperWeChat\\ChatDemoUI3.0\\res\\layout\\em_activity_pick_contact_no_checkbox.xml"
     },
     {
         "merged": "D:\\Android-WorkSpace\\SuperWeChat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",

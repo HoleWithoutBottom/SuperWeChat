@@ -103,7 +103,8 @@ public class FriendProfileActivity extends BaseActivity {
                 MFGT.startActivity(this,new Intent(this,ChatActivity.class).putExtra("userId",user.getMUserName()));
                 break;
             case R.id.btn_send_video:
-
+                MFGT.startActivity(this,new Intent(FriendProfileActivity.this, VideoCallActivity.class).putExtra("username", user.getMUserName())
+                        .putExtra("isComingCall", false));
                 break;
         }
     }

@@ -13,7 +13,7 @@
  */
 package cn.ucai.superwechat.ui;
 
-import android.annotation.SuppressLint;
+
 import android.annotation.TargetApi;
 import android.app.AlertDialog;
 import android.content.BroadcastReceiver;
