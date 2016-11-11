@@ -182,7 +182,8 @@ public class EaseChatFragment extends EaseBaseFragment implements EMMessageListe
     }
 
     protected void setUpView() {
-        titleBar.setTitle(toChatUsername);
+        // titleBar.setTitle(toChatUsername);
+         titleBar.setBackgroundColor(getResources().getColor(R.color.black_deep));
         if (chatType == EaseConstant.CHATTYPE_SINGLE) {
             // set title
             if(EaseUserUtils.getAppUserInfo(toChatUsername) != null){

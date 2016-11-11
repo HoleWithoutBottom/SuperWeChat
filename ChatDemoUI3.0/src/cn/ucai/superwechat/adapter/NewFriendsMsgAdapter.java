@@ -16,6 +16,7 @@ package cn.ucai.superwechat.adapter;
 import java.util.List;
 
 import com.hyphenate.chat.EMClient;
+import com.hyphenate.easeui.domain.EaseUser;
 import com.hyphenate.easeui.domain.User;
 import com.hyphenate.easeui.utils.EaseUserUtils;
 
@@ -94,34 +95,36 @@ public class NewFriendsMsgAdapter extends ArrayAdapter<InviteMessage> {
             if (msg.getGroupId() != null) { // show group name
                 holder.groupContainer.setVisibility(View.VISIBLE);
                 holder.groupname.setText(msg.getGroupName());
+                EaseUserUtils.setAppGroupAvatar(context,msg.getGroupId(),holder.avator);
             } else {
                 holder.groupContainer.setVisibility(View.GONE);
+                NetDao.searchUserByName(context, msg.getFrom(), new OkHttpUtils.OnCompleteListener<String>() {
+                    @Override
+                    public void onSuccess(String s) {
+                        if (s != null) {
+                            L.e("NewFriendsAdapter=",s);
+                            Result result = ResultUtils.getResultFromJson(s, User.class);
+                            if (result != null && result.isRetMsg()) {
+                                User user = (User) result.getRetData();
+                                if (user!=null){
+                                    EaseUserUtils.setAppUserAvatar(context,msg.getFrom(),holder.avator);
+                                    EaseUserUtils.setAppUserNick(user.getMUserNick(),holder.name);
+                                }
+                            }
+                        }
+                    }
+
+                    @Override
+                    public void onError(String error) {
+
+                    }
+                });
             }
 
             holder.reason.setText(msg.getReason());
             holder.name.setText(msg.getFrom());
 
-            NetDao.searchUserByName(context, msg.getFrom(), new OkHttpUtils.OnCompleteListener<String>() {
-                @Override
-                public void onSuccess(String s) {
-                    if (s != null) {
-                        L.e("NewFriendsAdapter=",s);
-                        Result result = ResultUtils.getResultFromJson(s, User.class);
-                        if (result != null && result.isRetMsg()) {
-                            User user = (User) result.getRetData();
-                            if (user!=null){
-                                EaseUserUtils.setAppUserAvatar(context,msg.getFrom(),holder.avator);
-                                EaseUserUtils.setAppUserNick(user.getMUserNick(),holder.name);
-                            }
-                        }
-                    }
-                }
 
-                @Override
-                public void onError(String error) {
-
-                }
-            });
             // holder.time.setText(DateUtils.getTimestampString(new
             // Date(msg.getTime())));
             if (msg.getStatus() == InviteMessage.InviteMesageStatus.BEAGREED) {

@@ -6,9 +6,11 @@ import com.hyphenate.chat.EMClient;
 import com.hyphenate.chat.EMGroup;
 
 import java.io.File;
+import java.util.List;
 
 import cn.ucai.superwechat.I;
 import cn.ucai.superwechat.bean.Result;
+import cn.ucai.superwechat.utils.L;
 import cn.ucai.superwechat.utils.MD5;
 
 
@@ -122,7 +124,8 @@ public class NetDao {
                 .post()
                 .execute(listener);
     }
-    public static void createGroup(Context context, EMGroup group,File file, OkHttpUtils.OnCompleteListener<String> listener) {
+
+    public static void createGroup(Context context, EMGroup group, File file, OkHttpUtils.OnCompleteListener<String> listener) {
         OkHttpUtils<String> utils = new OkHttpUtils<>(context);
         utils.setRequestUrl(I.REQUEST_CREATE_GROUP)
                 .addParam(I.Group.HX_ID, group.getGroupId())
@@ -134,6 +137,21 @@ public class NetDao {
                 .addFile2(file)
                 .targetClass(String.class)
                 .post()
+                .execute(listener);
+    }
+
+    public static void addGroupMembers(Context context, EMGroup group, OkHttpUtils.OnCompleteListener<String> listener) {
+        List<String> members = group.getMembers();
+        String names = "";
+        for (String s : members) {
+            names = names + s + ",";
+        }
+        L.e("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",names);
+        OkHttpUtils<String> utils = new OkHttpUtils<>(context);
+        utils.setRequestUrl(I.REQUEST_ADD_GROUP_MEMBERS)
+                .addParam(I.Member.USER_NAME, names.substring(0,names.length()-1))
+                .addParam(I.Member.GROUP_HX_ID,group.getGroupId())
+                .targetClass(String.class)
                 .execute(listener);
     }
 }

@@ -21,6 +21,7 @@ import com.hyphenate.chat.EMGroup;
 import com.hyphenate.chat.EMMessage;
 import com.hyphenate.easeui.R;
 import com.hyphenate.easeui.domain.EaseUser;
+import com.hyphenate.easeui.domain.User;
 import com.hyphenate.easeui.model.EaseAtMessageHelper;
 import com.hyphenate.easeui.utils.EaseCommonUtils;
 import com.hyphenate.easeui.utils.EaseSmileUtils;
@@ -109,7 +110,8 @@ public class EaseConversationAdapter extends ArrayAdapter<EMConversation> {
                 holder.motioned.setVisibility(View.GONE);
             }
             // group message, show group avatar
-            holder.avatar.setImageResource(R.drawable.ease_group_icon);
+           // holder.avatar.setImageResource(R.drawable.ease_group_icon);
+            EaseUserUtils.setAppGroupAvatar(getContext(),groupId,holder.avatar);
             EMGroup group = EMClient.getInstance().groupManager().getGroup(username);
             holder.name.setText(group != null ? group.getGroupName() : username);
         } else if(conversation.getType() == EMConversationType.ChatRoom){
@@ -241,10 +243,9 @@ public class EaseConversationAdapter extends ArrayAdapter<EMConversation> {
                     if(group != null){
                         username = group.getGroupName();
                     }else{
-                        EaseUser user = EaseUserUtils.getUserInfo(username);
-                        // TODO: not support Nick anymore
-//                        if(user != null && user.getNick() != null)
-//                            username = user.getNick();
+                        User user = EaseUserUtils.getAppUserInfo(username);
+                        if(user != null && user.getMUserNick() != null)
+                            username = user.getMUserNick();
                     }
 
                     // First match against the whole ,non-splitted value
