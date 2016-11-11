@@ -49,11 +49,11 @@ public class NetDao {
                 .execute(listener);
     }
 
-    public static void doFindUserByName(Context context, String name, OkHttpUtils.OnCompleteListener<Result> listener) {
-        OkHttpUtils<Result> utils = new OkHttpUtils<>(context);
+    public static void doFindUserByName(Context context, String name, OkHttpUtils.OnCompleteListener<String> listener) {
+        OkHttpUtils<String> utils = new OkHttpUtils<>(context);
         utils.setRequestUrl(I.REQUEST_FIND_USER)
                 .addParam(I.User.USER_NAME, name)
-                .targetClass(Result.class)
+                .targetClass(String.class)
                 .execute(listener);
     }
 
@@ -146,11 +146,53 @@ public class NetDao {
         for (String s : members) {
             names = names + s + ",";
         }
-        L.e("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",names);
         OkHttpUtils<String> utils = new OkHttpUtils<>(context);
         utils.setRequestUrl(I.REQUEST_ADD_GROUP_MEMBERS)
-                .addParam(I.Member.USER_NAME, names.substring(0,names.length()-1))
-                .addParam(I.Member.GROUP_HX_ID,group.getGroupId())
+                .addParam(I.Member.USER_NAME, names.substring(0, names.length() - 1))
+                .addParam(I.Member.GROUP_HX_ID, group.getGroupId())
+                .targetClass(String.class)
+                .execute(listener);
+    }
+
+    public static void addGroupMember(Context context, EMGroup group, OkHttpUtils.OnCompleteListener<String> listener) {
+        OkHttpUtils<String> utils = new OkHttpUtils<>(context);
+        utils.setRequestUrl(I.REQUEST_ADD_GROUP_MEMBER)
+                .addParam(I.Member.USER_NAME, group.getOwner())
+                .addParam(I.Member.GROUP_HX_ID, group.getGroupId())
+                .targetClass(String.class)
+                .execute(listener);
+    }
+
+    public static void deleteGroupMember(Context context, String groupId, String userName, OkHttpUtils.OnCompleteListener<String> listener) {
+        OkHttpUtils<String> utils = new OkHttpUtils<>(context);
+        utils.setRequestUrl(I.REQUEST_DELETE_GROUP_MEMBER)
+                .addParam(I.Member.GROUP_ID, groupId)
+                .addParam(I.Member.USER_NAME, userName)
+                .targetClass(String.class)
+                .execute(listener);
+    }
+
+    public static void deleteGroup(Context context, String groupid, OkHttpUtils.OnCompleteListener<String> listener) {
+        OkHttpUtils<String> utils = new OkHttpUtils<>(context);
+        utils.setRequestUrl(I.REQUEST_DELETE_GROUP)
+                .addParam(I.Group.GROUP_ID, groupid)
+                .targetClass(String.class)
+                .execute(listener);
+    }
+
+    public static void updateGroupName(Context context, String groupId, String name, OkHttpUtils.OnCompleteListener<String> listener) {
+        OkHttpUtils<String> utils = new OkHttpUtils<>(context);
+        utils.setRequestUrl(I.REQUEST_UPDATE_GROUP_NAME)
+                .addParam(I.Group.GROUP_ID, groupId)
+                .addParam(I.Group.NAME, name)
+                .targetClass(String.class)
+                .execute(listener);
+    }
+
+    public static void findGroupByHxid(Context context, String hxid, OkHttpUtils.OnCompleteListener<String> listener) {
+        OkHttpUtils<String> utils = new OkHttpUtils<>(context);
+        utils.setRequestUrl(I.REQUEST_FIND_GROUP_BY_HXID)
+                .addParam(I.Group.HX_ID, hxid)
                 .targetClass(String.class)
                 .execute(listener);
     }
