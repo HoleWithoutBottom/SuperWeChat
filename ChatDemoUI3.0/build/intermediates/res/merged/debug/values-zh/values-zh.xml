@@ -347,6 +347,7 @@
     <string name="join_public_group">加入公开群</string>
     <string name="limit_hint_title">支付超限</string>
     <string name="list_is_for">将在后台获取好友和群聊列表...</string>
+    <string name="live_room">直播间</string>
     <string name="load_more_end">没有更多了</string>
     <string name="loading_more">正在加载更多...</string>
     <string name="loading_msg">加载中...</string>

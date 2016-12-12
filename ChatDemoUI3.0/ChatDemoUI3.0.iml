@@ -86,6 +86,7 @@
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/jars" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.android.support/multidex-instrumentation/1.0.1/jars" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.android.support/multidex/1.0.1/jars" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.3.0/jars" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/jars" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.3.0/jars" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/incremental" />
@@ -113,6 +114,7 @@
     <orderEntry type="library" exported="" name="okio-1.9.0" level="project" />
     <orderEntry type="library" exported="" name="gson-2.7" level="project" />
     <orderEntry type="library" exported="" name="bolts-tasks-1.4.0" level="project" />
+    <orderEntry type="library" exported="" name="recyclerview-v7-23.3.0" level="project" />
     <orderEntry type="library" exported="" name="umeng-update-v2.6.0.1" level="project" />
     <orderEntry type="library" exported="" name="umeng-analytics-v5.2.4" level="project" />
     <orderEntry type="library" exported="" name="multidex-1.0.1" level="project" />

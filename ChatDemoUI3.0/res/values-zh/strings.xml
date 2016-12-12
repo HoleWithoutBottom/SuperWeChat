@@ -4,4 +4,5 @@
     <string name="msg_104">搜索用户失败</string>
     <string name="command_new_friend">新的朋友</string>
     <string name="groupAvatar">群图标</string>
+    <string name="live_room">直播间</string>
 </resources>

@@ -113,4 +113,5 @@
     <string name="msg_104">search user fail</string>
     <string name="command_new_friend">command new friend</string>
     <string name="groupAvatar">group_avatar</string>
+    <string name="live_room">live room</string>
 </resources>

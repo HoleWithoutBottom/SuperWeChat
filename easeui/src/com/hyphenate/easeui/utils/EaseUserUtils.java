@@ -142,7 +142,21 @@ public class EaseUserUtils {
             Glide.with(context).load(R.drawable.default_hd_avatar).into(imageView);
         }
     }
-
+    // 设置直播间封面
+    public static void setLiveAvatar(Context context, String path, ImageView imageView) {
+        String id = getLiveUrl(path);
+        if (id != null) {
+            try {
+                int avatarResId = Integer.parseInt(id);
+                Glide.with(context).load(avatarResId).into(imageView);
+            } catch (Exception e) {
+                //use default avatar
+                Glide.with(context).load(id).diskCacheStrategy(DiskCacheStrategy.ALL).placeholder(R.drawable.default_hd_avatar).into(imageView);
+            }
+        } else {
+            Glide.with(context).load(R.drawable.default_hd_avatar).into(imageView);
+        }
+    }
     public static void setCurrentAppUserAvatar(FragmentActivity activity, ImageView imageview) {
         String username = EMClient.getInstance().getCurrentUser();
         setAppUserAvatar(activity, username, imageview);
@@ -171,5 +185,9 @@ public class EaseUserUtils {
 
     public static void setAppUserNameWithNo(String username, TextView textview) {
         setAppUserName("微信号:", username, textview);
+    }
+    public static String  getLiveUrl(String id) {
+        String path = "http://101.251.196.90:8000/SuperWeChatServerV2.0/downloadAvatar?name_or_hxid="+id+"&avatarType=chatroom_icon&m_avatar_suffix="+".jpg";
+        return path;
     }
 }

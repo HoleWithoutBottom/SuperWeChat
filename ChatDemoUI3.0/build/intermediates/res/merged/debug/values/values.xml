@@ -125,6 +125,7 @@
     <color name="money_white">#ffffff</color>
     <color name="msg_red">#a11710</color>
     <color name="orange">#FFA500</color>
+    <color name="placeholder">#66000000</color>
     <color name="possible_result_points">#c0ffff00</color>
     <color name="primary_dark_material_dark">@android:color/black</color>
     <color name="primary_dark_material_light">@color/material_grey_600</color>
@@ -213,6 +214,7 @@
     <declare-styleable name="PopupWindowBackgroundState"><attr format="boolean" name="state_above_anchor"/></declare-styleable>
     <declare-styleable name="RPRecyclerView"><attr format="string" name="RPlayoutManager"/><attr name="android:orientation"/><attr format="integer" name="RPspanCount"/><attr format="boolean" name="RPreverseLayout"/><attr format="boolean" name="RPstackFromEnd"/></declare-styleable>
     <declare-styleable name="RPRoundCard"><attr format="reference" name="RPCardBgImg"/><attr format="reference|color" name="RPCardBgColor"/><attr format="dimension" name="RPCardRadius"/><attr format="integer" name="RPCardBgType"/></declare-styleable>
+    <declare-styleable name="RecyclerView"><attr format="string" name="layoutManager"/><attr name="android:orientation"/><attr format="integer" name="spanCount"/><attr format="boolean" name="reverseLayout"/><attr format="boolean" name="stackFromEnd"/></declare-styleable>
     <declare-styleable name="SearchView"><attr format="reference" name="layout"/><attr format="boolean" name="iconifiedByDefault"/><attr name="android:maxWidth"/><attr format="string" name="queryHint"/><attr format="string" name="defaultQueryHint"/><attr name="android:imeOptions"/><attr name="android:inputType"/><attr format="reference" name="closeIcon"/><attr format="reference" name="goIcon"/><attr format="reference" name="searchIcon"/><attr format="reference" name="searchHintIcon"/><attr format="reference" name="voiceIcon"/><attr format="reference" name="commitIcon"/><attr format="reference" name="suggestionRowLayout"/><attr format="reference" name="queryBackground"/><attr format="reference" name="submitBackground"/><attr name="android:focusable"/></declare-styleable>
     <declare-styleable name="Spinner"><attr name="android:prompt"/><attr name="popupTheme"/><attr name="android:popupBackground"/><attr name="android:dropDownWidth"/><attr name="android:entries"/></declare-styleable>
     <declare-styleable name="SwipeFlingAdapterView"><attr format="dimension" name="y_offset_step"/><attr format="float" name="rotation_degrees"/><attr format="integer" name="min_adapter_stack"/><attr format="integer" name="max_visible"/></declare-styleable>
@@ -330,6 +332,8 @@
     <dimen name="image_thumbnail_size">100dp</dimen>
     <dimen name="image_thumbnail_spacing">1dp</dimen>
     <dimen name="item_touch_helper_max_drag_scroll_per_frame">20dp</dimen>
+    <dimen name="item_touch_helper_swipe_escape_max_velocity">800dp</dimen>
+    <dimen name="item_touch_helper_swipe_escape_velocity">120dp</dimen>
     <dimen name="margin_chat_activity">5dp</dimen>
     <dimen name="notification_large_icon_height">64dp</dimen>
     <dimen name="notification_large_icon_width">64dp</dimen>
@@ -824,6 +828,7 @@
     <string name="key_back_msg">再次按返回键退出</string>
     <string name="limit_hint_title">支付超限</string>
     <string name="list_is_for">Retrieving the groups and contacts</string>
+    <string name="live_room">live room</string>
     <string name="load_more_end">没有更多了</string>
     <string name="loading_more">loading more...</string>
     <string name="loading_msg">加载中...</string>

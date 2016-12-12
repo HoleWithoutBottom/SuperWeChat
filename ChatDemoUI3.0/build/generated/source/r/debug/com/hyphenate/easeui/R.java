@@ -101,8 +101,8 @@ public final class R {
 		public static final int list_itease_primary_color = 0x7f0d0055;
 		public static final int list_itease_secondary_color = 0x7f0d0056;
 		public static final int orange = 0x7f0d0069;
-		public static final int top_bar_normal_bg = 0x7f0d0096;
-		public static final int voip_interface_text_color = 0x7f0d009e;
+		public static final int top_bar_normal_bg = 0x7f0d0097;
+		public static final int voip_interface_text_color = 0x7f0d009f;
 	}
 	public static final class dimen {
 		public static final int activity_horizontal_margin = 0x7f090013;
@@ -118,10 +118,10 @@ public final class R {
 		public static final int height_top_bar = 0x7f090064;
 		public static final int image_thumbnail_size = 0x7f09000d;
 		public static final int image_thumbnail_spacing = 0x7f09000e;
-		public static final int margin_chat_activity = 0x7f090069;
-		public static final int padding_search_bar = 0x7f09006d;
-		public static final int sidebar_text_size = 0x7f09006e;
-		public static final int size_avatar = 0x7f0900a0;
+		public static final int margin_chat_activity = 0x7f09006b;
+		public static final int padding_search_bar = 0x7f09006f;
+		public static final int sidebar_text_size = 0x7f090070;
+		public static final int size_avatar = 0x7f0900a2;
 	}
 	public static final class drawable {
 		public static final int default_hd_avatar = 0x7f020060;
@@ -291,7 +291,7 @@ public final class R {
 		public static final int ee_7 = 0x7f020106;
 		public static final int ee_8 = 0x7f020107;
 		public static final int ee_9 = 0x7f020108;
-		public static final int ic_launcher = 0x7f02017d;
+		public static final int ic_launcher = 0x7f02017e;
 	}
 	public static final class id {
 		public static final int alert_message = 0x7f0e0085;
@@ -401,55 +401,55 @@ public final class R {
 		public static final int voice_recorder = 0x7f0e008e;
 	}
 	public static final class layout {
-		public static final int ease_activity_baidumap = 0x7f04001e;
-		public static final int ease_activity_show_big_image = 0x7f04001f;
-		public static final int ease_activity_show_file = 0x7f040020;
-		public static final int ease_alert_dialog = 0x7f040021;
-		public static final int ease_chat_menu_item = 0x7f040022;
-		public static final int ease_chat_message_list = 0x7f040023;
-		public static final int ease_commom_back_btn = 0x7f040024;
-		public static final int ease_conversation_item = 0x7f040025;
-		public static final int ease_emojicon = 0x7f040026;
-		public static final int ease_expression_gridview = 0x7f040027;
-		public static final int ease_fragment_chat = 0x7f040028;
-		public static final int ease_fragment_contact_list = 0x7f040029;
-		public static final int ease_fragment_conversation_list = 0x7f04002a;
-		public static final int ease_layout_chat_primary_menu = 0x7f04002b;
-		public static final int ease_layout_emojicon_menu = 0x7f04002c;
-		public static final int ease_row_big_expression = 0x7f04002d;
-		public static final int ease_row_chat_history = 0x7f04002e;
-		public static final int ease_row_contact = 0x7f04002f;
-		public static final int ease_row_expression = 0x7f040030;
-		public static final int ease_row_received_bigexpression = 0x7f040031;
-		public static final int ease_row_received_file = 0x7f040032;
-		public static final int ease_row_received_location = 0x7f040033;
-		public static final int ease_row_received_message = 0x7f040034;
-		public static final int ease_row_received_picture = 0x7f040035;
-		public static final int ease_row_received_video = 0x7f040036;
-		public static final int ease_row_received_video_call = 0x7f040037;
-		public static final int ease_row_received_voice = 0x7f040038;
-		public static final int ease_row_received_voice_call = 0x7f040039;
-		public static final int ease_row_sent_bigexpression = 0x7f04003a;
-		public static final int ease_row_sent_file = 0x7f04003b;
-		public static final int ease_row_sent_location = 0x7f04003c;
-		public static final int ease_row_sent_message = 0x7f04003d;
-		public static final int ease_row_sent_picture = 0x7f04003e;
-		public static final int ease_row_sent_video = 0x7f04003f;
-		public static final int ease_row_sent_video_call = 0x7f040040;
-		public static final int ease_row_sent_voice = 0x7f040041;
-		public static final int ease_row_sent_voice_call = 0x7f040042;
-		public static final int ease_scroll_tab_item = 0x7f040043;
-		public static final int ease_search_bar = 0x7f040044;
-		public static final int ease_search_bar_with_padding = 0x7f040045;
-		public static final int ease_showvideo_activity = 0x7f040046;
-		public static final int ease_widget_chat_input_menu = 0x7f040047;
-		public static final int ease_widget_chat_primary_menu = 0x7f040048;
-		public static final int ease_widget_contact_list = 0x7f040049;
-		public static final int ease_widget_emojicon = 0x7f04004a;
-		public static final int ease_widget_emojicon_tab_bar = 0x7f04004b;
-		public static final int ease_widget_switch_button = 0x7f04004c;
-		public static final int ease_widget_title_bar = 0x7f04004d;
-		public static final int ease_widget_voice_recorder = 0x7f04004e;
+		public static final int ease_activity_baidumap = 0x7f04001f;
+		public static final int ease_activity_show_big_image = 0x7f040020;
+		public static final int ease_activity_show_file = 0x7f040021;
+		public static final int ease_alert_dialog = 0x7f040022;
+		public static final int ease_chat_menu_item = 0x7f040023;
+		public static final int ease_chat_message_list = 0x7f040024;
+		public static final int ease_commom_back_btn = 0x7f040025;
+		public static final int ease_conversation_item = 0x7f040026;
+		public static final int ease_emojicon = 0x7f040027;
+		public static final int ease_expression_gridview = 0x7f040028;
+		public static final int ease_fragment_chat = 0x7f040029;
+		public static final int ease_fragment_contact_list = 0x7f04002a;
+		public static final int ease_fragment_conversation_list = 0x7f04002b;
+		public static final int ease_layout_chat_primary_menu = 0x7f04002c;
+		public static final int ease_layout_emojicon_menu = 0x7f04002d;
+		public static final int ease_row_big_expression = 0x7f04002e;
+		public static final int ease_row_chat_history = 0x7f04002f;
+		public static final int ease_row_contact = 0x7f040030;
+		public static final int ease_row_expression = 0x7f040031;
+		public static final int ease_row_received_bigexpression = 0x7f040032;
+		public static final int ease_row_received_file = 0x7f040033;
+		public static final int ease_row_received_location = 0x7f040034;
+		public static final int ease_row_received_message = 0x7f040035;
+		public static final int ease_row_received_picture = 0x7f040036;
+		public static final int ease_row_received_video = 0x7f040037;
+		public static final int ease_row_received_video_call = 0x7f040038;
+		public static final int ease_row_received_voice = 0x7f040039;
+		public static final int ease_row_received_voice_call = 0x7f04003a;
+		public static final int ease_row_sent_bigexpression = 0x7f04003b;
+		public static final int ease_row_sent_file = 0x7f04003c;
+		public static final int ease_row_sent_location = 0x7f04003d;
+		public static final int ease_row_sent_message = 0x7f04003e;
+		public static final int ease_row_sent_picture = 0x7f04003f;
+		public static final int ease_row_sent_video = 0x7f040040;
+		public static final int ease_row_sent_video_call = 0x7f040041;
+		public static final int ease_row_sent_voice = 0x7f040042;
+		public static final int ease_row_sent_voice_call = 0x7f040043;
+		public static final int ease_scroll_tab_item = 0x7f040044;
+		public static final int ease_search_bar = 0x7f040045;
+		public static final int ease_search_bar_with_padding = 0x7f040046;
+		public static final int ease_showvideo_activity = 0x7f040047;
+		public static final int ease_widget_chat_input_menu = 0x7f040048;
+		public static final int ease_widget_chat_primary_menu = 0x7f040049;
+		public static final int ease_widget_contact_list = 0x7f04004a;
+		public static final int ease_widget_emojicon = 0x7f04004b;
+		public static final int ease_widget_emojicon_tab_bar = 0x7f04004c;
+		public static final int ease_widget_switch_button = 0x7f04004d;
+		public static final int ease_widget_title_bar = 0x7f04004e;
+		public static final int ease_widget_voice_recorder = 0x7f04004f;
 	}
 	public static final class string {
 		public static final int Add_a_button_was_clicked = 0x7f070085;

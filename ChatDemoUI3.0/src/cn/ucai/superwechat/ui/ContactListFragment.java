@@ -1,6 +1,6 @@
 /**
  * Copyright (C) 2016 Hyphenate Inc. All rights reserved.
- * <p/>
+ * <p>
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -74,7 +74,7 @@ public class ContactListFragment extends EaseContactListFragment {
         applicationItem = (ContactItemView) headerView.findViewById(R.id.application_item);
         applicationItem.setOnClickListener(clickListener);
         headerView.findViewById(R.id.group_item).setOnClickListener(clickListener);
-        // headerView.findViewById(R.id.chat_room_item).setOnClickListener(clickListener);
+        headerView.findViewById(R.id.chat_room_item).setOnClickListener(clickListener);
         // headerView.findViewById(R.id.robot_item).setOnClickListener(clickListener);
         listView.addHeaderView(headerView);
         //add loading view
@@ -199,10 +199,10 @@ public class ContactListFragment extends EaseContactListFragment {
                     // 进入群聊列表页面
                     startActivity(new Intent(getActivity(), GroupsActivity.class));
                     break;
-           /* case R.id.chat_room_item:
-                //进入聊天室列表页面
-                startActivity(new Intent(getActivity(), PublicChatRoomsActivity.class));
-                break;*/
+                case R.id.chat_room_item:
+                    //进入聊天室列表页面
+                    startActivity(new Intent(getActivity(), PublicChatRoomsActivity.class));
+                    break;
            /* case R.id.robot_item:
                 //进入Robot列表页面
                 startActivity(new Intent(getActivity(), RobotsActivity.class));
